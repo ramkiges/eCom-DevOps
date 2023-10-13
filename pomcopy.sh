@@ -1,13 +1,13 @@
 #!/bin/sh 
 
 #key=frontend.tableOwner
-MEAD='MEAD-19703'
-BRAND=mg
-ENV=qa43
+MEAD='MEAD-28694'
+BRAND=ws
+ENV=qa52
 #cd /Users/sganesh1/svn_repos/frontend-2.1/qa/config/app/trunk
-Cd /Users/818381/Desktop/SVN/application/frontend-2.1/frontend-2.1/qa/config/app/trunk
-SRC_POM=$BRAND/uat2/pom.xml
-DEST_POM=$BRAND/qa43/pom.xml
+cd /Users/818381/Desktop/WSI/svn/devops/application/frontend-2.1/qa/config/app/trunk
+SRC_POM=$BRAND/rgs1/pom.xml
+DEST_POM=$BRAND/qa52/pom.xml
 svn up
 TMP=/Users/818381/workdir/$MEAD
 mkdir -p $TMP

@@ -1,16 +1,6407 @@
-Z?y(mGVNgj04uXN
+
+
+$u(gxc3GAcAIl
 09SpgTp6EPD2PpmBvzsG
+wsqaenv/S7nfl#wer
 logview/Sysytem@111
+WSIWO00001944
+Project ID : 1000386470
+Account ID : 1200960
+
+you will need to call the Service Desk for help with resetting your password, or use sspr.wsgc.com
+New Service Desk Phone #
+- Toll Free - +1-844-658-4357
+- International - 916-250-6697
+WSI ID 907948
+
+
+1000386470 -- project ID
+000000000000021	--- Cont. Improvement & Automation
+000000000000003 --- Training
+
+https://wsgc.zoom.us/my/sivaganesh
+https://wsgc.zoom.us/j/91515079297?pwd=dDJxSXRkTkltSlN3c29iQ3BLL0R4UT09
+Rajan : https://wsgc.zoom.us/j/4978946029
+https://wsgc.zoom.us/j/2010434447
+
+Monthly X meeting s
+Meeting ID: 945 1956 6424
+Password: 242125 
+
+Apple2023
+41!@#$%
+136Z1A041}
+
+Request submitted successfully. The ID for this request is 745390.
+
+
+https://onecognizant.cognizant.com/SAMLSSO/AuthServices/SignIn?ReturnUrl=%2FHome%3FGlobalAppID%3D1738%26URL%3Dhttps%3A%2F%2Fonecognizantazrapps.cognizant.com%2F1738%2FMLSApp%2FPathway%2Fviewpathway%3Fpage%3DAll%20Learning%20Paths|90826626|PathwayImage1.jpg
+
+Mac agents 12, 13, 22-25, and sitespeedio-1 and 2 should all be online
+F@ll2009
+
+
+SIVAGANESH
+41A, KAKKAN COLONY EXTENSION,
+AIRPORT-POST,
+TRICHY - 620007
+Cell:- 9940956479
+-----------------------------------------------------------------------------------------------------------------------------------
+Webapp : artrck-vdcn002
+Datafeed:
+
+sudo service wsgc-dfeed-processor stop
+sudo rm -rf /var/log/weblogs/datafeeds/processor/*
+sudo rm -rf /apps/dfeed-processor/data/*
+sudo rm -rf /apps/dfeed-processor/productarchive
+sudo ps -ef | grep tomcat
+cd /apps/dfeed-processor/datafeeds-processor/conf/
+sudo cat datafeed_qa.properties | grep
+sudo vi settings-override.properties
+Cleaned data/log folders and deployed mentioned snapshot for processor and webapp.
+
+ci_eCommerce-Nuptse_GR_frontEndConfigs-SNAPSHOT
+
+	{{ 2 * * /2 * * * cd /apps/datafeed/datafeeds-ci_eCommerce-Nuptse_NUTP-1098-New-SNAPSHOT/ && ./datafeeds-processor/bin/assemble.sh qa &>> /var/log/weblogs/datafeeds/dfeed_cron `date +20\%y\%m\%d_\%H\%M\%S` .log}}
+ci_eCommerce-Nuptse_NUPT-960-SNAPSHOT
+
+
+sudo netstat -ntap | grep -i listen
+--------------------------------------------------------------------------------------------------------------------------------------
+My YT sessions:
+https://www.youtube.com/watch?v=k1RI5locZE4
+----------------------------------------------------------------------------
+
+openssl rsa -in servername.key -out servername.key -passin pass:$PASS
+eg
+openssl rsa -in mg-intdev54-sac1.wsgc.com.key -out mg-intdev54-sac1.wsgc.com.key -passin pass:5ivaRamaColby7hom5r33kar##
+
+
+------------------------------------------------------------------------------------------------------------------------------------
+sudo ./keytool -importcert -file "/home/a_rkrishna2/DigiCertGlobalRootG2.crt" -alias adls_qa -keystore "/apps/openjdk11.0_6/jre/lib/security/cacerts"
+
+du -axm | sort -rn | head
+
+9492555121
+--------------------------------------------------------------------------------------------------------------------------------
+
+artrck-vccn006 and artrck-vccn005
+
+
+
+SERREQ0678900 - Security Cyber Threat Intel
+SERREQ0678890 - Security Firewall Policy
+
+
+387196
+
+
+INC003056564
+
+
+SKU: 919280
+
+04012550341_dsl
+04047096083 - LL no.
+20005121165 a/c no.
+
+
+
+
+Hi Team,
+
+
+
+Today is my last day with WSI. I had a wonderful journey with you guys and with this project in the last 3+ years. 
+Josh - You're The best Boss I ever had till date. 
+Thom - You're a walking scritopedia.
+Shreekar - you're always warm, encoraging and motivating. 
+& special thanks to 
+Siva - You're always my goto man. 
+Thankyou all for giving me an opportunity to work with you guys and helping me learn things. It's definitely not so easy to leave you guys and go but the time has come. Thank you all again 
+
+
+18005720473 - option 1 - GSD 
+
+
+
+eCommerce-Kubernetes-Bedrock/stored-value-card-orchestration-service-helm-config/release
+eCommerce-Bedrock/stored-value-card-orchestration-service/release
+
+eCommerce-Bedrock/stored-value-card-orchestration-service/release
+
+APPLE_PAY.EPS_TOKEN_SCHEME.qa31.s=BTVT_PMNT_QA3
+
+/k8s-deployers/ecom/ecom-app-phygital/qa7
+
+
+  ecom-app-phygital:
+    name: ecom-app-phygital
+    type: helm
+    org: ecom
+    packaging:
+      pkg_branch: eCommerce-Kubernetes-Bedrock/ecom-app-phygital-helm-config/release
+      app_branch: 
+      app_version: 2.30.0
+
+
+jobs.skuTrackingSchedule.qa11.s=0 0 2 * * ?
+INVENTORY_OMS_RESERVATION_REST.CONNECTION_ACQUISITION_TIMEOUT.qa21.i=5000
+INVENTORY_OMS_RESERVATION_REST.REST_RETRY_MAX.qa21.i=1
+INVENTORY_OMS_RESERVATION_REST.RETRY_COUNT.qa21.i=1
+INVENTORY_OMS_RESERVATION_REST.SEND_MARKET_IN_REQUEST.qa21.b=true
+INVENTORY_OMS_RESERVATION_REST.SOCKET_TIMEOUT.qa21.i=10000
+INVENTORY_OMS_REST.CONNECTION_ACQUISITION_TIMEOUT.qa21.i=5000
+INVENTORY_OMS_REST.REST_RETRY_MAX.qa21.i=1
+INVENTORY_OMS_REST.RETRY_COUNT.qa21.i=1
+INVENTORY_OMS_REST.SERVICE_URI.qa21.r=https://tibinttstmp7p.wsgc.com:19104/
+INVENTORY_OMS_REST.SOCKET_TIMEOUT.qa21.i=15000
+INVENTORY_OMS_REST.TRANSPORT.qa21.s=REST
+
+
+
+Shreekar Basrur
+  4:40 AM
+@sganesh1
+ 
+@rkrishna2
+ SERREQ0675167
+akamai manifest jobs are failing ..we need to work with storage team to add some space ..once they add please run this job to validate - https://ecombuild.wsgc.com/jenkins/job/eCommerce-DevOps/job/akamai-manifest/job/PR-332/4/consoleFull
+
+SERREQ0675167 - AKAMAI STORAGE
+
+
+
+
+openssl x509 -noout -enddate
+cat mycert.crt | openssl x509 -noout -enddate
+
+
+
+Akamai URLs not working for rgression environments
+
+Akamai URLs facing internal server errors where as Node URLs are working fne. 
+
+
+
+phasthalapuram1: -, WebAdmins-RO
+
+
+ci_eCommerce-Kangto_TCE-25064-AVALDATE-TO_SHIPDATE-SNAPSHOT
+
+
+423033101-202305041049-202305041049 423033101-202307030314-202307030314 423033101-202307110458-202307110458 423033101-202307110522-202307110522 423033106-202305041050-202305041050 423033106-202307030317-202307030317 423033106-202307030440-202307030440 423033106-202307030441-202307030441 423033106-202307030640-202307030640 423033106-202307030641-202307030641 423033106-202307030840-202307030840 423033106-202307030841-202307030841 423033106-202307031040-202307031040 423033106-202307031041-202307031041 423052503-202306050858-202306050858 423052503-202306050905-202306050905 423052503-202306060059-202306060059 423053104-202306050907-202306050907 423053104-202306060050-202306060050 423053104-202306060058-202306060058 423070300-202307110457-202307110457
+
+
+
+323062124-202307031210-202307031210 323062124-202307312258-202307312258 323062124-202307312257-202307312257 323062124-202307312256-202307312256 323062124-202307312058-202307312058 323062124-202307312057-202307312057 323062124-202307312056-202307312056 323062124-202307311858-202307311858 323062124-202307311857-202307311857 323062124-202307311856-202307311856 323062124-202307311658-202307311658 
+
+
+HELM_PACKAGING_BRANCH: Platform-Rigel/platform-web-ar-asset-management-helm-config/RIG-1843
+
+*******************Is this issue with health monitor only? or is it something related to ntwork
+
+
+Rama krishna OOO - 18th september
+
+Hi Team,
+
+
+I have regional holiday on 18th September for GANESH CHATURTHI. I will be OOO for the same. 
+
+
+Thanks & Regards,
+Rama Krishna Yalla.
+
+
+
+
+[2023-09-11T00:30:44,049] ERROR services.ScheduledExecutionService [qtp385254113-40] - getRemoteJSON error: URL https://ecom-webhooks.wsgc.com/hooks/get-branches-default-sorted?repo=ecom-app-content&defaultBranch=&branchesCount=15 : Server returned an error response: 500 INTERNAL SERVER ERROR
+[2023-09-11T00:30:44,151] ERROR services.ScheduledExecutionService [qtp385254113-40] - getRemoteJSON error: URL https://ecom-webhooks.wsgc.com/hooks/get-branches-default-sorted?repo=ecom-app-content&defaultBranch=&branchesCount=15 : Server returned an error response: 500 INTERNAL SERVER ERROR
+[2023-09-11T00:30:44,159] ERROR services.ScheduledExecutionService [qtp385254113-127] - getRemoteJSON error: URL https://ecom-webhooks.wsgc.com/hooks/get-branches-default-sorted?repo=ecom-app-product&defaultBranch=&branchesCount=15 : Server returned an error response: 500 INTERNAL SERVER ERROR
+[2023-09-11T00:30:44,166] ERROR services.ScheduledExecutionService [qtp385254113-140] - getRemoteJSON error: URL https://ecom-webhooks.wsgc.com/hooks/get-branches-default-sorted?repo=ecom-app-order-servicing&defaultBranch=&branchesCount=15 : Server returned an error response: 500 INTERNAL SERVER ERROR
+
+
+
+
+
+
+project=please select,aem-cma,aes-tools,aos-login-service,assortment-export-service,application-configuration-service,bgb,buildsystem,buildsystem-ca,business-sales-connector-service,c3-service,cart,cart-checkout,catalog,catalog-prdab,catalog-prdsac,catalog-preprdab,catalog-preprdsac,credit-card-orchestration-service,credit-card-tokenization-service,customer-data-privacy-service,cq-solr-search,datafeeds-processor,datafeeds-app,dse-prd,dp-baselogic,dp-components,dp-foundation,dp-tools,ecm,ecom-svc-delivery-estimate,ecom-sitemap-data-orchestrator,ecom-svc-account,ecom-svc-address,ecom-svc-admin,ecom-svc-asset,ecom-svc-catalog-webapp,ecom-svc-checkout-webapp,ecom-svc-app-delivery,ecom-svc-associate-order,ecom-svc-banner,ecom-svc-business-sales,ecom-svc-cart,ecom-svc-catalog,ecom-svc-checkout,ecom-svc-content,ecom-svc-credit-card,ecom-svc-customer,ecom-svc-customer-service,ecom-svc-dp-delivery,ecom-svc-deliveryestimate,ecom-svc-experimentation,ecom-svc-infrastructure,ecom-svc-installation,ecom-svc-international-checkout,ecom-svc-loyalty,ecom-svc-order-servicing,ecom-svc-parent,ecom-svc-phygital,ecom-svc-product-selection,ecom-svc-registry,ecom-svc-registry-webapp,ecom-svc-search,ecom-svc-shop,ecom-svc-store,ecom-svc-support,ecom-svc-content-webapp,ecommerce-parent,ecmagent-bgb,ecmagent-service,edam,evergreen,event-notification-service,experimentation-service,favorites,gizmotron,gizmotron-affirm,gizmotron-salesforce,hinoki-data,icm-cache,icm-job-manager,inventory,icm-netsuite-integration,inventory-assortment-service,inventory-refresh-service,inventory-service,inventory-service-common,inventory-transit-schedule,inventory-transit-schedule-consumer,inventory-transit-schedule-processor,loyalty,loyalty-batch,membership-service,mdm-consumer,mcp-ui-backend,mcp-user-mgmt,mcp-integration,mfe-interim-build-tool,oauth-client,order-managment-service,oss-feedgen,oss-orchestrator,oss-publisher,payment-client,platform-config,platform-config-cleanup-tool,platform-enterprise-project-check,platform-health-check,platform-project-check,platform-svc-config,platform-svc-config-admin,platform-svc-customer-admin,platform-svc-customer-search,platform-svc-customer-search-indexer,platform-svc-data-execution,platform-svc-itpm,platform-svc-session,platform-spring-cloud-contracts,platform-microservice-shell,platform-parents,platform-base-dependencies,platform-telemetry,platform-runtimes,platform-component-parent,platform-messaging,platform-utils,privacy-ecom-processor-parent,product-configurator-client,profile,promotion-admin,recommendations-admin,recommendations-data-loaders,recommendations-enricher,recommendations-service,registry-v2,registry-v3,registry-admin,reward-certificate-service,security-admin,short-token,smart-inspiration-data-loader,spring-cloud-contracts,storelocator,stored-value-card-orchestration-service,tests-common,user-service,ws-recipe-content-sync,ws-recipe-service,wsgc-rest,sc-dse,entity-comparison-tool,wcm
+
+
+
+rlehrer: -, WebAdmins-RO
+jsngo: -, WebAdmins-RO
+slin: -, WebAdmins-RO
+MNazim: -, WebAdmins-RO
+
+phasthalapuram1: -, WebAdmins-RO
+
+
+
+
+
+6874758
+Semaphores httpd:
+ipcs -s
+
+sudo ipcs -p semid
+
+sudo ipcrm -m shmid
+
+
+httpd service is not coming up 
+httpd service is not coming up  in ws-uat3-rk1v server
+
+
+SERREQ0623644
+SERREQ0624378 -- qa23-ws
+SERREQ0624380 -- qa12-we (MEAD-36580)
+
+du -axm | sort  -nr  | head
+--------------------------------------------------------------------------------------------------------------------------------
+MANIFEST: These changes are now self-service via The Manifest https://confluence.wsgc.com/display/TAH/Manifest+User+guide
+https://ecombuild.wsgc.com/jenkins/job/trigger-ManifestDeployer/
+https://ecombuild.wsgc.com/jenkins/view/all/job/adhoc-manifest/
+
+https://www.qa10.westelm.com/services/addtocart/v1/?items=1x316740
+https://www.qa31.pbteen.com/services/addtocart/v1/?items=1x3480252
+https://www.qa10.westelm.com/services/addtocart/v1/?items=1x5917646
+https://www.qa10.williams-sonoma.com/services/addtocart/v1/?items=1x3540481 1058063
+https://www.qa10.williams-sonoma.com/services/addtocart/v1/?items=1x9745464 4591074
+https://www.qa31.potterybarn.com/services/addtocart/v1/?items=1x5832282    5832282 5830914 Item #: 84-5830914
+
+https://www.qa10.williams-sonoma.com/services/addtocart/v1/?items=1x9755730
+https://www.qa11.williams-sonoma.ca/services/addtocart/v1/?items=1x1104603
+https://www.qa11.westelm.com/services/addtocart/v1/?items=1x2088905
+
+https://www.qa31.potterybarn.com/services/addtocart/v1/?items=1x2961815
+
+3301090
+
+https://www.qa31.williams-sonoma.com/services/addtocart/v1/?items=1x3301090
+https://www.qa10.williams-sonoma.ca/services/addtocart/v1/?items=1x1577881
+
+
+https://www.qa54.potterybarn.ca/services/addtocart/v1/?items=1x1948631
+https://www.qa54.westelm.ca/services/addtocart/v1/?items=1x2159986
+https://www.qa54.potterybarnkids.ca/services/addtocart/v1/?items=1x1012421
+
+https://www.qa54.potterybarnkids.ca/shoppingcart/?cm_type=gnav&cm_src=atcct&items=1x19-1012421
+
+https://www.qa54.westelm.ca/products/2159986/?words=2159986&sku=2159986
+
+Mg-qa31 - #19-5770256, #19-1102021
+
+k8s-build
+https://www.qa54.potterybarnkids.ca/products/catalina-nightstand/?sku=1012421&words=1012421
+
+Rgs:
+WS SKU: 1771033
+MG https://regression.markandgraham.com/products/monogrammed-travel-jewelry-case-large/?pkey=cjewelry-storage
+#40-7860598
+
+
+AKAMAI.MFE_HEADER_FOOTER_FOR_DP_PAGES_ENABLED.b=true --- for global, MFE homepage
+-------------------------------------------------------------------------------------------------------------------------------
+https://loyalty-uat.wsgc.com/batch/summary
+
+
+Swap Usage is under the threshold
+Disk Usage on /var/log is under the threshold
+Disk Usage on /apps is under the threshold
+Disk Usage on /home is under the threshold
+Disk Usage on /var/log/weblogs is under the threshold
+Disk Usage on /images is under the threshold
+Disk Usage on /tmp is under the threshold
+Disk Usage on /data is under the threshold
+Disk Usage on /bgb is under the threshold
+Disk Usage on /ecm is under the threshold
+Virtual Memory Usage is under the threshold
+CPU Usage is under the threshold
+nonprod_linux_inode_nfs_check for  /images  is under the threshold
+nonprod_linux_inode_nfs_check for  /edgelogs is under the threshold
+
+
+CPU Usage is under the threshold
+restarted services
+
+
+kubectl get all command
+
+
+Item: 5253429
+
+
+SINGLE_PAGE_CHECKOUT.LRC_METADATA_TRANSMISSION_ENABLED\b: true
+
+CACHING.THREAD_TERMINATION_TIMEOUT/i:2000
+CACHING.CACHE_MONITOR_THREAD_COUNT/i:3
+CACHE.THREAD_TERMINATION_TIMEOUT/i:2000
+JOBS.SENDPTCDFINTERVAL/t: 0,0,0,0
+JOBS.SENDPTDIPINTERVAL/t:  0,0,0,0
+JOBS.AFFINITYCACHEINTERVAL/s: 0
+JOBS.SENDANDFCRON/s: 0
+RECOMMENDATION.ADOBE_TNT_ENABLED_PLACEMENTS/a: pip1.
+RECOMMENDATION.ADOBE_TNT_SPLIT_ENABLED/b: false
+
+APPCONF.MAXIMUM_SHIP_TOS/i: 40
+APPCONF.LRC/b: true
+URGENCY_MESSAGING_CART.BLACKLISTED_PRODUCTIDS/a: []
+URGENCY_MESSAGING_CART.BLACKLISTED_SUBCATEGORIES/a: []
+PRICING.PROMO_ADDITIONAL_MESG_PIP/a: []
+PRICING.PROMO_ADDITIONAL_MESG_THUMBNAIL/a: []
+AFFINITY.BLACKLISTED_GROUPS_AND_SKUS/a: []
+Note: value for /a should be '[]' not (null). for DB query it should be '[]' and for jenkins job []. for /a.
+
+
+PB Brand
+BRAINTREE_ACCOUNT.MERCHANT_ACCOUNT_ID/s: PB_USD
+
+PK Brand
+BRAINTREE_ACCOUNT.MERCHANT_ACCOUNT_ID/s: PK_USD
+
+
+GR
+APPLE_PAY.PROMO_CODE_ON_APPLE_PAY_SHEET_ENABLED\b: true
+APPLE_PAY.PROMO_CODE_ON_CART\b: false
+
+
+SINGLE_PAGE_CHECKOUT.LRC_METADATA_TRANSMISSION_ENABLED.b=true
+
+
+Delete : 
+test.test
+RECOMMENDATION.WSI_DEFAULT_PAGES
+RECOMMENDATION.WSI_DEFAULT_PAGES.perf.a=[]
+
+
+
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/2180
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/2200
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/2306
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/2334
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/2346
+
+{'app_name': 'ecom-app-registry', 'app_namespace': 'ecommerce-ecom-app-registry-perf', 'app_org': 'ecom', 'helm_config_pkg_version': '1.32.0', 'version_to_test': ''}
+Actual resource Config: 
+{'app_name': 'ecom-app-registry', 'app_org': 'ecom', 'duplicate_check': '', 'helm_version_exist': 'True', 'helmconfigversion': '', 'mfeServiceUris': '{"dp":{"externalUri":"https://www.perf.williams-sonoma.com/","internalUri":"https://perf-WS.wsgc.com/"}}', 'package_version': '1.32.0', 'to_test': '', 'updated_pointer': '', 'app_check_message': '', 'app_env': 'perf', 'app_version_exist': 'True', 'helm_branch_artifact_exist': 'True', 'helm_branch_exist': 'True', 'helm_config_pkg_branch': '', 'static_deployer_exist': 'True', 'app_branch/app_version': ''}
+
+
+
+[ ] [] 2023-08-23 02:38:23,637 [wsgc-ws RCK dparck-vicn286.wsgc.com ws1qa] ERROR [http-apr-127.0.0.1-3737-exec-3] com.wsgc.ecommerce.plcc.service.impl.StandardCreditCardService [BXIWHS9zozy1W_yjPyqSWEFDipI=3235 - rocklin.MTJLALERYna7EsluIcQbVobhlnZqZXwTZPkzFE5i1-O89YvejlechuA4cGQveVLhZEKg6xnfh5nUxqwPNbWr15TYuozq0B1PMHk3XhSeYAy-Bm1IDqmurJlHSe8EiHtI-eHNcxc=] - Unable to get the response due to bad request: 400 
+[ ] [] 2023-08-23 02:38:40,114 [wsgc-ws RCK dparck-vicn286.wsgc.com ws1qa] WARN  [http-apr-127.0.0.1-3737-exec-11] com.wsgc.ecommerce.cart.util.PaymentHelper [BXIWHS9zozy1W_yjPyqSWEFDipI=3235 - rocklin.MTJLALERYna7EsluIcQbVobhlnZqZXwTZPkzFE5i1-O89YvejlechuA4cGQveVLhZEKg6xnfh5nUxqwPNbWr15TYuozq0B1PMHk3XhSeYAy-Bm1IDqmurJlHSe8EiHtI-eHNcxc=] - Payment authorization failure occurred. sessionId=BXIWHS9zozy1W_yjPyqSWEFDipI=3235, creditCardResponse=CreditCardResponse{paymentDetailType=com.wsgc.ecommerce.oms.model.PaymentDetailType@3b7c153c, paymentStatus=AUTHDENY, savedConsumerTransactionId=null, deferred=false, errors=null, cardVerified=false}
+
+
+
+
+fjailani: -, WebAdmins
+samara: -, WebAdmins
+
+
+https://go.wsgc.com/cgi/login
+https://jira.wsgc.com/secure/Dashboard.jspa?selectPageId=26972
+https://jira.wsgc.com/secure/ConfigureReport.jspa?projectOrFilterId=project-15876&statistictype=customfield_11470&selectedProjectId=15876&reportKey=com.atlassian.jira.jira-core-reports-plugin%3Apie-report&Next=Next
+https://jira.wsgc.com/secure/RapidBoard.jspa?rapidView=3301&quickFilter=13365&quickFilter=6871
+https://jira.wsgc.com/browse/MEAD-40826
+https://jira.wsgc.com/browse/MEAD-40828
+https://jira.wsgc.com/browse/MEAD-40827
+https://jira.wsgc.com/browse/MEAD-40422
+https://jira.wsgc.com/browse/MEAD-40421
+https://jira.wsgc.com/browse/MEAD-40420
+https://jira.wsgc.com/browse/MEAD-40419
+https://jira.wsgc.com/browse/MEAD-40374
+https://jira.wsgc.com/browse/MEAD-40373
+https://ecombuild.wsgc.com/jenkins/view/all/
+https://jira.wsgc.com/browse/MEAD-40464
+https://jira.wsgc.com/browse/MEAD-40466
+https://jira.wsgc.com/browse/MEAD-40027
+https://jira.wsgc.com/browse/MEAD-40113
+
+
+
+https://jira.wsgc.com/browse/MEAD-41173 - mg-cargs1
+
+
+https://jira.wsgc.com/browse/MEAD-40879
+https://jira.wsgc.com/browse/MEAD-40878
+https://jira.wsgc.com/browse/MEAD-40875
+https://jira.wsgc.com/browse/MEAD-40861
+
+
+
+Ecom environment provisioner (EEP)
+TTL 
+Int 3,4,5 Envs
+
+
+AB_TESTS.PROXY_ENDPOINT_URI.uat3.r=https://ecommerce-experiment-proxy-uat.services.west.nonprod.wsgc.com/experimentation/v1/environments/UAT3/concepts/GR/schedule
+https://ecommerce-experiment-proxy-uat.services.west.nonprod.wsgc.com/experimentation/v1/environments/concepts/GR/schedule
+
+PROFILE_SERVICE_URL.ACCOUNT_SERVICES.uat3.r=https://ecommerce-profile-uat1.services.west.nonprod.wsgc.com/v2/profiles
+PROFILE_SERVICE.PROFILE_URL.uat3.s=https://ecommerce-profile-uat1.services.west.nonprod.wsgc.com/v2/profiles
+
+
+
+
+browserstack
+
+
+
+MG-QA31 - Item: 2370338
+
+
+</VirtualHost>
+Listen 49191
+ <VirtualHost feedgen-uat-rk1v:49191>
+    ServerName  feedgen-uat-rk1v:49191
+    DocumentRoot "/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes
+        Order deny,allow
+        Allow from all
+        Require all granted
+    </Location>
+        Options FollowSymLinks Indexes MultiViews
+        Alias /  "/"
+        <Directory "/">
+        AllowOverride None
+        Order allow,deny
+        #Allow from all
+        Allow from 172.16.0.0/255.255.0.0
+        Allow from 192.168.0.0/255.255.0.0
+        Allow from 4.20.98.115
+        Allow from 10.129.0.0/255.255.0.0
+        Allow from 10.50.0.0/255.255.0.0
+        Allow from 10.130.0.0/255.255.0.0
+        Satisfy Any
+       </Directory>
+
+
+eCommerce-Tahoe/influx-helm-config/TAH-5906
+
+
+
+
+WSi-B2B QA:
+HELM_PACKAGING_BRANCH: eCommerce-Nilgiri/wsi-b2b-helm-config/feature-smart-login
+APP_DEPLOY_BRANCH: eCommerce-Nilgiri/wsi-b2b/feature-smart-login
+
+
+
+
+
+
+Have we nailed down what the environment naming conventions for this new entity will be?
+installation ID/settingScope name
+config pkg name (eg ‘aktest’ is ‘preprd’ in svn)
+Akamai naming
+
+https://wsiadmin2.sharepoint.com/sites/TechnologySolutions/ProjectManagementTeam/Shared%20Documents/2022%20Project%20Documents/Infrastructure%20Demand/Book10.xlsx?d=w5d5e6e1ce08e4648a1dc015f85ff0273&csf=1&web=1&e=ih2bjE
+
+
+nM?n.4m5qAMw[~A
+
+
+USA-WEST:
+pb-preprd-rk1v eferck-vpcn036  -  8cpu, 71GB RAM, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+pk-preprd-rk1v eferck-vpcn028  -  4cpu, 20GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+pt-preprd-rk1v eferck-vpcn002  -  4cpu, 8GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+we-preprd-rk1v eferck-vpcn044  -  8cpu, 32GB RAM, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+ws-preprd-rk1v eferck-vpcn018  -  4cpu, 16GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+mg-preprd-rk1v eferck-vpcn013  -  4cpu, 8GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+gr-preprd-rk1v dparck-vpcn002  -  8cpu, 48GB RAM, 25GB /apps ,30G /var/log/weblogs
+rj-preprd-rk1v dpasac-vpcn022  -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+
+USA-EAST:
+pb-preprd-rk1v efeash-vpcn073  -  8cpu, 71GB RAM, 25GB /apps, 30G /var/log/weblogs
+pk-preprd-rk1v efeash-vpcn028  -  4cpu, 20GB, 25GB /apps ,3.9G /var, 25G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+pt-preprd-rk1v efeash-vpcn002  -  4cpu, 8GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+we-preprd-rk1v efeash-vpcn089  -  4cpu, 32GB, 25GB /apps ,15G /var/log/weblogs
+ws-preprd-rk1v efeash-vpcn018  -  4cpu, 16GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+mg-preprd-rk1v efeash-vpcn013  -  4cpu, 8GB, 25GB /apps ,3.9G /var, 15G /var/log/weblogs, 7.8G /tmp, 4.8G /home
+gr-preprd-rk1v dpaash-vpcn030  -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+rj-preprd-rk1v dpaash-vpcn022  -  8cpu, 48GB RAM, 25GB /apps ,30G /var/log/weblogs
+
+
+
+CAN-West
+pb-capreprd-rk1v dpasac-vpcn013  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+pk-capreprd-rk1v dpasac-vpcn014  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+pt-capreprd-rk1v dpasac-vpcn017  -  4cpu, 8GB, 25GB /apps ,15G /var/log/weblogs
+we-capreprd-rk1v dpasac-vpcn015  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+ws-capreprd-rk1v dpasac-vpcn016  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+mg-capreprd-sac1v dpasac-vpcn032 -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+rj-capreprd-sac1v dpasac-vpcn027 -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+
+CAN-East
+pb-capreprd-ab1v dpaash-vpcn013  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+pk-capreprd-ab1v dpaash-vpcn016  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+pt-capreprd-ab1v dpaash-vpcn017  -  4cpu, 8GB, 25GB /apps ,15G /var/log/weblogs
+we-capreprd-ab1v dpaash-vpcn014  -  4cpu, 32GB, 25GB /apps ,16G /var/log/weblogs
+ws-capreprd-ab1v dpaash-vpcn015  -  4cpu, 16GB, 25GB /apps ,16G /var/log/weblogs
+mg-capreprd-ab1v dpaash-vpcn040  -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+rj-capreprd-ab1v dpaash-vpcn035  -  8cpu, 16GB, 25GB /apps ,25G /var/log/weblogs
+
+
+lscpu
+free -h
+df -h
+
+
+WEST:
+ecommerce-b2b-app-product-finding-config-preprd2
+ecommerce-b2b-app-product-finding-preprd2
+ecommerce-delivery-gateway-preprd2
+ecommerce-ecom-app-build-activation-preprd2
+ecommerce-ecom-app-config-all-preprd2
+ecommerce-ecom-app-content-preprd2
+ecommerce-ecom-app-content-preprd2rj
+ecommerce-ecom-app-customer-preprd2
+ecommerce-ecom-app-global-preprd2
+ecommerce-ecom-app-global-preprd2rj
+ecommerce-ecom-app-order-servicing-preprd2
+ecommerce-ecom-app-order-servicing-preprd2rj
+ecommerce-ecom-app-phygital-preprd2
+ecommerce-ecom-app-product-preprd2
+ecommerce-ecom-app-product-preprd2rj
+ecommerce-ecom-app-registry-preprd2
+ecommerce-ecom-app-shop-preprd2
+ecommerce-ecom-app-shop-preprd2rj
+ecommerce-ecom-svc-catalog-preprd2
+ecommerce-ecom-svc-catalog-preprd2rj
+ecommerce-ecom-svc-content-preprd2
+ecommerce-ecom-svc-content-preprd2rj
+ecommerce-ecom-svc-customer-preprd2
+ecommerce-ecom-svc-order-servicing-preprd2
+ecommerce-ecom-svc-order-servicing-preprd2rj
+ecommerce-ecom-svc-phygital-preprd2
+ecommerce-ecom-svc-registry-preprd2
+ecommerce-esad-config-tool-job-preprd2
+ecommerce-esad-config-tool-job-preprd2-dc
+ecommerce-etcd-config-tool-preprd2
+ecommerce-etcd-syncappconfig-preprd2
+ecommerce-xcadmin-preprd2
+platform-svc-config-admin-preprd2
+platform-svc-config-preprd2
+platform-svc-data-execution-preprd2
+
+
+ecommerce-delivery-gateway-ca-preprd2
+ecommerce-ecom-app-config-all-ca-preprd2
+ecommerce-ecom-app-content-ca-preprd2
+ecommerce-ecom-app-customer-ca-preprd2
+ecommerce-ecom-app-global-ca-preprd2
+ecommerce-ecom-app-order-servicing-ca-preprd2
+ecommerce-ecom-app-phygital-ca-preprd2
+ecommerce-ecom-app-product-ca-preprd2
+ecommerce-ecom-app-registry-ca-preprd2
+ecommerce-ecom-app-shop-ca-preprd2
+ecommerce-ecom-svc-catalog-ca-preprd2
+ecommerce-ecom-svc-content-ca-preprd2
+ecommerce-ecom-svc-customer-ca-preprd2
+ecommerce-ecom-svc-order-servicing-ca-preprd2
+ecommerce-esad-config-tool-job-ca-preprd2
+ecommerce-esad-config-tool-job-ca-preprd2-dc
+ecommerce-etcd-config-tool-ca-preprd2
+ecommerce-etcd-syncappconfig-ca-preprd2
+ecommerce-xcadmin-ca-preprd2
+platform-svc-config-admin-ca-preprd2
+platform-svc-config-ca-preprd2
+
+
+EAST:
+ecommerce-b2b-app-product-finding-config-preprd2
+ecommerce-b2b-app-product-finding-preprd2
+ecommerce-delivery-gateway-preprd2
+ecommerce-ecom-app-build-activation-preprd2
+ecommerce-ecom-app-config-all-preprd2
+ecommerce-ecom-app-customer-preprd2
+ecommerce-ecom-app-global-preprd2
+ecommerce-ecom-app-registry-preprd2
+ecommerce-ecom-app-shop-preprd2
+ecommerce-ecom-svc-customer-preprd2
+ecommerce-ecom-svc-registry-preprd2
+ecommerce-esad-config-tool-job-preprd2
+ecommerce-esad-config-tool-job-preprd2-dc
+ecommerce-etcd-config-tool-preprd2
+ecommerce-etcd-syncappconfig-preprd2
+ecommerce-xcadmin-preprd2
+
+ecommerce-delivery-gateway-ca-preprd2
+ecommerce-ecom-app-config-all-ca-preprd2
+ecommerce-ecom-app-content-ca-preprd2
+ecommerce-ecom-app-customer-ca-preprd2
+ecommerce-ecom-app-global-ca-preprd2
+ecommerce-ecom-app-order-servicing-ca-preprd2
+ecommerce-ecom-app-phygital-ca-preprd2
+ecommerce-ecom-app-registry-ca-preprd2
+ecommerce-ecom-app-shop-ca-preprd2
+ecommerce-ecom-svc-catalog-ca-preprd2
+ecommerce-ecom-svc-content-ca-preprd2
+ecommerce-ecom-svc-customer-ca-preprd2
+ecommerce-ecom-svc-order-servicing-ca-preprd2
+ecommerce-esad-config-tool-job-ca-preprd2
+ecommerce-esad-config-tool-job-ca-preprd2-dc
+ecommerce-etcd-config-tool-ca-preprd2
+ecommerce-etcd-syncappconfig-ca-preprd2
+ecommerce-xcadmin-ca-preprd2
+platform-svc-config-admin-ca-preprd2
+platform-svc-config-ca-preprd2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+cof.card.account.feed.archiveReport=${base.path}/loyalty/cof_card_account/archive_report/ 281
+cof.card.account.feed.archiveReport=${loyalty.cof.card.account.feed.archiveReport}
+
+<loyalty.cof.card.account.feed.archiveReport>${base.path}/loyalty/cof_card_account/archive_report/</loyalty.cof.card.account.feed.archiveReport>
+
+kobie.card.account.status.feed.archiveReportPath=${base.path}/loyalty/kobie_daily_card_accounts_status/archive_report/ 327
+kobie.card.account.status.feed.archiveReportPath=${loyalty.kobie.card.account.status.feed.archiveReportPath} 
+<loyalty.kobie.card.account.status.feed.archiveReportPath>${base.path}/loyalty/kobie_daily_card_accounts_status/archive_report/</loyalty.kobie.card.account.status.feed.archiveReportPath>
+
+[MEAD-41485] Added cart account properties for UAT
+
+[MEAD-41486]Added cart account properties
+<loyalty.cof.card.account.feed.archiveReport>${base.path}/loyalty/cof_card_account/archive_report/</loyalty.cof.card.account.feed.archiveReport>
+<loyalty.kobie.card.account.status.feed.archiveReportPath>${base.path}/loyalty/kobie_daily_card_accounts_status/archive_report/</loyalty.kobie.card.account.status.feed.archiveReportPath>
+
+
+
+
+partner.reports.cronExpression=0 */5 * * * ?
+partner.reports.cronExpression=0 0 */1 * * ?
+
+partner.reports.cronExpression=${loyalty.partner.reports.cronExpression}
+<loyalty.partner.reports.cronExpression>0 0 */1 * * ?</loyalty.partner.reports.cronExpression>
+
+
+https://www.qa54.rejuvenation.com/shop/rugs/wool-rugs/?cm_type=gnav&originsc=rugs&tabnav=non-mobiletabnav
+https://www.qa54.rejuvenation.com/products/maud-flatweave-rug/?pkey=cnatural-fibers-rugs
+SKU: 536796
+SKU: 3875454
+
+
+
+
+https://www.qa54.markandgraham.ca/products/heart-travel-jewelry-case-shadow/?pkey=cview-accessories-new-arrivals
+
+
+sudo firewall-cmd --zone=public --add-port=[37667]/[protocol] --permanent
+
+
+
+
+MEAD-41134
+
+ecomQueva@WSGC.com
+ecomHoodoo@WSGC.com
+breads@WSGC.com
+BREADS@WSGC.com
+EcomEOReleaseManagement@WSGC.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://jira.wsgc.com/secure/Dashboard.jspa?selectPageId=26972
+https://jira.wsgc.com/secure/ConfigureReport.jspa?projectOrFilterId=project-15876&statistictype=customfield_11470&selectedProjectId=15876&reportKey=com.atlassian.jira.jira-core-reports-plugin%3Apie-report&Next=Next
+https://jira.wsgc.com/secure/RapidBoard.jspa?rapidView=3301&selectedIssue=MEAD-40210&quickFilter=13365&quickFilter=6871
+https://jira.wsgc.com/browse/MEAD-40027
+https://jira.wsgc.com/browse/MEAD-38349
+https://jira.wsgc.com/browse/MEAD-39893
+https://jira.wsgc.com/browse/MEAD-40153
+https://jira.wsgc.com/browse/MEAD-40154
+https://jira.wsgc.com/browse/MEAD-40157
+https://jira.wsgc.com/browse/MEAD-40158
+https://jira.wsgc.com/browse/MEAD-40164
+https://jira.wsgc.com/browse/MEAD-40165
+https://jira.wsgc.com/browse/MEAD-40207
+
+https://jira.wsgc.com/browse/MEAD-39924 - WE-UAT2 /account
+https://jira.wsgc.com/browse/MEAD-40183 regression secret key fix
+https://go.wsgc.com/vpn/index.html
+https://jira.wsgc.com/browse/MEAD-40209
+https://jira.wsgc.com/browse/MEAD-40211
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Caqa1:
+Listen 49180
+<VirtualHost 10.7.8.142:49180>
+    ServerName   datafeeds
+    DocumentRoot "/apps/dfeed-processor/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes +FollowSymLinks
+        Require all granted
+    </Location>
+#    <Location /datafeeds-processor >
+#        Options -Indexes
+#        Require all granted
+#    </Location>
+    <Location /resources >
+        Options -Indexes
+        Require all granted
+    </Location>
+    Alias /logs  "/var/log/weblogs/datafeeds/processor"
+        <Directory "/var/log/weblogs/datafeeds/processor">
+        Options +FollowSymLinks +Indexes +MultiViews
+        AllowOverride None
+        Require all granted
+        Allow from 4.20.98.115
+        Allow from 192.168.0.0/255.255.0.0
+        Allow from 10.130.0.0/255.255.0.0
+        Allow from 10.129.0.0/255.255.0.0
+        Allow from 10.50.0.0/255.255.0.0
+        Allow from 10.130.0.0/255.255.0.0
+        Allow from 10.170.0.0/255.255.0.0
+        Satisfy Any
+       </Directory>
+</VirtualHost>
+
+
+Qa1:
+Listen 49180
+<VirtualHost *:49180>
+    ServerName   datafeeds
+    DocumentRoot "/apps/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes
+        Order deny,allow
+        Allow from all
+    </Location>
+    <Location /apps/ >
+        Options -Indexes
+        Order Allow,Deny
+        Deny from all
+    </Location>
+#    <Location /datafeed/ >
+#        Options -Indexes
+#        Order Allow,Deny
+#        Deny from all
+#    </Location>
+#    <Location /dfeed-processor/ >
+#        Options -Indexes
+#        Order Allow,Deny
+#        Deny from all
+#    </Location>
+    <Location /resources >
+        Options -Indexes
+        Order Allow,Deny
+        Deny from all
+    </Location>
+        Alias /logs  "/var/log/weblogs/datafeeds/processor"
+        <Directory "/var/log/weblogs/datafeeds/processor">
+        Options FollowSymLinks Indexes MultiViews
+        AllowOverride None
+        Order allow,deny
+        #Allow from all
+        Allow from 192.168.0.0/255.255.0.0
+        Allow from 4.20.98.115
+        Allow from 10.130.0.0/255.255.0.0
+        Satisfy Any
+        </Directory>
+</VirtualHost>
+
+
+
+
+
+
+sudo rm -rf conceptbuild10964904282310194699 conceptbuild15548014764848146675 conceptbuild16275214758733213434 conceptbuild16697172804274967818 conceptbuild2470835205440766751 conceptbuild3077239276698893515 conceptbuild4625466594692832481 conceptbuild7694714745259698535 conceptbuild8428534215864713339 conceptbuild9907649863767921903 
+
+
+
+
+
+
+ACCOUNT_SERVICES.OAUTH_ACCESS_TOKEN_URI.uat6.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/token
+ACCOUNT_SERVICES.OAUTH_AUTHORIZATION_TOKEN_URL.uat6.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/authorize
+ACCOUNT_SERVICES.OAUTH_CHECK_TOKEN_URI.uat6.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/check_token
+ACCOUNT_SERVICES.PERSISTENT_LOGIN_COOKIE_NAME.qa1.s=WE_PLID
+ACCOUNT_SERVICES.PL_SECURITY_ACTIVE_BUNDLE_ID.qa1.s=1
+
+AB_TESTS.PROXY_ENDPOINT_URI.uat3.r=https://ecommerce-experiment-proxy-uat.services.west.nonprod.wsgc.com/experimentation/v1/environments/UAT2/concepts/WE/schedule
+
+
+
+
+
+
+
+
+QA41-PB:
+<tomcat.catalinaOpts>-server -Xms2048m -Xmx12g -XX:NewSize=256M -XX:MaxNewSize=256M -XX:MaxPermSize=128M -XX:+UseParallelGC -XX:SurvivorRatio=8 -XX:MaxHeapFreeRatio=80 -Djsse.enableSNIExtension=${java.client.enableSNIExtension} -Djavax.net.ssl.keyStoreType=JKS -Djavax.net.ssl.keyStore=/apps/tomcat/conf/frontend_keystore.jks -Djavax.net.ssl.keyStorePassword=password -Djava.rmi.server.hostname=$HOSTNAME ${frontend.debugOpts}</tomcat.catalinaOpts>
+
+
+RGS1-PB:
+<tomcat.catalinaOpts>-server -Xms8g -Xmx13g -XX:NewSize=512M -XX:MaxNewSize=512M -XX:MaxPermSize=256M -XX:SurvivorRatio=8 -XX:+UseConcMarkSweepGC -XX:+ExplicitGCInvokesConcurrent -XX:+DisableExplicitGC -XX:MaxHeapFreeRatio=80 -XX:StringTableSize=2000003 -Djsse.enableSNIExtension=${java.client.enableSNIExtension} -Djavax.net.ssl.keyStoreType=JKS -Djavax.net.ssl.keyStore=/apps/tomcat/conf/frontend_keystore.jks -Djavax.net.ssl.keyStorePassword=password -Djava.rmi.server.hostname=$HOSTNAME ${frontend.debugOpts} ${frontend.random} -XX:-OmitStackTraceInFastThrow ${frontend.jmxOpts}</tomcat.catalinaOpts>
+
+
+
+
+
+
+
+
+rm -rf conceptbuild15024143208818593695 conceptbuild15549548265867355497 conceptbuild18086854404074218027 conceptbuild2056959086775145947 conceptbuild3876274465820334297 conceptbuild5195325268374563911 conceptbuild831732307529926478 conceptbuild837904595025336054
+
+rm -rf conceptbuild1099683078620970702 conceptbuild14521195213138755701 conceptbuild9961847185853385332 conceptbuild5542680488241778636 conceptbuild9369707214871331740
+
+
+tar -zcvf conceptbuild9369707214871331740.tar.gz conceptbuild9369707214871331740
+
+
+
+
+
+
+# <VirtualHost 192.168.74.180:49180>
+Listen 49180
+<VirtualHost *:49180>
+    ServerName   datafeeds
+    DocumentRoot "/apps/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes
+        Order deny,allow
+        Allow from all
+    </Location>
+    <Location /apps/ >
+        Options -Indexes
+        Order Allow,Deny
+        Deny from all
+    </Location>
+#    <Location /datafeed/ >
+#        Options -Indexes
+#        Order Allow,Deny
+#        Deny from all
+#    </Location>
+#    <Location /dfeed-processor/ >
+#        Options -Indexes
+#        Order Allow,Deny
+#        Deny from all
+#    </Location>
+    <Location /resources >
+        Options -Indexes
+        Order Allow,Deny
+        Deny from all
+    </Location>
+        Alias /logs  "/var/log/weblogs/datafeeds/processor"
+
+
+
+UAT3-PK
+Item #: 10-6878272
+Item #: 10-9952126
+
+
+1164740357
+
+
+
+
+https://jira.wsgc.com/browse/MEAD-39637
+https://jira.wsgc.com/browse/MEAD-39668
+https://jira.wsgc.com/browse/MEAD-39526
+https://jira.wsgc.com/browse/MEAD-39620
+
+
+Platform-Kubernetes-Bedrock/platform-svc-config-admin-helm-config/release
+
+
+
+https://pradm-qa3-rk1v.wsgc.com/index.html has been migrated to k8s.
+https://ecommerce-promo-admin-qa3.services.west.nonprod.wsgc.com/login.html is the URL
+
+
+
+
+[MEAD-39420] Adding batch status properties
+batchStatus.reward.points.enabled=${loyalty.batchStatus.reward.points.enabled}
+merchandise.sales.percentage=${loyalty.merchandise.sales.percentage}
+blended.percentage.rewards=${loyalty.blended.percentage.rewards}
+
+<loyalty.batchStatus.reward.points.enabled>false</loyalty.batchStatus.reward.points.enabled>
+<loyalty.merchandise.sales.percentage>75</loyalty.merchandise.sales.percentage>
+<loyalty.blended.percentage.rewards>3</loyalty.blended.percentage.rewards>
+
+
+H 0 * * 7
+Would last have run at Sunday, June 4, 2023 12:16:31 AM PDT; would next run at Sunday, June 11, 2023 12:16:31 AM PDT.
+
+
+
+
+
+log4j.category.com.wsgc.ecommerce.security.handlers=DEBUG
+log4j.category.com.wsgc.ecommerce.security.filters=DEBUG
+
+
+
+
+ecomserv.MASHERY_API_KEY.cargs1.s=
+ecomserv.MASHERY_SECURED_SERVICE_KEY.cargs1.s=
+ECOMSERV.SHOPPING_CART.cargs1.p=URL=shoppingcart/?cm_type=gnav,QUERY_PARAMS=flash|storeid|rcode|retailcat|otype|estid|tp|bnrid|cm_ven|cm_cat|cm_pla|cm_em|cm_ite|parent_cpn|om_mid|storeassociateid|planid
+ECOMSERV.STORE_ESTIMATE_REST_REDIRECT_URI.cargs1.r=https://retailordersqa4.wsgc.com/UISCOM/Estimates/CSORedirect.aspx?estimateId=
+
+
+https://www.qa54.potterybarn.ca/products/manor-indoor-outdoor-round-pendent/?pkey=cpendents
+
+
+
+
+WE-QA54 : https://www.qa54.westelm.ca/products/cityscape-planters-d987/?pkey=call-garden
+5131487
+Item: 7488979
+
+
+https://www.uat3.westelm.com/products/cooling-down-alternative-duvet-insert-b3378/?pkey=cduvet-inserts
+
+
+
+ecomserv.MASHERY_API_KEY.cauat2.s=
+ecomserv.MASHERY_SECURED_SERVICE_KEY.cauat2.s=
+ecomserv.CART_V4_SERVICE_ENABLED.cauat2.b=true
+ecomserv.PASSWORD_REVOKE_ENABLED.cauat2.b=true
+ecomserv.PROXY_HOSTNAME.cauat2.s=services.williams-sonoma.com
+ecomserv.REST_RETRY_MAX.cauat2.i=1
+ECOMSERV.SECURE_SERVICE_ENABLED.cauat2.b=true
+ECOMSERV.STANDALONE_SERVICE_ENABLED.cauat2.b=true
+
+
+
+
+
+ECOMSERV.MASHERY_SECURED_SERVICE_KEY.qa58.s=844xkmugpjcf6s29e2376u6z
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+"/customer-service/b2b-order-history.html*",
+"/design-services/",
+"/home-design-services/",
+"/m/customer-service/charge-details/*",
+"/m/registry/*/update.html*",
+"/m/registry/account-linking-search.html*",
+"/m/registry/find-registry.html*",
+"/m/registry/find.html*",
+"/m/registry/search-registry.html*",
+"/nativeapp/*",
+"/pages/top-gift-picks*",
+"/registry/*/update.html*",
+
+Cauat3 PB - 323052302.0
+Qa54-PB -   323030803.0
+
+
+ECOMSERV.SHOPPING_CART.cargs1.p=URL=shoppingcart/?
+
+
+
+service_now_rest.service_uri = https://wsi.service-now.com/api/now/table/em_event</>
+service_now_rest.username = changeme
+service_now_rest.password = changeme
+service_now_rest.node = loyrck-vpcn003
+
+
+service_now_rest.service_uri=${loyalty.service_now_rest.service_uri}
+service_now_rest.username=${loyalty.service_now_rest.username}
+service_now_rest.password=${loyalty.service_now_rest.password}
+service_now_rest.node=${loyalty.service_now_rest.node}
+
+<loyalty.service_now_rest.service_uri>https://wsi.service-now.com/api/now/table/em_event</loyalty.service_now_rest.service_uri>
+<loyalty.service_now_rest.username>changeme</loyalty.service_now_rest.username>
+<loyalty.service_now_rest.password>changeme</loyalty.service_now_rest.password>
+<loyalty.service_now_rest.node>loyrck-vpcn003</loyalty.service_now_rest.node>
+
+[MEAD-39043] added service_now_rest properties
+
+
+BReddy3@wsgc.com
+breddy3: -, WebAdmins
+
+inventory is not getting updated for JERDTC, OAKDTC, OB2DTC inventory locations
+during ECDD call, we are getting NLA for all the ecom available SKUs in checkout page.
+
+MG: https://regression.markandgraham.com/products/silver-and-wicker-entertaining-gift-set/?pkey=cpersonalized-outdoor-trays
+INTL.INTERNATIONAL_VISITOR_REDIRECT_COUNTRY_MAP
+BREADCRUMBS.IGNORE_HREF_FOR_CATEGORIES
+
+
+https://regression.markandgraham.com/products/wood-marble-gift-set/?cm_src=WsiPip1&recstrat=View-View-1%7CWVCB-GRP-AFF-QNT
+
+PLATFORM_SESSION_SERVICE.SERVICE_URI.cauat3.r=https://edap-platform-svc-session-uat.services.west.nonprod.wsgc.com/session-service/v1/session
+ACCOUNT_SERVICES.OAUTH_ACCESS_TOKEN_URI.cauat3.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/token
+ACCOUNT_SERVICES.IS_PERSISTENT_LOGIN_ENABLED.cauat3.b=true
+ACCOUNT_SERVICES.DP_CLIENT_ID.cauat3.s=ecom_WE/UAT
+ACCOUNT_SERVICES.DP_CLIENT_PASSWORD.cauat3.s=E?XxW3zDT&
+ACCOUNT_SERVICES.OAUTH_AUTHORIZATION_TOKEN_URL.cauat3.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/authorize
+ACCOUNT_SERVICES.OAUTH_CHECK_TOKEN_URI.cauat3.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/check_token
+OAUTH.ACCESS_TOKEN_URI.cauat3.s=https://ecommerce-oauth-uat.services.west.nonprod.wsgc.com/oauth/token
+
+
+PLATFORM_SESSION_SERVICE.CONNECTION_ACQUISITION_TIMEOUT.cauat3.i=9000
+PLATFORM_SESSION_SERVICE.PLATFORM_PROVISIONAL_SID_COOKIENAME.cauat3.s=WE_PSID
+PLATFORM_SESSION_SERVICE.PLATFORM_SID_COOKIENAME.cauat3.s=WE_SID
+PLATFORM_SESSION_SERVICE.SOCKET_TIMEOUT.cauat3.i=3000
+#PLATFORM_SESSION_SERVICE.SERVICE_URI.cauat3.r=https://edap-platform-svc-session-uat.services.west.nonprod.wsgc.com/session-service/v1/session
+
+
+CART_CHECKOUT.SERVICE_URI.R=
+INVENTORY.INVENTORY_MICROSERVICE_URI.r=
+PRICING.PROMOTION_SERVICE_URI.r=
+PRICING.SERVICE_URI.r=
+
+
+New artifact version - 1.0.60 - https://github.wsgc.com/eCommerce-DevOps/catalog-prdsac-config
+
+artrck-vdcn003
+artrck-vdcn007
+artrck-vicn001
+artrck-vicn002
+artrck-vicn003
+artrck-vicn004
+artrck-vicn005
+
+bgbrck-vicn001
+bgbrck-vicn002
+bgbrck-vicn003
+bgbrck-vicn004
+bgbrck-vicn009
+bgbrck-vicn010
+bgbrck-vicn011
+bgbsac-vicn003
+bgbsac-vicn004
+bgbsac-vicn005
+bgbsac-vicn006
+
+jmprck-vdcn001
+jmprck-vdcn002
+jmprck-vdcn003
+
+jnkrck-vdcn001
+jnkrck-vicn003
+jnkrck-vicn004
+jnkrck-vicn005
+jnkrck-vicn006
+jnkrck-vicn007
+jnkrck-vicn008
+jnkrck-vicn009
+jnkrck-vicn010
+jnkrck-vicn011
+jnkrck-vicn012
+jnkrck-vicn013
+jnkrck-vicn014
+jnkrck-vicn015
+jnkrck-vicn016
+jnkrck-vicn017
+jnkrck-vicn018
+jnkrck-vicn019
+
+
+rndrck-vdcn001
+rndrck-vicn001
+rndrck-vicn002
+rndrck-vicn003
+rndrck-vicn004
+
+tlsrck-vdcn005.wsgc.com
+  
+
+
+artrck-vdcn007
+artrck-vicn004
+
+rndrck-vdcn001
+
+jnkrck-vdcn001
+
+
+
+
+PK :  10-1893481
+
+1399084
+WS :Item #: 19-3875411
+PT:  Item: 2055174
+https://regression.pbteen.com/products/gray-textured-wool-rug/?pkey=csolid-rugs
+
+PB: SKU: 877444
+
+
+Increased the number of builds to 30 from 10 to keep. You can view the last 30 builds now. 
+cc: [~tfitzpatrick]
+
+BRAND_CREDIT_CARD.PLCC_CREDITCARD_TERMS_AND_CONDITIONS_URL.uat7.r=https://comenity.net/potterybarn/public/agreements/tac.xhtml
+BRAND_CREDIT_CARD.CBCC_AND_PLCC_PAYMENTS_ENABLED.uat7.b=true
+BRAND_CREDIT_CARD.CBCC_CLIENT_NAME.uat7.s=williamssonomavisa
+BRAND_CREDIT_CARD.CREDIT_CARD_PRE_ENROLLMENT_URL.uat7.s=https://enterprise-credit-card-orchestration-uat.services.west.nonprod.wsgc.com/creditcard-orchestration/v1/card-application/pre-enrollment
+BRAND_CREDIT_CARD.CREDIT_ORCHESTRATION_CONSENTED_ACCOUNT_URL.uat7.s=https://enterprise-credit-card-orchestration-uat.services.west.nonprod.wsgc.com/creditcard-orchestration/v1/link/current-account-ids
+BRAND_CREDIT_CARD.CREDIT_ORCHESTRATION_GET_CARD_DETAILS_URL.uat7.s=https://enterprise-credit-card-orchestration-uat.services.west.nonprod.wsgc.com/creditcard-orchestration/v1/card-application/account-details
+
+
+
+
+MG: 
+<frontend.secureAppBase>https://regression.${frontend.domain}/</frontend.secureAppBase>
+<frontend.docImageBase>http://qark-images.mgimgs.com/mgimgs/qark/images/${frontend.cmx}/</frontend.docImageBase>
+<frontend.secureDocImageBase>https://qark-images.mgimgs.com/mgimgs/qark/images/${frontend.cmx}/</frontend.secureDocImageBase>
+<frontend.catImageBase>http://qark-images.mgimgs.com/mgimgs/qark/images/dp/</frontend.catImageBase>
+<frontend.secureCatImageBase>https://qark-images.mgimgs.com/mgimgs/qark/images/dp/</frontend.secureCatImageBase>
+<frontend.staticProxyServlet>staticproxy/</frontend.staticProxyServlet>
+<frontend.urlMappings>http://@SHORTNAME@/==https://@SHORTNAME@.wsgc.com/,http://@SHORTNAME@.wsgc.com/==https://@SHORTNAME@.wsgc.com/</frontend.urlMappings>
+<frontend.contentArchiveLocation>/apps/ecimages/internal/archives/${frontend.brand}/</frontend.contentArchiveLocation>
+<frontend.scriptSubPath>mgimgs/qark/images/${frontend.cmx}/</frontend.scriptSubPath>
+<frontend.localScriptPackagingMode>prepackaged</frontend.localScriptPackagingMode>
+<frontend.remoteProxyImageBase>http://img-qa-rk1v.wsgc.com/mgimgs/qark/images/${frontend.cmx}/</frontend.remoteProxyImageBase>
+<frontend.secureRemoteProxyImageBase>https://img-qa-rk1v.wsgc.com/mgimgs/qark/images/${frontend.cmx}/</frontend.secureRemoteProxyImageBase>
+<frontend.remoteContentArchiveUrlBases>http://img-qa-rk1v.wsgc.com:49190/tmpl/,http://img-qa-rk1v.wsgc.com:49190/tmpl2/,http://img-qa-rk1v.wsgc.com:49190/tmpl/${frontend.cmx}/,http://img-qa-rk1v.wsgc.com:49190/ecm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/ecm-non-prod-builds/internal/tmpl/ecm/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/recipe/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/catalogdata/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/${frontend.cmx},http://img-qa-rk1v.wsgc.com:49190/internal/ecm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/internal/ecm-non-prod-builds/internal/tmpl/ecm/,http://img-qa-rk1v.wsgc.com:49190/internal/wcm-non-prod-builds/internal/tmpl/recipe/,http://img-qa-rk1v.wsgc.com:49190/internal/wcm-non-prod-builds/internal/tmpl/catalogdata/,http://invadj-qa1-rk1v.wsgc.com/odis-display-season-artifacts/</frontend.remoteContentArchiveUrlBases>
+
+<frontend.overrideScope>regression,rgs1,default</frontend.overrideScope>
+<frontend.contentImageBase>http://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qark/images/dp/</frontend.contentImageBase>
+<frontend.secureContentImageBase>https://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qark/images/dp/</frontend.secureContentImageBase>
+
+
+WE:
+
+<frontend.secureAppBase>https://regression.${frontend.domain}/</frontend.secureAppBase>
+<frontend.docImageBase>http://qark-images.weimgs.com/weimgs/qark/images/${frontend.cmx}/</frontend.docImageBase>
+<frontend.secureDocImageBase>https://qark-images.weimgs.com/weimgs/qark/images/${frontend.cmx}/</frontend.secureDocImageBase>
+<frontend.catImageBase>http://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qa/images/wcm/</frontend.catImageBase>
+<frontend.secureCatImageBase>https://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qa/images/wcm/</frontend.secureCatImageBase>
+<frontend.staticProxyServlet>staticproxy/</frontend.staticProxyServlet>
+<frontend.urlMappings>http://@SHORTNAME@/==https://@SHORTNAME@.wsgc.com/,http://@SHORTNAME@.wsgc.com/==https://@SHORTNAME@.wsgc.com/</frontend.urlMappings>
+<frontend.contentArchiveLocation>/apps/ecimages/internal/archives/${frontend.brand}/</frontend.contentArchiveLocation>
+<frontend.scriptSubPath>weimgs/qark/images/${frontend.cmx}/</frontend.scriptSubPath>
+<frontend.localScriptPackagingMode>prepackaged</frontend.localScriptPackagingMode>
+<frontend.remoteProxyImageBase>http://img-qa-rk1v.wsgc.com/weimgs/qark/images/${frontend.cmx}/</frontend.remoteProxyImageBase>
+<frontend.secureRemoteProxyImageBase>https://img-qa-rk1v.wsgc.com/weimgs/qark/images/${frontend.cmx}/</frontend.secureRemoteProxyImageBase>
+<frontend.remoteContentArchiveUrlBases>http://img-qa-rk1v.wsgc.com:49190/tmpl/,http://img-qa-rk1v.wsgc.com:49190/tmpl2/,http://img-qa-rk1v.wsgc.com:49190/tmpl/${frontend.cmx}/,http://img-qa-rk1v.wsgc.com:49190/ecm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/ecm-non-prod-builds/internal/tmpl/ecm/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/recipe/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/catalogdata/,http://img-qa-rk1v.wsgc.com:49190/wcm-non-prod-builds/internal/tmpl/${frontend.cmx},http://img-qa-rk1v.wsgc.com:49190/internal/ecm-non-prod-builds/internal/tmpl/,http://img-qa-rk1v.wsgc.com:49190/internal/ecm-non-prod-builds/internal/tmpl/ecm/,http://img-qa-rk1v.wsgc.com:49190/internal/wcm-non-prod-builds/internal/tmpl/recipe/,http://img-qa-rk1v.wsgc.com:49190/internal/wcm-non-prod-builds/internal/tmpl/catalogdata/,http://invadj-qa1-rk1v.wsgc.com/odis-display-season-artifacts/</frontend.remoteContentArchiveUrlBases>
+
+
+
+<frontend.contentImageBase>http://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qark/images/dp/</frontend.contentImageBase>
+<frontend.secureContentImageBase>https://qark-images.${frontend.brand}imgs.com/${frontend.brand}imgs/qark/images/dp/</frontend.secureContentImageBase>
+
+
+
+
+
+
+
+COMSES.DATATABLE.qa99.s=RJPE_SESSION_DATA
+COMSES.SCANTIME.uat3.t=0,0,0,30
+COMSES.CACHETIME.uat3.t=0,0,5,0
+ACCOUNT_SERVICES.VERIFICATION_SERVICE_URL.qa24.r=https://ecommerce-profile-qa1.services.west.nonprod.wsgc.com/v2/verification/
+
+
+
+MNechai@wsgc.com
+mnechai: -, admin, WebAdmins
+
+
+
+
+
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCnebiqGQW+6SVWTaNZ+PKApZHERZHmqfZPGDMsPwjyiVLvEhYNo+KGpyeIVdee4yuJ2qaX+rq7XV5Srb2pWLK9O2rblb1CkfOBWeljiwwS6z3hE7qorpds+P+0i73g8UvSU5aIrzS78JX8cYHlAgo9lcAwGm0x0qFgPIqf7hSYWHsDMfpMpSdlXbLzm0BPbpEmIoHwKXXUpn/2cDhi4eHLFf1qi6Lm12Y3IC9XFrpdzVNTBT9K4EDxKJKX+/Y7BhXNzDr5rtyix2V0aCcV5xiqjjGOay4lP5rPnlf8rvgSC9HvBQNutywLNR6tkwV+8pPlZJQp8P7+meJ3HHTPpsDX tomcat@dfdrck-vicn001
+
+
+
+
+
+
+UAT2 - MG Akamai URL issue
+UAT - PB white label error
+
+
+
+
+
+Dest: moveitdmz2.wsgc.com
+Source: dfdash-vpcn001
+Dest User: Salesforce
+
+
+
+
+
+https://jira.wsgc.com/browse/MEAD-38174 ------- server clean up 
+
+host: ftp.bloomreach.com
+username: greenrow
+password: uim87O5Q
+*account: ++*greenrow (7244)
+*auth_key: ++*pq6myyrjw3voj5mi
+host: ftp.bloomreach.com++++
+*username: ++*greenrow
+*password: ++*xxxxxxxx
+port: 21
+
+
+
+
+LOYALTY.ELS_CARD_ENDPOINT_URL.uat3.r=https://loyalty-uat.wsgc.com/loyalty/v1/loyaltyCards
+
+
+
+
+
+
+Update from regression team
+WS , WE, PT and MG - able to place the orders
+WS Unable to Sign In
+PK Domestic all items are getting NLA
+PB Site is not Loading - MEAD-38214
+MG Buid Issue - MEAD-38215
+RJ All PIPs are NLA
+
+
+
+
+
+>>> 2023-04-11 01:12 Deploy external: https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/favorites/job/qa <<<
+Traceback (most recent call last):
+  File "/apps/scm-tools/runJenkinsJob", line 83, in <module>
+    main()
+  File "/apps/scm-tools/runJenkinsJob", line 55, in main
+    jobExecutionUrl, exitStatus = jenkins.waitForCompletion(jobQueueUrl=jobQueueUrl)
+  File "/apps/scm-tools/wsgc/jenkins.py", line 344, in waitForCompletion
+    jobExecutionUrl = waitForJobStart(jobQueueUrl)
+  File "/apps/scm-tools/wsgc/jenkins.py", line 293, in waitForJobStart
+    if "executable" in jobStatus and "url" in jobStatus["executable"]:
+TypeError: argument of type 'NoneType' is not iterable
+### deployer favorites returned 1 
+
+
+
+
+
+owner=dtc_app_owner
+connection=dbi:Oracle:host=webqark2p;sid=webqa2;port=3800
+credentialfile=/bgb/tomcat-bgb/apps/bgb/credentials/db_webqa2
+
+
+
+
+
+[MEAD-38026] routing HP to MFE for BPV
+
+MEAD-38026
+          "/",
+          "/m/",
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SERREQ0635075 - pb-cauat3-rk1v
+
+
+
+
+
+
+
+
+MEAD-38010:
+UAT4, UAT7, RGS2, QA56
+MFE Applications and SVCs
+===================
+ecom-app-shop 6.41.6 helm 2.39.4 branch - release-6.41.x   ---   #uat4, #uat2, uat7, rgs2, 
+
+ecom-app-global 5.3.4  helm 3.0.5   branch - release-5.3.x ---   uat4, #uat2, uat7, rgs2, #qa56
+
+ecom-app-registry 5.100.7  helm 1.31.10   branch - release ---   uat - dne
+
+ecom-app-phygital 2.23.8  helm 1.17.8   branch - release-2.33.x  --- uat - dne
+
+ecom-app-product 9.9.16   helm 1.9.29    branch - release-9.9.x  --- uat - dne
+
+ecom-app-customer 5.10.6   helm 5.0.5  branch - release-5.10.x   --- bpv(uat3)  - dne
+
+Services
+=========
+ecom-svc-registry-webapp 3.14.5  helm 2.6.1  ---  uat3 - dne
+
+
+
+
+[MEAD-38010] Updated MFE 23.05
+
+
+"/style-quiz/*",
+
+
+[MEAD-38010] updated MFE path /style-quiz/
+
+
+
+
+
+
+
+
+MEAD-37695
+ecom-app-shop     release-6.34.x /  6.34.9   ---  rgs2, uat2, uat4, uat7 dne
+ecom-app-global   release-4.14.x /  4.14.9	   --- rgs2, uat2, uat4, uat7, QA56 dne
+ecom-app-registry release-5.98.x/5.98.6      uat dne
+ecom-svc-registry-webapp	3.12.2             uat3 dne
+ecom-app-phygital release-2.21.x/2.21.10     uat dne
+ecom-app-product release-9.4.x/9.4.21        uat dne
+ecom-svc-order-servicing	1.13.3              uat dne
+ecom-app-customer	5.9.0               uat3 dne
+ecom-svc-customer	10.2.1              uat dne
+ecom-app-content release / 1.5.16            uat, rgs2, dne
+ecom-svc-content-webapp	1.6.9               uat dne
+
+
+
+
+
+            app_version: 1.91.2
+            app_version: 1.6.9
+
+[MEAD-37695] updated 23.04 MFE versions
+
+
+ecom-svc-catalog:
+    name: ecom-svc-catalog
+    type: helm
+    org: ecom
+    shared: true
+    helm_config_packaging:
+      - packaging:
+          branch_only_config:
+            helm_config_pkg_branch: eCommerce-Kubernetes-Bedrock/ecom-svc-catalog-helm-config/release
+            app_branch: eCommerce-Bedrock/ecom-svc-catalog-webapp/release
+
+
+
+
+MEAD-38236:
+ecom-app-shop 6.46.5 helm-2.40.2   CUSTOM BRANCH-release-6.46.x  ---   #uat4, #uat2, #uat7, #rgs2, 
+
+ecom-app-global  5.6.9   helm -3.1.4  CUSTOM BRANCH-release-5.6.x ---   #uat4, #uat2, #uat7, #rgs2, #qa56
+
+#ecom-app-registry 5.101.2  helm 1.31.11   branch - release ---   uat - dne
+#ecom-app-phygital 2.24.7  helm -1.18.3  branch - release-2.33.x  --- uat - dne
+#ecom-app-product 10.3.12  helm 1.9.33    branch - release-9.9.x  --- uat - dne
+#ecom-app-customer 6.5.0   helm 5.0.11  branch - release-5.10.x   --- bpv(uat3)  - dne
+
+#ecom-app-order-servicing-4.0.2 uat3, uat, rgs1 - #uat4,#uat7,#cauat7,#qa56
+
+#ecom-app-content-1.7.1 uat, rgs2, qa56, 
+etcd-syncapp-config-release-1.4.7 
+
+
+
+
+Customer point to bpv (value is in cabpv )
+order-servicing- point to uat
+
+
+
+  ecom-app-customer:
+    name: ecom-app-customer
+    type: helm
+    org: ecom
+    shared: true
+    helm_config_packaging:
+      - packaging:
+          branch_only_config:
+            helm_config_pkg_branch: eCommerce-Kubernetes-Bedrock/ecom-app-customer-helm-config/release
+            app_version: 6.5.0
+
+  ecom-app-customer:
+    name: ecom-app-customer
+    env: bpv
+    type: helm
+    org: ecom
+    shared: true
+    helm_config_packaging:
+      - packaging:
+          branch_only_config:
+            helm_config_pkg_branch: eCommerce-Kubernetes-Bedrock/ecom-app-customer-helm-config/release
+            app_version: 5.2.2
+
+
+
+
+MEAD-38729
+MFE 23.06.02 post prod steps-please deploy MFE apps to non-prod envs by EOD May 4th, 2023
+
+NON-PROD env list-UAT4, QA56, RGS2, UAT7, CAUAT7
+
+ Brands included in MFE 23.06.02= 7 domestic brands (including RJ and GR). N/A for Canada brands 
+
+MFE Applications
+
+===================
+
+1) ecom-app-shop - 6.46.6       release-6.46.x     rgs2, uat2, uat4, uat7,
+
+helm -2.41.4
+
+CUSTOM BRANCH- 
+
+ 
+
+2) ecom-app-global -  5.6.13      release-5.6.x   rgs2, uat2, uat4, uat7, QA56 
+
+helm -3.2.18
+
+CUSTOM BRANCH-release-5.6.x
+
+ 
+
+3) ecom-app-product -10.3.16      release-10.3.x     #uat
+
+helm -2.0.8
+
+CUSTOM BRANCH-release-10.3.x
+
+ 
+
+4) ecom-app-order-servicing-4.0.3     release-4.0.x   #uat, #rgs1
+
+HELM-2.0.3
+
+Custom branch- release-4.0.x
+
+
+
+            app_branch: eCommerce-Bedrock/ecom-app-product/release-10.3.x
+            app_branch: eCommerce-Bedrock/ecom-app-order-servicing/release-4.0.x
+
+
+
+
+
+https://jira.wsgc.com/browse/MEAD-39161 [MFE/DP 23.08]
+UAT4, CAUAT4, QA56, RGS2, UAT7, CAUAT7
+	
+ecom-app-shop      release-6.52.x/6.52.1	#rgs2, #uat2, #uat4, #uat7 , UAT3rj
+ecom-app-global    release-5.10.x/5.10.3	#rgs2, #uat2, #uat4, #uat7, QA56, UAT3rj
+ecom-app-registry  release/5.101.6		#UAT
+ecom-app-phygital  release / 2.25.0	        #UAT
+ecom-app-product   release-11.3.x / 11.3.35     #Uat, UAT3rj
+ecom-app-order-servicing releases/5.0.1	        #Uat, #rgs1, UAT3rj
+ecom-app-customer release/7.1.0	                #Bpv, UAT3rj
+ecom-svc-customer  release / 10.2.2	        #Uat
+ecom-app-content   release/1.7.10               #Uat, #qa56, #RGS2,, UAT3rj
+ecom-svc-content-webapp	release/1.7.2	        #Uat, UAT3rj
+etcd-syncapp-config  	1.5.5	                Uat4,Cauat4,Cauat7,Uat7, QA56, RGS2
+
+[MEAD-39161] Updated app-order-servicing version
+
+[MEAD-39161] MFE 23.08 update
+
+dparck-vicn266
+
+https://github.wsgc.com/RKrishna2/env-manifest/
+
+
+
+
+MEAD-39341
+MFE 23.09 - Deploy to Non-Prod Envs
+MFE Applications and SVCs
+===================
+ecom-app-shop 6.56.4   helm 2.42.5     branch: release-6.56.x     #rgs2, #uat2, #uat4, uat7
+ecom-app-global 5.11.5  helm 3.4.1     branch: release-5.11.x     #rgs2, #uat2, #uat4, uat7, QA56
+ecom-svc-registry-webapp 3.15.2  helm 2.6.8     branch: release   #uat3
+ecom-app-product 14.1.17  helm 2.1.11    branch: release-14.1.x   #Uat
+ecom-app-customer 8.3.0  helm 7.2.3  branch: release              #Bpv
+etcd-syncapp-config 1.7.1
+
+[MEAD-39341] MFE 23.09 update
+
+Updated  MFE 23.09 versions for UAT4, CAUAT4, QA56, RGS2, UAT7, CAUAT7 environments.
+
+
+
+
+
+
+
+MEAD-39619
+MFE/DP 23.10
+1) ecom-app-shop 6.60.5 HELM- 2.42.10  CUSTOM BRANCH- release-6.60.x   -   #rgs2, #uat2, #uat4, uat7
+2) ecom-app-global- 5.12.7  HELM- 3.5.0   No custom branch, please ensure that branch in rundeck is listed as release  -  #rgs2, #uat2, #uat4, uat7, #QA56
+3) #ecom-app-registry- 5.104.0   HELM-1.31.16     No custom branch, please ensure that branch in rundeck is listed as release  -  #UAT
+4) #ecom-app-product- 14.6.20  HELM-2.1.21   CUSTOM Branch - release-14.6.x   -   #UAT
+5) #ecom-app-order-servicing-5.3.1  HELM-3.1.4    No custom branch, please ensure that branch in rundeck is listed as release   -    #Uat, #rgs1
+6) #ecom-svc-order-servicing-3.1.1  HELM- 1.15.2   Branch detail in rundeck not relevant for SVCs      -    #UAT
+7) #ecom-app-customer- 8.3.0   HELM-7.2.6   CUSTOM BRANCH- release-8.3.x  -   #Bpv    
+8) #ecom-app-content -1.9.5  HELM-2.4.12  No custom branch, please ensure that branch in rundeck is listed as release     -     #Uat, #qa56, #RGS2
+9) etcd-syncapp-config-1.9.7 (for both Domestic and Canada)
+
+
+[MEAD-39619] MFE 23.10 update
+https://github.wsgc.com/RKrishna2/env-manifest/
+
+app_version: 5.12.7
+
+
+
+
+MEAD-39866
+MFE Applications and SVCs
+===================
+1) ecom-app-shop 6.63.8     #rgs2, #uat2, #uat4, #uat7
+2) ecom-app-global - 5.12.8 helm -3.5.1 CUSTOM BRANCH-release-5.12.x    #rgs2, #uat2, #uat4, #uat7, #QA56
+#3) ecom-app-registry-5.107.7 helm-1.31.25    #UAT
+#4) ecom-app-phygital -2.28.2 helm-1.20.2     #UAT
+#5) ecom-app-product - 14.10.29 helm -2.2.1 CUSTOM BRANCH-release-14.10.x    #UAT
+#6) ecom-app-order-servicing-5.4.3   HELM-3.2.3    #Uat, #rgs1
+#7) ecom-app-customer-8.5.3  HELM-7.4.4   #Bpv  
+#8) ecom-app-content-1.10.2  HELM-2.6.1    Custom branch - release-1.10.x    #Uat, #qa56, #RGS2
+9) etcd-syncapp-config -1.10.3 (for both markets)    Uat4,Cauat4,Cauat7,Uat7, QA56, RGS2 
+
+
+
+[MEAD-39866] MFE 23.11 update
+
+            app_version: 6.63.8
+            app_branch: eCommerce-Bedrock/ecom-svc-catalog-webapp/release
+            app_branch: eCommerce-Bedrock/ecom-app-content/release-1.10.x
+            app_branch: eCommerce-Bedrock/ecom-app-global/release-5.12.x
+
+
+
+
+
+MEAD-41012
+MFE/DP 23.12-Post PROD release activity (day1)- Please deploy MFE apps for 13 brands to non-prod envs - requested by EOD, July 25th
+13 brands- (RJ domestic, GR, CAN brands)
+
+NON-PROD envs:
+MEAD= UAT4, QA56, RGS2, UAT7, CAUAT7
+
+ 
+
+MFE Applications and SVCs
+===================
+1. ecom-app-shop 6.65.5       #rgs2, Uat2, #uat4, #uat7
+   helm 2.46.5
+   branch: release-6.65.x
+
+2. ecom-app-global 5.17.0       #rgs2, uat2, #uat4, #uat7, #QA56
+   helm 3.8.0
+   branch: release-5.17.x
+
+3. ecom-app-registry 5.107.8   #UAT
+    helm 1.31.26
+    branch: release
+
+4. ecom-app-product 16.1.31     #UAT
+    helm 2.4.4
+    branch: release-16.1.x
+
+5. ecom-app-customer 8.5.5    #BPV
+     helm 7.4.7
+     branch: release
+
+6. ecom-app-content 1.10.10      #Uat, #qa56, #RGS2
+    helm 2.6.7
+    branch: release-1.10.x
+
+7. ecom-svc-customer 10.3.2        #Uat
+    helm 6.3.0
+
+8. etcd-syncapp-config 1.11.2 Uat4,Cauat4,Cauat7,Uat7, QA56, RGS2
+
+
+
+
+._rRs0V1rFl0Cf{
+
+
+
+[MEAD-41012] MFE 23.12 update
+
+
+
+
+
+MEAD-41761 MFE 23.13
+
+ecom-app-shop 6.70.8 helm 2.48.7 branch: release-6.70.x  #rgs2, #Uat2, #uat4, uat7
+ecom-app-global 5.22.1 helm 3.9.6 branch: release-5.22.x  #rgs2, #uat2, #uat4, uat7, #QA56
+#ecom-app-registry 5.108.0 helm 1.32.0 branch: release #UAT
+#ecom-app-phygital 2.29.0 helm 1.20.4 branch: release  #UAT
+#ecom-app-product 16.13.14 helm 2.8.5 branch: release-16.13.x #UAT
+#ecom-app-content 2.4.0 helm 2.8.0 branch: release #Uat, #qa56, #RGS2
+#ecom-svc-content-webapp  helm 1.10.0
+#ecom-svc-order-servicing 3.2.2 helm 1.16.3 branch: release #Uat
+etcd-syncapp 1.11.16
+ 
+These should also have mfe-2313 brand configs
+
+[MEAD-41761] MFE 23.13 Update
+
+eCommerce-Release-Management/mfe-2313
+
+
+g1H+C/Gm.B)wi7b
+
+
+
+
+
+
+
+MEAD-42410 MFE 23.14
+
+MFE Applications and SVCs
+===================
+ecom-app-shop 6.75.14 helm 2.49.4 branch: release-6.75.x     #rgs2, #Uat2, #uat4, uat7
+ecom-app-global 5.26.2 helm 3.12.3 branch: release-5.26.x    #rgs2, #uat2, #uat4, uat7, #QA56
+ecom-app-registry 6.0.3 helm 2.0.5 branch: release  #UAT
+ecom-app-phygital 2.30.0 helm 1.21.0 branch: release  #UAT
+ecom-app-product 16.14.38 helm 2.8.21 branch: release-16.14.x #UAT   
+ecom-app-order-servicing 5.7.4 helm 3.5.0 branch: release-5.7.c   #Uat, rgs1
+ecom-svc-registry-webapp 3.15.3 helm 2.6.10  #UAT3
+ecom-svc-order-servicing 3.2.3 helm 1.16.10 #UAT
+etcd-syncapp-config 1.11.21
+
+
+[MEAD-42410] MFE 23.14 Update
+
+eCommerce-Release-Management/mfe-2314 -   MEAD-42414
+
+
+
+[MEAD-43833] - MFE/DP 23.16
+
+ecom-app-shop 7.4.7 helm 3.0.11 branch: release  #UAT4, UAT7, #RGS2, #UAT2, 
+ 
+ecom-app-global 5.37.2 helm 3.16.4 branch: release #UAT4, UAT7, #RGS2, #QA56
+
+ecom-app-registry 6.1.4 helm 2.1.5 branch: release-6.1.x  #UAT
+
+ecom-app-product 16.26.56 helm 2.10.2 branch: release-16.26.x #UAT
+
+ecom-app-order-servicing 5.13.0 helm 3.11.2 branch: release  #UAT
+
+ecom-svc-registry-webapp 3.15.6 helm 2.6.28  #UAT3
+
+ecom-svc-order-servicing 4.0.1 helm 2.0.0  #UAT
+
+ecom-app-customer 8.8.2 helm : 7.5.2 branch: release  #BPV
+
+ecom-svc-customer 10.4.1 Helm : 6.3.6 branch: release #UAT
+
+ecom-app-content 2.6.4 Helm : 2.9.7 branch: release #RGS2, #QA56, #UAT
+
+ 
+
+etcd-syncapp-config 1.0.8
+
+
+[MEAD-43833] MFE 23.16 Update
+
+app_version: 7.4.7  - shop
+app_version: 5.37.2 - global
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100287 and Department number to use is 9946
+Department code: 9802 , Project Number: eCom Shared Services
+101084 - 5454
+101124
+
+
+
+
+
+
+
+Venkatest madigonda, krishna, ramis raees
+
+
+https://jira.wsgc.com/browse/MEAD-37707
+6:47
+can some one take a look at this ?
+6:49
+Is the cert residing on k8s? Maybe containerops can look?
+Looks like C3 team need this addressed asap, please check
+
+
+
+
+BRAINTREE_ACCOUNT.ENVIRONMENT.qa1.s=sandbox
+
+
+Enable QA54 for WE CAN
+
+
+ossrck-vicn009.wsgc.com
+search-orchestrator-ca-qa-rk1v.wsgc.com
+
+
+"/shoppingcart/*",
+"/m/shoppingcart/*",
+
+[MEAD-37889] added shoppingcart paths to MFE
+[MEAD-37909] updated customer and shopping cart paths
+
+  SSLCertificateFile /etc/pki/tls/certs/oss-search-orchestrator-ca-qa.wsgc.com.pem
+  SSLCertificateChainFile /etc/pki/tls/certs/oss-search-orchestrator-ca-qa.wsgc.com.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/oss-search-orchestrator-ca-qa.wsgc.com.key
+DNS NAME:
+search-orchestrator-ca-qa-rk1v.wsgc.com
+ossrck-vicn009.wsgc.com
+ossrck-vicn009.wsgc.com
+search-orchestrator-ca-qa.wsgc.com
+
+COMMON NAME: search-orchestrator-ca-qa-rk1v.wsgc.com
+
+
+openssl rsa -in oss-search-orchestrator-ca-qa.wsgc.com.key -out oss-search-orchestrator-ca-qa.wsgc.com.key -passin pass:5ivaRamaColby7hom5r33kar##
+
+openssl x509 -in ossrck-vicn009.crt -out oss-search-orchestrator-ca-qa.wsgc.com.pem
+
+  SSLCertificateFile /etc/pki/tls/certs/oss-search-publisher-ca-qa.wsgc.com.pem
+  SSLCertificateChainFile /etc/pki/tls/certs/oss-search-publisher-ca-qa.wsgc.com.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/oss-search-publisher-ca-qa.wsgc.com.key
+
+https://github.wsgc.com/eCommerce-DevOps/env-manifest/pull/1114
+
+
+q@7BPM.Iq~Lcpoe
+eferck-vdcn017.wsgc.com:Swap Usage
+
+
+SWAP is under the threshold
+/var/log/weblogs is under the threshold
+
+Cleared unwanted processes
+compressed older logs
+
+
+/customer-service/address-change/*
+/m/customer-service/address-change/*
+
+/customer-service/charge-details/*
+/m/customer-service/charge-details/*
+
+      			QA54 		CAUAT3
+ecom-app-product 
+
+  SSLCertificateFile /etc/pki/tls/certs/oss-search-publisher-ca-qa.wsgc.com.pem
+  SSLCertificateChainFile /etc/pki/tls/certs/oss-search-publisher-ca-qa.wsgc.com.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/oss-search-publisher-ca-qa.wsgc.com.key
+
+
+
+/customer-service/shipping-info-b2b/*
+/pages/st-jude/*
+
+
+/pages/*
+/m/pages/*
+/shoppingcart/*
+/m/shoppingcart/*
+/services/shoppingcart/*
+/m/services/shoppingcart/*
+/customer-service/catalog-request/*
+/m/customer-service/catalog-request/*
+/customer-service/email-us/*
+/m/customer-service/email-us/*
+/customer-service/email-preferences/*
+/m/customer-service/email-preferences/*
+/customer-service/international-email-list/*
+/m/customer-service/international-email-list/*
+/customer-service/intl-order-tracking/*
+/m/customer-service/intl-order-tracking/*
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+/customer-service/mailing-options/*
+/m/customer-service/mailing-options/*
+/customer-service/address-change/*
+/m/customer-service/address-change/*
+/customer-service/*
+/m/customer-service/*
+/internationalcheckout/*
+/checkout/issue/*
+/m/checkout/issue/*
+/checkout/*
+/m/checkout/*
+/thekey/*
+/m/thekey/*
+/
+/m/
+/content/ecm/*
+/index.html
+/m/index.html
+/account/updatephonenumber.html
+/account/emailupdate/confirm-thanks.html
+/account/confirm-thanks.html
+/m/account/confirm-thanks.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+/aos/*
+/m/aos/*
+/aos/special-sale/*
+/m/aos/special-sale/*
+/trade-signin/*
+/m/trade-signin/*
+/about-us/*
+/m/about-us/*
+/resources/*
+/m/resources/*
+/cc/*
+/m/cc/*
+/recommendations/*
+/m/recommendations/*
+/room/*
+/m/room/*
+/room/shop-by-room/*
+/m/room/shop-by-room/*
+/sitemap.html
+
+
+
+
+
+QA43: "/m/account/confirm-thanks.html",
+
+
+
+
+
+WE-RGS1
+Generation Info
+ECMMSG	823090920.0
+MSG	270267712.0
+ENDECA	220030210.0
+ODIS_SERVICE	210631618.0
+ECMPAGES	823091114.0
+MISC	270267712.0
+PROMOS	0.0
+PROMO_VIZ	0.0
+ROOMS	20090721.0
+TMPL	270267712.0
+ECMCS	823090919.0
+ECMHOMEPAGE	823091149.0
+CAT	323022016.0 
+HOMEPAGE	20121109.0
+ODIS	163456713.0
+ECMPROMOS	823091148.0
+FEED_ID	322112817-202302150356-202302150356
+DOMAIN_KEY	westelm_qa
+
+COF.WSI.PFD.TEST.ACCT.20220818.103951.DailyAccountMaster.dat
+
+
+/customer-service/charge-details/*
+
+
+
+/m/checkout/issue/*
+/checkout/issue/*
+/checkout/
+/m/checkout/
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+
+
+
+INC002785576 - dparck-vicn235.wsgc.com:CPU Usage
+
+
+PIP_ASSORTMENT_CONFIGURATION.BUNDLESET_EXPLODING_ENABLED true
+
+
+WS:
+
+/registry/.info/summary.html
+/registry/*/registry-list.html*
+/m/registry/*/registry-list.html*
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+
+/registry/*/update.html
+/m/registry/*/update.html
+/api/registry/*
+/registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+
+Missing
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+
+
+
+WE:
+
+/registry/.info/summary.html
+/registry/*/registry-list.html*
+/m/registry/*/registry-list.html*
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+/account/login.html
+/m/account/login.html
+
+/registry/*/update.html
+/m/registry/*/update.html
+/api/registry/*
+
+
+
+
+
+PB:
+
+
+/registry/.info/summary.html
+/registry/*/registry-list.html*
+/m/registry/*/registry-list.html*
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+/registry/find.html
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+
+/registry/*/update.html
+/m/registry/*/update.html
+/api/registry/*
+/registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+
+
+
+PK:
+
+
+
+/registry/.info/summary.html
+/registry/*/registry-list.html*
+/m/registry/*/registry-list.html*
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+/registry/find.html
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+
+/registry/*/update.html
+/m/registry/*/update.html
+/api/registry/*
+/registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+
+
+
+/customer-service/
+
+
+
+
+
+PB,PK,PT are still routing to MFE even though added paths in exclusion list.
+https://www.uat3.pbteen.ca/customer-service/shipping-info/
+https://www.uat3.potterybarnkids.ca/customer-service/shipping-info/
+https://www.uat3.potterybarn.ca/customer-service/shipping-info/
+
+Checking the issue 
+
+https://regression.williams-sonoma.ca/customer-service/shipping-info/
+
+
+https://regression.westelm.ca/customer-service/shipping-info/
+https://regression.pbteen.ca/customer-service/shipping-info/
+https://regression.potterybarnkids.ca/customer-service/shipping-info/
+https://regression.potterybarn.ca/customer-service/shipping-info/
+
+
+
+
+
+          "/pages/*",
+          "/m/pages/*",
+          "/shoppingcart/*",
+          "/m/shoppingcart/*",
+          "/services/shoppingcart/*",
+          "/m/services/shoppingcart/*",
+          "/customer-service/catalog-request/*",
+          "/m/customer-service/catalog-request/*",
+          "/customer-service/email-us/*",
+          "/m/customer-service/email-us/*",
+          "/customer-service/email-preferences/*",
+          "/m/customer-service/email-preferences/*",
+          "/customer-service/international-email-list/*",
+          "/m/customer-service/international-email-list/*",
+          "/customer-service/intl-order-tracking/*",
+          "/m/customer-service/intl-order-tracking/*",
+          "/customer-service/email-list/*",
+          "/m/customer-service/email-list/*",
+          "/customer-service/mailing-options/*",
+          "/m/customer-service/mailing-options/*",
+          "/customer-service/address-change/*",
+          "/m/customer-service/address-change/*",
+          "/customer-service/*",
+          "/m/customer-service/*",
+          "/internationalcheckout/*",
+          "/checkout/issue/*",
+          "/m/checkout/issue/*",
+          "/checkout/*",
+          "/m/checkout/*",
+          "/thekey/*",
+          "/m/thekey/*",
+          "/",
+          "/m/",
+          "/content/ecm/*",
+          "/index.html",
+          "/m/index.html",
+          "/account/updatephonenumber.html",
+          "/account/emailupdate/confirm-thanks.html",
+          "/account/confirm-thanks.html",
+          "/m/account/confirm-thanks.html",
+          "/account/create.html",
+          "/m/account/create.html",
+          "/m/account/landing.html",
+          "/account/logout.html",
+          "/m/account/logout.html",
+          "/aos/*",
+          "/m/aos/*",
+          "/aos/special-sale/*",
+          "/m/aos/special-sale/*",
+          "/trade-signin/*"
+          "/m/trade-signin/*",
+          "/about-us/*",
+          "/m/about-us/*",
+          "/resources/*",
+          "/m/resources/*",
+          "/cc/*",
+          "/m/cc/*",
+          "/recommendations/*",
+          "/m/recommendations/*",
+          "/room/*",
+          "/m/room/*",
+          "/room/shop-by-room/*",
+          "/m/room/shop-by-room/*",
+          "/sitemap.html",
+
+
+[MEAD-37682] Updated paths to route to MFE
+
+
+MEAD-36735
+/api/designer/v1/*
+/trade-signin/login.html
+/m/trade-signin/login.html
+
+https://dparck-vicn203/admin/summary.html
+dparck-vicn210
+dparck-vicn211 
+dparck-vicn213
+dparck-vicn242
+dparck-vicn296
+dparck-vicn298
+
+
+etolok: -, admin, WebAdmins
+
+/checkout/app/shipping.html*
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+/m/checkout/issue/
+/checkout/issue/
+/checkout/
+/m/checkout/
+
+
+Rama Krishna OOO 6-7th MAR
+
+Hi Team,
+
+
+I will be OOO on 6th and 7th of March. I have family function to attend and will be travelling to Hyderabad. 
+
+Thanks and regards,
+Rama Krishna Yalla.
+
+
+
+
+ 
+
+ 
+
+
+
+http://dparck-vicn004.wsgc.com/admin/summary.html site can't be reached
+http://dparck-vicn005.wsgc.com/admin/summary.html site can't be reached
+http://dparck-vicn006.wsgc.com/admin/summary.html site can't be reached
+
+https://dparck-vicn008.wsgc.com/admin/summary.html Application error
+https://dparck-vicn009.wsgc.com/admin/summary.html application error
+
+https://dparck-vicn011.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn012.wsgc.com/admin/summary.html site can't be reached
+
+https://dparck-vicn020.wsgc.com/admin/summary.html session provider error
+
+https://dparck-vicn023.wsgc.com/admin/summary.html proxy error
+https://dparck-vicn028.wsgc.com/admin/summary.html proxy error
+https://dparck-vicn033.wsgc.com/admin/summary.html proxy error
+https://dparck-vicn036.wsgc.com/admin/summary.html proxy error
+https://dparck-vicn038.wsgc.com/admin/summary.html proxy error
+
+https://dparck-vicn043.wsgc.com/admin/summary.html service unavailable
+
+https://dparck-vicn045.wsgc.com/admin/summary.html proxy error
+https://dparck-vicn050.wsgc.com/admin/summary.html proxy error
+
+https://dparck-vicn054.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn055.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn056.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn057.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn059.wsgc.com/admin/summary.html proxy error
+
+https://dparck-vicn066.wsgc.com/admin/summary.html proxy error
+http://dparck-vicn068.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn076.wsgc.com/admin/summary.html Proxy error
+https://dparck-vicn077.wsgc.com/admin/summary.html Proxy error
+https://dparck-vicn079.wsgc.com/admin/summary.html Proxy error
+https://dparck-vicn087.wsgc.com/admin/summary.html site can't be reached
+https://dparck-vicn136.wsgc.com/admin/summary.html
+
+
+
+
+http://wcmrck-vicn002:38600/
+
+
+wcmrck-vicn036
+wcmrck-vicn038
+wcmrck-vicn067
+wcmrck-vicn068
+wcmsac-vicn013
+wcmsac-vicn014
+wcmsac-vicn015
+wcmsac-vicn025
+wcmsac-vicn026
+
+
+
+
+
+MEAD-36766
+#Uat3, #Uat4, rgs2, #uat7, cauat3, #qa54, qa56, #rgs1, qa, #regression, 
+ecom-app-shop -6.22.17  eCommerce-Bedrock/ecom-app-shop/release-6.22.x   uat4,uat3,rgs2,uat7,cauat3
+ecom-app-global-4.11.13 eCommerce-Bedrock/ecom-app-global/release-4.11.x  uat4,qa56,rgs2,uat7,cauat3
+#ecom-app-registry- 5.96.2 uat3,qa
+#ecom-app-phygital-2.20.6  uat3,qa54,regression
+#ecom-app-product- 8.19.16 eCommerce-Bedrock/ecom-app-product/release-8.19.x uat3
+#ecom-app-order-servicing-3.47.0 uat3,rgs1
+#ecom-svc-order-servicing-1.13.2 uat3,rgs1
+#ecom-app-customer-5.3.5 uat3,regression
+#ecom-svc-customer-10.1.2 uat3,rgs1
+
+[MEAD-36766] updated MFE 23.02 versions
+
+#Uat, #uat3, #uat4, #cauat3, #uat7, #qa56, #rgs1, #rgs2, #regression, #qa, bpv, qa54
+ecom-app-shop - https://github.wsgc.com/eCommerce-Bedrock/ecom-app-shop/tree/release-6.11.x/ 6.11.18 - uat4, rgs2, uat3, uat7, cauat3
+ecom-app-global - release/4.7.7 - uat4, cauat3, uat7, qa56, rgs2
+ecom-app-registry - release/5.93.2  -- uat, uat3, qa
+ecom-svc-registry-webapp - release/3.12.2 - uat3, qa
+ecom-app-phygital - release / 2.16.4 - uat, uat3, qa54, regression
+ecom-app-product - release-8.6.x / 8.6.31 - uat, uat3, 
+ecom-app-order-servicing - release / 3.42.2 - uat, uat3, rgs1
+ecom-svc-order-servicing - release / 1.12.7 - uat, uat3, rgs1
+ecom-app-customer - release / 5.0.6 - bpv, uat3, regression
+ecom-svc-customer - release / 10.0.1 - uat, uat3, rgs1
+ecom-svc-content-webapp - release / 1.6.8 - uat, qa
+ 
+
+[MEAD-36140] Updated app versions
+
+            app_branch: eCommerce-Bedrock/pricing-service/release
+            app_version: 6.41.1
+
+app_branch: eCommerce-Bedrock/ecom-app-customer/release
+
+
+[MEAD-37698] Updated shop version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+dparck-vicn048
+dparck-vicn155
+dparck-vicn208
+dparck-vicn214
+dparck-vicn232
+dparck-vicn258
+dparck-vicn259
+eferck-vdcn014
+eferck-vicn032
+eferck-vicn089
+jnkrck-vicn010
+ossrck-vicn008
+wcmrck-vicn056
+
+
+
+aemrck-vicn020
+
+
+casrck-vicn004
+catrck-vicn009
+catrck-vicn012
+
+
+
+wmsrck-virh046
+
+
+PIP_ASSORTMENT_CONFIGURATION.BUNDLESET_EXPLODING_ENABLED.b=true
+MERCH_BUNDLE_DATA.PROCESS_MERCHANDISED_BUNDLE_SKUS.b=true
+
+
+
+
+MEAD-36508
+
+INCLUSION LIST : Route to ADG
+
+===============================
+
+M.Tech JNTUH/
+AUROBINDO ENGINEERING COLLEGE
+
+2013-2016 77.88%
+
+
+Resignation steps:
+1. Login to https://compass.talent.cognizant.com/psp/HCMPRD/EMPLOYEE/HRMS/c/CT_ADMINISTER_WORKFORCE.CT_SP_RESIG_SUB.GBL?Page=CT_SP_RESIG_SUB&Action=U
+2. This will show the effective date as today by default, you have to select the reason from the dropdown.
+3. Select the checkbox under ""Terms and Conditions"" and Submit.
+Note :
+1. Once submitted, the request will be sent as an email to your HCM Supervisor and Talent Manager.
+2. Please get in touch with your Talent Manager for further queries related to resignation.
+
+
+
+
+
+
+
+
+
+
+
+cof_ext_transactions
+dtc_order_transaction_feed - feeds 
+kobie_daily_card_accounts_status only inbound folder
+kobie_daily_card_accounts_updates feeds available
+kobie_daily_card_reward_feeds feeds 
+kobie_reward_summary no feeds
+els_account_daily_feed feeds
+retail_order_transaction_feed feeds
+
+
+
+d612e4fc-3b53-4e6b-a2e2-7091a49fffd6_SALE.xml feb12
+fa49f3d5-16b3-483a-b49f-d0bfc11bf016_SALE.xml feb15
+f9b1c5a0-dfa1-4a28-837a-9f373491cc28_SALE.xml feb15th
+
+
+/
+/m/
+/content/ecm/
+/index.html
+/pages/
+/m/pages/
+/shoppingcart/
+/m/shoppingcart/
+/services/shoppingcart/
+/m/services/shoppingcart/
+/internationalcheckout/
+/checkout/issue/
+/m/checkout/issue/
+/checkout/
+/m/checkout/
+/thekey/
+/m/thekey/
+/customer-service/catalog-request/
+/m/customer-service/catalog-request/
+/customer-service/email-us/
+/m/customer-service/email-us/
+/customer-service/email-preferences/
+/m/customer-service/email-preferences/
+/customer-service/intl-order-tracking/
+/m/customer-service/intl-order-tracking/
+/customer-service/email-list/
+/m/customer-service/email-list/
+/customer-service/mailing-options/
+/m/customer-service/mailing-options/
+/customer-service/
+/m/customer-service/
+/customer-service/address-change/ 
+/m/customer-service/address-change/
+/customer-service/international-email-list/
+/m/customer-service/international-email-list/
+/customer-service/order-tracking/
+/m/customer-service/order-tracking/
+/customer-service/join-email.jsonp
+/customer-service/additional-options/
+/customer-service/business-sales/
+/customer-service/gift-services/ 
+/account/updatephonenumber.html
+/account/emailupdate/confirm-thanks.html
+/account/confirm-thanks.html
+/m/account/confirm-thanks.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+/account/keyrewards/key-credit-rewards.json
+/m/account/keyrewards.html
+/account/keyrewards.html
+/aos/special-sale/
+/m/aos/special-sale/
+/about-us/
+/m/about-us/
+/design-studio/
+/sitemap.html
+/aos/
+/m/aos/
+/trade-signin/
+/recommendations/
+/cacheable/availability/getDeliveryInformationByPostalCode.json
+
+ 
+
+EXCLUSION LIST : Route to DP
+
+===============================
+
+/pages/popups/
+/pages/overlay/
+/pages/overlays/
+/pages/xbrand-rows/
+/m/pages/xbrand-rows/
+/pages/fragments/
+/pages/xbrand-landing/
+/m/pages/xbrand-landing/
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+/customer-service/popup/communication-preferences.html
+/customer-service/popup/communications-preferences-thank-you.html
+/m/customer-service/confirm-mobile-email-signup.html
+
+
+
+  ecom-app-order-servicing:
+    name: ecom-app-order-servicing
+    type: helm
+    org: ecom
+    shared: false
+    helm_config_packaging:
+      - packaging:
+          branch_only_config:
+            helm_config_pkg_branch: eCommerce-Flatirons/ecom-app-order-servicing-helm-config/release
+            app_branch: eCommerce-Flatirons/ecom-app-order-servicing/HLFD-1318
+
+
+
+
+MEAD-36279
+/customer-service/b2b-order-history.html*
+
+
+
+
+MEAD-36165
+/trade-signin/shopnow.html
+/m/trade-signin/shopnow.html
+
+
+
+#Uat, #uat3, #uat4, #cauat3, #uat7, #qa56, #rgs1, #rgs2, #regression, #qa, bpv, qa54
+ecom-app-shop - https://github.wsgc.com/eCommerce-Bedrock/ecom-app-shop/tree/release-6.11.x/ 6.11.18 - uat4, rgs2, uat3, uat7, cauat3
+ecom-app-global - release/4.7.7 - uat4, cauat3, uat7, qa56, rgs2
+ecom-app-registry - release/5.93.2  -- uat, uat3, qa
+ecom-svc-registry-webapp - release/3.12.2 - uat3, qa
+ecom-app-phygital - release / 2.16.4 - uat, uat3, qa54, regression
+ecom-app-product - release-8.6.x / 8.6.31 - uat, uat3, 
+ecom-app-order-servicing - release / 3.42.2 - uat, uat3, rgs1
+ecom-svc-order-servicing - release / 1.12.7 - uat, uat3, rgs1
+ecom-app-customer - release / 5.0.6 - bpv, uat3, regression
+ecom-svc-customer - release / 10.0.1 - uat, uat3, rgs1
+ecom-svc-content-webapp - release / 1.6.8 - uat, qa
+ 
+
+[MEAD-36140] Updated app versions
+
+            app_branch: eCommerce-Bedrock/pricing-service/release
+            app_version: 2.16.4
+
+https://ecombuild.wsgc.com/jenkins/job/adhoc-manifest/
+
+
+Uat:
+  ecom-svc-content:
+    name: ecom-svc-content
+    type: helm
+    org: ecom
+    shared: true
+    helm_config_packaging:
+      - packaging:
+          branch_only_config:
+            helm_config_pkg_branch: eCommerce-Kubernetes-Bedrock/ecom-svc-content-helm-config/release
+            app_branch: eCommerce-Castle/ecom-svc-content-webapp/PM-16234
+
+MEAD-36208
+/trade-signin/login.html*
+/m/trade-signin/login.html*
+
+MEAD-36190
+/
+/m/
+
+
+
+
+app_branch: eCommerce-Castle/ecom-svc-content-webapp/debug-PM-16234
+
+
+        SSLCertificateFile      /etc/pki/tls/certs/invadj.pem
+        SSLCertificateChainFile /etc/pki/tls/certs/invadj.pem
+        SSLCertificateKeyFile   /etc/pki/tls/private/invadj.key
+
+Build system:
+  SSLCertificateFile /etc/pki/tls/certs/localhost.crt
+  SSLCertificateChainFile  /etc/pki/tls/certs/wsi-root-intermediate.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+
+Bgb:
+  SSLCertificateFile /etc/pki/tls/certs/bgb-ca-uat1-sac1v.wsgc.com.pem
+  SSLCertificateChainFile  /etc/pki/tls/certs/wsi_intermediate_root.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/bgb-ca-uat1-sac1v.wsgc.com.key
+
+bgb-uat1-ca-sac1v_wsgc_com.crt
+
+1001283
+
+
+MEAD-36256
+
+/account/*
+/m/account/*
+/customer-service/*
+/trade-signin/*
+/m/trade-signin/*
+
+/appointments/*
+/m/appointments/*
+/events/*
+/m/events/*
+/my-design-projects/*
+/m/my-design-projects/*
+/stores/*
+/stores-pb/*
+/stores-pk/*
+/stores-pt/*
+/m/stores/*
+/style-quiz/*
+/design-services/*
+
+/style-quiz-v1/*
+
+https://jira.wsgc.com/browse/MEAD-36269
+https://jira.wsgc.com/browse/MEAD-36258
+https://jira.wsgc.com/browse/MEAD-36270
+/account/login.html
+/m/account/login.html
+/api/designer/v1/*
+/trade-signin/login.html
+/m/trade-signin/login.html
+
+
+
+
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/ecom-app-global/job/eqa3/
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/ecom-app-config-all/job/qa31/
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/ecom-app-shop/job/eqa3/
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/ecom-app-product/job/regression/
+
+
+
+
+RECOMMENDATION.FAVORITES_ENABLED.cargs1.b=true
+SHOPPING_CART_LAYOUT.SHOW_ALL_CHECKOUT_PAYMENT_OPTION_BUTTONS_DESKTOP_ENABLED.cargs1.b=true
+
+09SpgTp6EPD2PpmBvzsG
+
+
+
+
+
+
+MG-QA9 - https://jira.wsgc.com/browse/MEAD-34740
+35314
+35348
+Item: 6635077
+QA11-WS 
+SKU: 2531001
+SKU: 207054
+SKU: 8172637
+
+PRICING.B2B_BEST_PRICE_DISPLAY_AT_REGULAR_PRICE_ENABLED.qa10.b=false
+PRICING.PROMOTION_VISIBILITY_LAZY_LOAD.qa10.b=true
+PRICING.VERTEX_TAX_SUPPORT_ENABLED.qa10.b=true
+
+Server:  sftp://ftp.4cite.com
+Username: williams_sonoma
+Password: kfrf5kT3
+
+
+/trade-signin/shopnow.htmll
+/m/trade-signin/shopnow.html
+
+
+MEAD-35519
+MEAD-35515
+/account/login.html*
+/m/account/login.html*
+/api/designer/v1/*
+/trade-signin/login.html*
+/m/trade-signin/login.html*
+
+
+MEAD-35533
+/trade-signin/*
+/m/trade-signin/*
+/api/designer/v1/*
+
+
+MEAD-35588,MEAD-35560
+/account/login.html
+/m/account/login.html
+/api/designer/v1/*
+/trade-signin/login.html
+/m/trade-signin/login.html
+
+
+
+PAYMENT.TOKENIZATION_EPS_URLS.regadminqa
+
+
+MEAD-35493
+
+MEAD-36283
+/trade-signin/login.html
+/m/trade-signin/login.html
+/trade-signin/
+/m/trade-signin/
+
+
+	MEAD-35493,MEAD-35470,MEAD-35469
+ 2074294 - WS-QA46
+SKU: 5354159
+
+/pages/business-to-business/*
+
+35386
+/api/designer/v1/*
+/trade-signin/
+/m/trade-signin/
+
+
+
+UAT3-PB
+/registry/.info/summary.html
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find.html*
+/registry/find-registry.html*
+/registry/search-registry.html*
+/registry/account-linking-search.html*
+/m/registry/find.html*
+/m/registry/find-registry.html*
+/m/registry/search-registry.html*
+/m/registry/account-linking-search.html*
+
+/registry/.info/summary.html*
+
+
+MEAD-36372
+#BPV, #UAT, #UAT1, #UAT2, #UAT4, #UAT7, #UAT3, #RGS1, #RGS2, QA56, QA54, #regression
+Applications
+===================
+#ecom-app-shop 6.17.11 -- branch: release-6.17.x --- app_branch: eCommerce-Bedrock/ecom-app-shop/release-6.17.x -- bpv, uat1, uat2, uat4, uat7, rgs2, uat3
+
+#ecom-app-global 4.8.1 ---- branch: release-4.8.x --- app_branch: eCommerce-Bedrock/ecom-app-global/release-4.8.x --- bpv, uat1, uat2, uat4, uat7, rgs2, qa56, 
+
+ecom-app-phygital 2.17.0 -- Uat, uat3, regression, qa54, 
+
+#ecom-app-product 8.12.14 ---- branch: release-8.12.x -- app_branch: eCommerce-Bedrock/ecom-app-product/release-8.12.x -- bpv, uat, uat3, 
+
+#ecom-app-customer 5.2.2 --- uat3, regression, bpv..
+
+
+Services
+=========
+#ecom-svc-customer 10.0.1  -- uat3, uat, rgs1, 
+
+
+
+
+[MEAD-36372] MFE 23.01 update
+
+
+
+
+
+
+
+
+
+
+Hello Rama, Divakar,
+ 
+The new project for 2023 is 1000386470 (WSI-Tibco-T&M-2023).
+You will need to log time to this project from 1st Feb 2023 as the current project ends on 31st Jan 2023.
+ 
+@Sudevan, Sheeba (Cognizant) – can you please get TSOs created for them on the new project effective 1st Feb 2023?
+ 
+Rama’s release has been cancelled on ESA so he should be back on the current project. Please check on that once.
+ 
+Thanks
+Subha
+
+
+PFB the details of the assignment created.
+
+SO ID :
+SO Line Number :0
+Employee ID :818381
+Employee Name :yalla,Rama krishna
+Assignment ID :0012783105
+Project ID :1000137356
+Project Name :PDP-EAS-IPM-GDC-OFF-Del
+Assignment Start Date :2023-02-06
+Assignment End Date :2023-12-31
+Assignment Location : INKABLRA10 - BLR - MBP - G3 - SEZ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+QA61-PB:
+/registry/.info/summary.html
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+
+/registry/*/registry-list.html*
+/registry/create.html*
+/m/registry/create.html*
+/registry/registry-login.html*
+/m/registry/registry-login.html*
+/registry/create-registry-sign-in.html*
+/m/registry/create-registry-sign-in.html*
+/m/registry/*/registry-list.html
+
+
+
+
+
+
+
+
+
+CUSTOMER_SERVICE.IS_B2B_CONTENT_ENABLED.cargs1.b=false
+
+/
+/m/
+/content/ecm/
+/index.html
+/pages/
+/m/pages/
+/shoppingcart/
+/m/shoppingcart/
+/services/shoppingcart/ 
+/m/services/shoppingcart/
+/internationalcheckout/
+/checkout/issue/
+/m/checkout/issue/
+/checkout/
+/m/checkout/
+/thekey/
+/m/thekey/
+/customer-service/catalog-request/
+/m/customer-service/catalog-request/
+/customer-service/email-us/
+/m/customer-service/email-us/
+/customer-service/email-preferences/
+/m/customer-service/email-preferences/
+/customer-service/intl-order-tracking/
+/m/customer-service/intl-order-tracking/
+/customer-service/email-list/
+/m/customer-service/email-list/
+/customer-service/mailing-options/
+/m/customer-service/mailing-options/
+/customer-service/
+/m/customer-service/
+/customer-service/address-change/ 
+/m/customer-service/address-change/
+/customer-service/international-email-list/
+/m/customer-service/international-email-list/
+/customer-service/order-tracking/
+/m/customer-service/order-tracking/
+/customer-service/join-email.jsonp
+/customer-service/additional-options/
+/customer-service/business-sales/
+/customer-service/gift-services/ 
+/account/updatephonenumber.html
+/account/emailupdate/confirm-thanks.html
+/account/confirm-thanks.html
+/m/account/confirm-thanks.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+/account/keyrewards/key-credit-rewards.json
+/m/account/keyrewards.html
+/account/keyrewards.html
+/aos/special-sale/
+/m/aos/special-sale/
+/about-us/
+/m/about-us/
+/design-studio/
+/sitemap.html
+/aos/
+/m/aos/
+/trade-signin/
+/recommendations/
+/cacheable/availability/getDeliveryInformationByPostalCode.json
+
+
+
+/pages/popups/
+/pages/overlay/
+/pages/overlays/
+/pages/xbrand-rows/
+/m/pages/xbrand-rows/
+/pages/fragments/
+/pages/xbrand-landing/
+/m/pages/xbrand-landing/
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+/customer-service/popup/communication-preferences.html
+/customer-service/popup/communications-preferences-thank-you.html
+/m/customer-service/confirm-mobile-email-signup.html
+
+
+
+
+
+
+
+
+
+
+
+
+LOYALTY.DEFAULT_MAX_PER_ROUTE.i=20
+LOYALTY.ELS_ENDPOINT_URL.s=https://loyalty-qa1-rk1v.wsgc.com/loyalty/v1/loyaltyAccounts
+LOYALTY.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.s=rk.qa.kafka.int.wsgc.com:443
+LOYALTY.KAFKA_TOPIC_PREFIX.s=	QA1.L.
+LOYALTY.LOYALTY_REWARDS_V2_ENABLED.b=true
+LOYALTY.LOYALTY_REWARDS_V3_ENABLED.b=false
+LOYALTY.LRC_COUNT.i=6
+LOYALTY.MAX_TOTAL_CONNECTIONS.i=100
+LOYALTY.PAYMENT_PAGE_AUTO_ENROLLMENT_ENABLED.b=true
+LOYALTY.REWARDS_CERTIFICATE_TITLE.s=Key Reward Certificate
+LOYALTY.TRANSPORT.s=JMS
+
+
+
+PAYMENT.SOCKET_TIMEOUT.i=35000
+PAYMENT.EPS_CONNECTION_POOL_MAX_CONNECTIONS.i=60
+PAYMENT.EPS_CONNECTION_POOL_MAX_CONNECTIONS_PER_ROUTE.i=20
+PAYMENT.TOKENIZATION_FAILOVER_REQUEST_LIMIT.i=3
+
+PAYMENT.EPS_CONNECTION_POOL_TIMEOUT.l=180000
+PAYMENT.MOCKING_ENABLED.b=false
+PAYMENT.TOKENIZATION_DISABLED.b=false
+PAYMENT.TOKENIZATION_EPS_MESSAGE_VERSION.s=1.0.0
+PAYMENT.TOKENIZATION_HTTPS_ENABLED.b=true
+
+
+
+ABANDONED_ORDER.TRANSPORT.s=JMS
+KAFKA
+CANCEL_RESERVATION.TRANSPORT.s=KAFKA
+
+
+
+Listen 49180
+<VirtualHost 10.7.8.142:49180>
+    ServerName   datafeeds
+    DocumentRoot "/apps/dfeed-processor/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes +FollowSymLinks
+        Require all granted
+    </Location>
+    <Location /datafeeds-processor >
+        Options -Indexes
+        Require all granted
+    </Location>
+    <Location /resources >
+        Options -Indexes
+        Require all granted
+    </Location>
+    Alias /logs  "/var/log/weblogs/datafeeds/processor"
+        <Directory "/var/log/weblogs/datafeeds/processor">
+        Options +FollowSymLinks +Indexes +MultiViews
+        AllowOverride None
+        Require all granted
+        Allow from 4.20.98.115
+        Allow from 192.168.0.0/255.255.0.0
+        Allow from 10.130.0.0/255.255.0.0
+        Allow from 10.129.0.0/255.255.0.0
+        Allow from 10.50.0.0/255.255.0.0
+        Allow from 10.130.0.0/255.255.0.0
+        Allow from 10.170.0.0/255.255.0.0
+        Satisfy Any
+       </Directory>
+</VirtualHost>
+
+</VirtualHost>
+
+Listen 38667
+<VirtualHost *:38667>
+    ServerName   dfeed-caqa1-rk1v.wsgc.com:38667
+    ServerAlias  dfeed-caqa1-rk1v:38667
+
+    DocumentRoot "/var/log/weblogs"
+    DirectoryIndex index.html  index.jsp
+    <Location "/server-status">
+        SetHandler server-status
+        Require all granted
+        #Allow from all
+        Satisfy Any
+    </Location>
+    <Location />
+        Options +FollowSymLinks +Indexes +MultiViews
+        Order deny,allow
+        Allow from all
+    </Location>
+    Alias /logs  "/var/log/weblogs/"
+       <Directory "/var/log/weblogs/">
+        Options +FollowSymLinks +Indexes +MultiViews
+        AllowOverride None
+        Require all granted
+        Allow from 192.168.0.0/255.255.0.0
+        Allow from 10.129.0.0/255.255.0.0
+        Allow from 10.50.0.0/255.255.0.0
+        Allow from 4.20.98.115
+        Satisfy Any
+       </Directory>
+</VirtualHost>
+
+
+
+
+Listen 49180
+<VirtualHost 10.7.8.142:49180>
+    ServerName   datafeeds
+    DocumentRoot "/apps/dfeed-processor/"
+    DirectoryIndex index.html  index.jsp
+    <Location />
+        Options +Indexes +FollowSymLinks
+        Order deny,allow
+        Allow from all
+    </Location>
+    <Location /datafeeds-processor >
+        Options -Indexes
+        Order deny,allow
+        Allow from all
+    </Location>
+    <Location /resources >
+        Options -Indexes
+        Order deny,allow
+        Allow from all
+    </Location>
+
+
+
+
+
+MEAD-35125
+www.uat5.markandgraham.com
+
+bkaragoz: -, admin, WebAdmins
+
+CART_CHECKOUT.SERVICE_URI.r=https://ecommerce-cart-checkout-regression.services.west.nonprod.wsgc.com/cartservice/v1/domain/
+https://ecommerce-cart-checkout-qa.services.west.nonprod.wsgc.com/cartservice/v1/domain/us/carts
+
+Index Name
+
+https://uat.origin-svc.potterybarn.com/uat3.potterybarn.com/.delivery/summary/index.html
+
+
+GSD : Your ticket has been raised successfully! Ticket No: INC000639472 (AKAMAI EAA client)
+
+
+cd /Users/818381/Desktop/WSI/svn/devops/application/frontend-2.1/qa/config/app/trunk/we/qa7/src/main/resources/sys/etc/pki/tls/certs
+cd /Users/818381/Desktop/WSI/svn/devops/application/frontend-2.1/qa/config/app/trunk/ws/qa7/src/main/resources/sys/etc/pki/tls/private
+svn commit -m "[MEAD-31551] Updated SSL cert"
+
+
+
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-frontend-lib-rerun-module-tomcat-frontend-2.0
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-rerun-module-tomcat-2.0
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-frontend-service-tomcat8
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-jdk8-202-1.8.0
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-frontend-role-app-2.4
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-frontend-qa-config-app-mg
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-frontend-service-tomcat8
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-mg-frontend-war-2.4
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-jdk11
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-devops-toolchain-node-mg-intdev9-rk1-2.0
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* install wsgc-openjdk11
+
+
+
+
+
+
+https://jira.wsgc.com/browse/MEAD-35049
+https://jira.wsgc.com/browse/MEAD-35048
+
+Disk space on /var is consumed by xml files in the following path 
+path : /var/cache/yum/x86_64/7/wsgc-snapshotrepo/gen
+
+a_vkhadela@efesac-vicn005 gen]$ du -sh *
+914M    primary.xml
+1.1G    primary.xml.sqlite
+
+
+[a_vkhadela@efesac-vicn005 gen]$ df -h /var/
+Filesystem                  Size  Used Avail Use% Mounted on
+/dev/mapper/vg_root-lv_var  3.9G  3.8G     0 100% /var
+
+
+BESTPRICE
+WINTERRIDE
+JACKPOT
+BUMPERWIN
+CRAZYSALE
+
+
+
+authenticate.html 
+/account/logout.html
+/m/account/logout.html 
+
+
+
+
+
+
+
+
+
+
+OAUTH.CLIENT_ID.regression.s=ecom_WS/QA
+OAUTH.CLIENT_SECRET.regression.s=WSecom123
+OAUTH.MAX_CONNECTION.regression.s=100
+
+
+
+ 
+
+
+MEAD-34939 QA26 DP all brands
+/customer-service/
+/m/customer-service/
+
+MEAD-34919 QA45 all brands
+/trade-signin/login.html*
+/m/trade-signin/login.html*
+
+
+MEAD-34925 uat3,rgs1
+/kids-design-services/ WE
+/home-design-services/ WS
+
+MEAD-34937 QA25 WE
+/style-quiz-v1/
+
+
+MEAD-34936 QA61 UAT3 RGS1  PK-DP done
+/m/pages/baby.html 
+
+
+
+MEAD-34988
+/trade-signin/login.html*
+/m/trade-signin/login.html*
+
+
+
+PK recheck
+
+
+MEAD-34855
+/account/login.html
+/m/account/login.html
+/api/designer/v1/*
+
+ci_eCommerce-Wolff_ems-develop-SNAPSHOT
+ 
+Request Number:  REQ0196648
+Request Number:  REQ0196702
+
+
+MEAD-34916 QA26
+/ 
+/m
+
+MEAD-34919 PK,PT,MG,WE QA45
+/account/login.html
+/m/account/login.html
+/api/designer/v1/*
+
+
+
+
+/design-services/*
+/m/design-services/*
+
+
+MEAD-34854
+QA60-PT,WS
+/customer-service/list-order/*
+/customer-service/charge-details/results.html*
+/customer-service/order-shipment-tracking/results.html*
+/customer-service/order-shipment-tracking/*
+/customer-service/return/return-eligible.html*
+/customer-service/return/*
+
+
+MEAD-34860 QA25
+/account/*
+/m/account/*
+/customer-service/*
+/trade-signin/*
+/m/trade-signin/*
+/appointments/*
+/m/appointments/*
+/events/*
+/m/events/*
+/my-design-projects/*
+/m/my-design-projects/*
+/stores/*
+/stores-pb/*
+/stores-pk/*
+/stores-pt/*
+/m/stores/*
+/style-quiz/*
+/design-services/*
+
+
+
+
+
+
+
+
+
+
+MEAD-34830
+/pages/overlays/*
+
+
+
+
+
+
+
+MEAD-34642 rgs1,uat3,perf
+/nativeapp/.api/configuration/
+/nativeapp/.api/assortment/
+
+/nativeapp/*
+/nativeapp*
+
+
+/registry/*/registry-checklist.html*
+/m/registry/*/registry-checklist.html* 
+
+
+MEAD-34784
+/pages/xbrand-landing/
+/m/pages/xbrand-landing/
+
+
+MEAD-34585
+/products/*
+/m/products/*
+
+/trade-signin/*
+/m/trade-signin/* 
+
+MEAD-34775
+/account/login.html
+/m/account/login.html
+/api/designer/v1/*
+
+
+
+
+/api/designer/v1
+MG - NO
+
+/account/login.html
+MG - /account/login.html, /m/account/login.html
+PB - /account/login.html
+PK - NO
+PT - NO
+WE - /account/login.html, /m/account/login.html
+WS - NO
+
+ GSD : Your ticket has been raised successfully! Ticket No: INC000454920
+
+Preparation for Peak
+#19-8274450
+
+4241378
+
+
+Etc syncope repo .. which catalog 
+
+https://img-qa-rk1v.wsgc.com/${frontend.brand}imgs/ecm-non-prod-assets/images/dp/
+
+780304,780310
+
+
+
+PB-QA43
+MSG	270263817.0
+MISC	270263817.0
+TMPL	270263817.0
+
+PB-QA59
+MSG	270262738.0
+
+
+
+INC002662961
+INC002604525
+
+INC002813129
+INC002715240
+INC002726521
+INC002727309
+INC002730983
+INC002731196	
+INC002742104
+INC002751695
+INC002765925
+INC002767281
+INC002773033
+INC002774474
+INC002776735
+INC002777860
+INC002778712
+INC002783055
+INC002790615
+INC002815305
+INC002821949
+
+
+INC002827623
+INC002701289
+INC002776790	
+INC002777625
+INC002786794
+INC002790008
+INC002791753
+INC002809746
+INC002814361
+INC002822846	
+INC002832491
+INC002843284
+INC002847518	
+INC002825645
+INC002840820
+
+
+
+
+T-309, RR Enclave, Vinayaka layout, Palanahalli Road
+Kattegenahalli, Yelahanka
+Bangalore
+
+Jira
+Confluence
+Citrix
+
+Jenkins
+Rundeck
+Access vault
+SVN 
+Able to login linux envs
+Identity Manager
+
+
+
+HELM_PACKAGING_BRANCH: Platform-Rigel/hazelcast-enterprise-helm-config/PK-25-297-HZ5
+HELM_PACKAGING_BRANCH: Platform-Rigel/platform-svc-session-helm-config/PK-111-HZ5
+
+
+HELM_PACKAGING_BRANCH: eCommerce-Kubernetes-Bedrock/ecom-svc-order-servicing-helm-config/release
+APP_DEPLOY_TAG: 1.8.4
+
+
+eCommerce-Bedrock/ecom-app-product/release-6.104.x
+APP_DEPLOY_TAG: 6.104.178
+
+
+Agent ecom-jenkins-agent-11
+Nov 10, 2022 3:37:20 PM
+Disconnected by jcox4 : Stalling at first stage of all builds
+
+Stalling at first stage of all builds
+
+
+Join from PC, Mac, Linux, iOS or Android: https://wsgc.zoom.us/j/94519566424?pwd=UzFoTGxldHhYWFFrR3drU3pWVDVQZz09&from=addon
+Password: 242125
+
+PROD SKUs:
+WS - 7846480, 7461519, 5010866, 2918058, 3863586 
+PB - 7786658, 5265119, 2915747
+PK - 4531589, 8930927
+PT - 2150206, 7256793
+WE - 1233907
+
+
+
+sudo find feeds -type f -mtime +40 -delete
+
+
+MEAD-33932 QA40 RJ
+/account/migrationStatus.html*
+/account/passwordRequirementsChange.html*
+
+
+
+
+/customer-service/*
+/m/customer-service/*
+
+
+MEAD-34012,MEAD-34003
+MEAD-34012 QA57
+/design-services/*
+/m/design-services/*
+
+MEAD-34003 QA42
+/customer-service/b2b-order-history.html
+/trade-signin/login.html
+/m/trade-signin/login.html
+
+
+
+
+
+WE-product 
+https://ecombuild.wsgc.com/jenkins/view/all/job/config-rgs1-mfe/4258/console
+https://ecombuild.wsgc.com/jenkins/view/all/job/config-cargs1-mfe/3517/console
+
+PB-Product/phygital
+https://ecombuild.wsgc.com/jenkins/view/all/job/config-uat3-mfe/10134/console
+
+
+
+bsubbarayudu: -, WebAdmins
+
+QA41:
+MG - able to move to payments page
+PB - search and shop not working
+PK - ATC not working. Seeing Inventory error in logs.
+PT - NLA for products
+WE - search and attributes to move to shop pages is not working. Product page is redirecting to homepage
+WS - shop pages not working throwing 500 error
+
+https://singleuse-qa5-rk1v.wsgc.com/
+
+
+RECOMMENDATION.RVI_API_URL.s=catalog/${productOrSkuId}/widget.json
+
+
+
+https://qark-images.pkimgs.com/pkimgs/qark/images/dp/
+https://qark-images.weimgs.com/weimgs/CAN/qark/images/dp/
+
+log4j.category.com.wsgc.ecommerce.ui.controllers.AbstractLogoutController=DEBUG=DEBUG
+log4j.category.com.wsgc.ecommerce.profile.login.activity.StandardUserLoginActivity=DEBUG
+
+
+https://ecommerce-cart-checkout-qa3.services.west.nonprod.wsgc.com/cartservice/v1/domain/
+
+log4j.category.com.wsgc.ecommerce.rj.controllers=DEBUG
+
+MEAD-33715
+/account/logout.html*
+/m/account/logout.html*
+
+MEAD-33733
+/tips-and-ideas/tools/ 
+
+/tips-and-ideas/room-planner-tool/
+
+/tips-and-ideas/monogram-guide/
+
+/tips-and-ideas/daily-system-tool/
+
+/tips-and-ideas/gabrielle-system-tool/
+
+/tips-and-ideas/paint-finder/
+
+/tips-and-ideas/my-pottery-barn/
+
+/tips-and-ideas/resources/ 
+
+/tips-and-ideas/new-looks-to-love-artisanal-vintage/
+
+/registry/view-registry-list.html*
+
+
+
+
+Chmod 777 /apps/dfeed-processor/data//7/P/65/10944/USA_PK-MDMItem-feed.xml
+* * * * * Chmod 777 /apps/dfeed-processor/data/8/P/67/10962/USA_PT-MDMItem-feed.xml
+* * * * * Chmod 777 /apps/dfeed-processor/data/6/P/69/10946/USA_WE-MDMItem-feed.xml 
+
+
+QA54 product MFE
+HELM_PACKAGING_BRANCH: eCommerce-Kubernetes-Bedrock/ecom-app-product-helm-config/release
+APP_DEPLOY_BRANCH: eCommerce-Bedrock/ecom-app-product/release
+
+
+
+PK: QA32
+2311475
+2311434
+
+MG: Qa32
+7108849
+34-7108849
+
+
+WS: QA32
+SKU: 4134086
+
+
+
+
+
+Global eCommerce-Bedrock/release-3.9.x
+Config eCommerce-Release-Management/mfe-2215
+Product eCommerce-Bedrock/release-6.100.x
+
+/pages/registry/*
+/m/pages/registry/*
+
+sudo mv ecm-cs-208028-7717 ecm-cs-208028-7774 ecm-cs-208028-7868 ecm-cs-208028-7924 ecm-cs-208028-7980 ./archive
+sudo mv ecm-homepage-208028-7715 ecm-homepage-208028-7716 ecm-homepage-208028-7772 ecm-homepage-208028-7773 ecm-homepage-208028-7789 ecm-homepage-208028-7866 ecm-homepage-208028-7867 ecm-homepage-208028-7922 ecm-homepage-208028-7923 ecm-homepage-208028-7978 ecm-homepage-208028-7979 ./archive
+sudo mv ecm-pages-208028-7718 ecm-pages-208028-7719 ecm-pages-208028-7775 ecm-pages-208028-7776 ecm-pages-208028-7792 ecm-pages-208028-7869 ecm-pages-208028-7870 ecm-pages-208028-7925 ecm-pages-208028-7926 ecm-pages-208028-7981 ecm-pages-208028-7982 ./archive
+sudo mv ecm-promos-208028-7720 ecm-promos-208028-7721 ecm-promos-208028-7777 ecm-promos-208028-7778 ecm-promos-208028-7793 ecm-promos-208028-7794 ecm-promos-208028-7871 ecm-promos-208028-7872 ecm-promos-208028-7927 ecm-promos-208028-7928 ecm-promos-208028-7983 ecm-promos-208028-7984 ./archive
+
+
+/m/registry/search-registry.html*
+
+
+hkamma: -, WebAdmins-RO
+
+7276	application.log.2022-09-30
+859512	application.log.2022-10-01
+1852704	application.log.2022-10-02
+1847668	application.log.2022-10-03
+1852228	application.log.2022-10-04
+1852356	application.log.2022-10-05
+1797060	application.log.2022-10-06
+1400256	application.log.2022-10-07
+1857520	application.log.2022-10-08
+614020	application.log.2022-10-09
+
+
+vkhadela: -, admin, WebAdmins
+
+https://www.qa11.westelm.com/products/marled-basketweave-throw-t3455/?pkey=cthrow-blankets
+4167164
+https://www.qa11.potterybarnkids.com/products/kitty-glitter-felt-treat-bag/?pkey=ctreat-bags
+1054646
+https://www.qa11.potterybarn.com/products/build-your-own-pearce-square-uph-tight-back-sectional/?sku=6370219&words=6370219
+#84-2885742
+https://www.qa11.pbteen.com/products/wizarding-world-nagini-mirror/?cm_src=WsiSubCategory1&recstrat=Shop-Recs-2%7CB-CAT-GRP-TOPN-REV
+Item: 7831135
+#19-3039187
+
+
+
+Shop - eCommerce-Bedrock/ecom-app-shop/release-5.112.x uat4,uat7, rgs2, uat3
+ecom-app-global - eCommerce-Bedrock/ecom-app-global/release-3.9.x uat4, uat7, rgs2, qa56
+ecom-app-registry - eCommerce-Bedrock/ecom-app-registry/release-5.79.x uat3,qa
+ecom-app-phygital - 2.11.2 uat, uat3, regression, qa54
+ecom-app-product - eCommerce-Bedrock/ecom-app-product/release-6.100.x uat3
+ecom-svc-registry-webapp - 3.7.1 uat3, qa
+ecom-svc-order-servicing - 1.9.9 rgs1, uat3
+etcd-syncappconfig - 1.1.189
+
+Deploy the Short Token service Kubernetes package
+
+MEAD-33481
+/.static/ecmcontent/*
+
+
+https://ecom-webhooks.wsgc.com/hooks/get-recent-pkg-vers?package=salesforceconnector-k8s-package
+
+log4j.category.com.wsgc.ecommerce.caching.generic=DEBUG
+
+
+
+mwalaszek: -, admin, WebAdmins
+ostarostin: -, admin, WebAdmins 
+aaleksandr: -, admin, WebAdmins
+akurkin: -, admin, WebAdmins
+
+MEAD-33465
+
+/
+/m/
+/content/ecm/*
+/index.html
+/m/index.html
+
+
+WS-UAT3: Item #: 79-441240
+
+
+MEAD-33278
+/registry/find.html
+/m/registry/find.html
+
+QA10 : 
+
+WS - 1983501
+WE - 8242009
+
+eCommerce-Bedrock/ecom-app-product/release-6.104.x
+Item: 19-2249084
+WS-UAT3 : #79-9680090 #79-6095354 
+
+/api/registry/*
+/api/registry/v1/*
+/registry/.info/summary.html
+/registry/*/registry-list.html*
+/m/registry/*/registry-list.html*
+/registry/*/gift-tracker.html
+/m/registry/*/gift-tracker.html
+/registry/find.html
+/registry/find-registry.html
+/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/find.html
+/m/registry/find-registry.html
+/m/registry/search-registry.html
+/m/registry/account-linking-search.html
+/registry/*/registry-checklist.html
+/m/registry/*/registry-checklist.html
+
+/registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+/registry/.info/summary.html
+/registry/*/registry-checklist.html*
+
+
+log4j.category.com.wsgc.ecommerce.store.service.client.impl=DEBUG
+
+
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/adhoc-appsetting/20369/parameters/
+ akhan16: -, eComWhitney
+
+aaleksandr: -, admin, WebAdmins
+akurkin: -, admin, WebAdmins
+dzamaruiev: -, admin, WebAdmins
+mwalaszek: -, admin, WebAdmins
+
+
+MEAD-33003
+/trade-signin/login.html
+/m/trade-signin/login.html
+
+
+SEARCH_ENGINE_BOT_CONFIGURATION.PREVENT_MOBILE_BOT_REDIRECTS.regression.b=true
+
+Server -- hostname -- Cname
+
+ecm-cs-206502-0095 ecm-cs-206502-0096 ecm-cs-206502-0105 ecm-cs-206502-0106 ecm-homepage-206502-0093 ecm-homepage-206502-0094 ecm-homepage-206502-0103 ecm-homepage-206502-0104 ecm-msg-206502-0099 ecm-msg-206502-0100 ecm-msg-206502-0109 ecm-msg-206502-0110
+
+ecm-pages-206502-0097 ecm-pages-206502-0098 ecm-pages-206502-0107 ecm-pages-206502-0108 ecm-promos-206502-0101 ecm-promos-206502-0102 ecm-promos-206502-0111 ecm-promos-206502-0112
+
+Checkout alternate url : https://www.qa99.rejuvenation.com/services/addtocart/v1/?items=1x1007385
+
+
+https://www.qa10.williams-sonoma.com/admin/tests/sku-availability-check.html
+
+
+MEAD-33139
+/registry/*
+/m//registry/*
+
+
+
+
+CHG148532
+
+
+If you want to kill ALL java processes by one command ps ax | grep java | grep -v 'grep' | cut -d '?' -f1 | xargs kill -9
+ps -A |grep java
+kill -9 PID
+pkill -9 java
+
+
+
+WS - Item: 19-3964719
+     Item: 79-3964719
+     #79-2253625
+
+
+BPV: 
+MG - Able to place orders
+WS - Able to place orders.
+CAWS - Able to place orders.
+
+QA56: 
+MG - homepage not coming up
+WS - Able to place orders
+
+UAT4:
+MG - homepage not coming up
+WS - shipping page is blank
+CAWS - Able to place orders.
+
+UAT6:
+MG - unable to add item to cart. JS errors
+WS - shipping page is blank
+CAWS - Session provider error on cart checkout.
+
+RGS2:
+MG - session provider error on homepage
+WS - /shop throwing 500 error. 
+
+
+
+
+
+https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/4412/console
+
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+
+
+
+QA16 : ecom-app-product
+HELM_PACKAGING_BRANCH: eCommerce-Kubernetes-Bedrock/ecom-app-product-helm-config/release
+APP_DEPLOY_BRANCH: eCommerce-Marcy/ecom-app-product/develop
+
+QA18: 
+
+
+QA18:
+
+PB – Able to place order.
+PK,WE – has JS errors. Unable to add items to cart.
+PT,MG – Checkout page is blank.
+WS – cart related errors on delivery page.
+https://www.qa18.pbteen.com/products/pretty-pleats-quilt-sham/
+
+
+Adding QA32 to All non-prd
+www.qa32.markandgraham.com
+www.qa32.potterybarn.com
+www.qa32.pbteen.com
+
+
+
+/registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+
+Shop - eCommerce-Bedrock/ecom-app-shop/release-5.111.x bpv,uat3
+Global - eCommerce-Bedrock/ecom-app-global/release-3.6.x bpv,qa56
+Registry -  uat3,uat6,qa
+Phygital -  uat,uat6,uat3,regress
+Product -   uat3,uat6
+Customer -  uat3,uat6,regress
+Order-servicing -  uat3,uat6,rgs1
+Svc-registry - uat3,qa
+Svc-customer - uat3,uat,rgs1
+Svc-order-servicing - uat3,uat,rgs1
+
+MEAD-32821
+/customer-service/driver-release/*
+
+
+
+WS-QA10 - 19-1189542
+Item: 19-9598538
+#19-5702055
+
+[ ] 2022-09-13 22:39:01,873 [wsgc-ws RCK dparck-vicn286.wsgc.com ws1qa] ERROR [com.wsgc.ecommerce.scheduling.QuartzSchedulerFactoryBean#0_Worker-6] org.springframework.kafka.support.LoggingProducerListener [ - ] - Exception thrown when sending a message with key='null' and payload='<?xml version="1.0" encoding="UTF-8" standalone="yes"?><ns2:OrderCreateRequest xmlns:ns2="http://ser...' to topic QA2.B.ECO.OMSORDCREATE.INSERT:
+org.apache.kafka.common.errors.TimeoutException: Failed to update metadata after 20000 ms.
+
+
+MEAD-32721
+/
+/customer-service/*
+/pages/*
+
+sudo cat /etc/httpd/conf.d/frontend.conf | grep SSLCertificate
+
+mabubakr: -, eComWhitney
+
+
+1.0.1,1.0.10,1.0.11,1.0.12,1.0.13,1.0.14,1.0.15,1.0.16,1.0.17,1.0.18,1.0.19,1.0.2,1.0.20,1.0.21,1.0.22,1.0.23,1.0.24,1.0.25,1.0.26,1.0.27,1.0.28,1.0.29,1.0.3,1.0.4,1.0.5,1.0.6,1.0.7,1.0.8,1.0.9,2.2.5,2.3.0
+
+
+/nativeapp/*
+/m/nativeapp/*
+
+
+
+806M	application.log.2022-08-27_0425
+758M	application.log.2022-08-28
+821M	application.log.2022-08-28_0424
+2.9G	application.log.2022-08-28_1958
+2.3G	application.log.2022-08-29
+534M	application.log.2022-08-29_0424
+
+PLATFORM_SESSION_SERVICE.SOCKET_TIMEOUT.i=6000
+
+Shop - eCommerce-Bedrock/ecom-app-shop/release-5.105.x  bpv,uat4,uat3
+Global - eCommerce-Bedrock/ecom-app-global/release-2.73.x  bpv,uat4,qa56
+Registry - eCommerce-Bedrock/ecom-app-registry/release-5.72.x uat3,uat6,qa,
+Svc-registry - 3.6.2 uat3,qa,
+phygital - 2.7.0 Uat,uat6,regression,qa54
+Product - eCommerce-Bedrock/ecom-app-product/release-6.89.x uat3,uat6,
+Customer - eCommerce-Bedrock/ecom-app-customer/release-4.24.x uat3,uat6,regression
+
+
+MEAD-32512 QA61 All brands
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+
+
+https://origin-www.qa8.williams-sonoma.com
+https://origin-www.qa4.williams-sonoma.com
+https://origin-www.qa99.rejuvenation.com
+
+
+MEAD-32501 QA23 Pk/PT
+/shop/*
+/m/shop/*
+/account/*
+/m/account/*
+
+4.2.4
+
+
+/registry/manage-registry.html 
+/registry/list.json
+/m/registry/manage-registry.html
+
+2301926
+
+/account/updateaccount.html
+
+QA32:
+MG - Item #: 19-5917385
+PK - Item #: 10-4531589
+
+wkhalid: -, eComWhitney
+
+Com.wsgc.ecommerce.ordermanagement.config.PricingConfiguration
+
+PRICING.TRANSPORT.qa31.s=REST
+
+BusinessProcesses/ECOMMToSterlingATPFindInventory/Subprocesses/SendRequestToSterling.process/Send
+dp-nonprod-bpv_wsgc_com.crt
+dp-nonprod-bpv_wsgc_com.key
+
+This is a centos7 Replacement server for wcmrck-vdcn001 and requires the same specifications to run the application
+Request Number:  REQ0186587  
+
+MEAD-28739 - Request CentOS7 WCM Replacement Servers
+
+
+Congratulations, your server(s) have been built!  :tada:
+
+REQITEM0290739
+
+Deployment Completed Successfully. Below are the details of the server(s) and IP Addresses. invrck-vicn001 10.7.8.187
+
+
+Worked with Jeremy from firewall team and found out there is no firewall issue happening from DP/cart-checkout hosts to new Kafka host. 
+
+Worked with [~ckankara] and [~lmhasrup] and checked for Kafka timeout related issues and other Kafka topics. [~lmhasrup] will connect with [~syerra1] once he is available and check this Issue with him.  
+
+
+Shreekar Basrur
+  3 days ago
+:sweat_smile: uff thanks for joining the call josh ... 
+@sganesh1
+ 
+@rkrishna2
+ ok we are not changing this url as we use QA* topics for most of our work in nonprod for kafka
+rk.qa.kafka.int.wsgc.com:80/443
+We are only changing  for dev envs like eg profile/registry dev where the topic prefix is DEV* rk.dev.kafka.int.wsgc.com:80/443
+please do not change anywhere if done please revert it ..only dev envs need to be reverted which talk to dev* topics which are a handful
+i am raising a NCCR just incase if we need to switch any in future
+
+-----------------------------------------------------------------------
+asheelampelli: -, WebAdmins
+hendra: -, WebAdmins
+
+HELM_PACKAGING_BRANCH: eCommerce-devops/delivery-gateway-helm-config/nonprod
+APP_DEPLOY_BRANCH: eCommerce-HalfDome/ecom-svc-app-delivery/login-deploy
+
+MEAD-32197 -- PT/PK QA22
+/customer-service/*
+/pages/*
+
+
+MEAD-32202 -- REG,UAT3
+/customer-service/driver-release/  
+
+MEAD-32216 -- MG UAT3 done
+
+
+
+
+	
+HELM_PACKAGING_BRANCH: eCommerce-Kubernetes-Bedrock/c3-helm-config/release
+APP_DEPLOY_BRANCH: Platform-Rigel/c3-service/develop
+
+
+CHKT.DOORSTEP_CART_MESSAGING_ENABLED.qa11.b=true
+CHKT.DOORSTEP_FURNITURE_DELIVERY_AB_ENABLED.qa11.b=true
+CHKT.MINIMUM_CARE_CENTER_B2C_CONSOLIDATION_THRESHOLD
+
+
+
+
+
+eCommerce-Bedrock/ecom-app-shop/release-5.101.x
+eCommerce-Bedrock/ecom-app-global/release-2.71.x
+eCommerce-Bedrock/ecom-app-registry/release-5.70.x
+eCommerce-Bedrock/ecom-app-product/release-6.78.x
+eCommerce-Bedrock/ecom-app-customer/release-4.20.x
+
+eCommerce-Release-Management/mfe-2212
+
+eCommerce-breads/ecom-app-product/PB-dream
+
+EQAOffshore@wsgc.com,EQAOn-Site@wsgc.com
+
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+
+
+
+
+
+
+MEAD-31867
+/registry/*/registry-list.html
+/registry/
+/registry/index.html
+/registry/*/update.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/api/registry/v1/*
+
+
+
+# Job to set log4j.properties
+* * * * * cp /apps/tomcat/lib/log4j_new.properties /apps/tomcat/lib/log4j.properties 
+
+0604065613264220220707124134
+0604065613264120220707123411
+
+
+
+    SSLCertificateFile      /etc/pki/tls/certs/c3-svc-qa.wsgc.com.crt
+    SSLCertificateChainFile /etc/pki/tls/certs/c3-svc-qa.wsgc.com.crt
+    SSLCertificateKeyFile   /etc/pki/tls/private/c3-svc-qa.wsgc.com.key
+
+
+
+keytool -importcert -file "/tmp/adls.crt" -alias adls2  -keystore  "/apps/openjdk11.0_6/jre/lib/security/cacerts"
+
+/apps/openjdk11.0_6/jre/lib/security/cacerts
+
+PRICING.PROMOTION_SERVICE_URI.qa11.r=http://pricing-qa1-rk1v.wsgc.com
+CREATE_ONLINE_RETURN_SERVICE.SERVICE_URI.qa11.r=https://tibinttstsac5p.wsgc.com:19106/v1/CreateOnlineReturn
+https://TIBINTTSTMP7P.wsgc.com:19106/v1/CreateOnlineReturn
+
+
+/account/not-me.html
+/authenticate.html
+/m/authenticate.html
+
+
+/api/user/v2/*
+
+eCommerce-Bedrock/ecom-app-shop/release-5.99.x
+eCommerce-Bedrock/ecom-app-global/release-2.68.x
+eCommerce-Bedrock/ecom-app-product/release-6.73.x
+eCommerce-Bedrock/ecom-app-customer/release-4.12.x
+
+
+MEAD-31635
+1. Pages :
+
+/pages/*
+/m/pages/*
+/shoppingcart/*
+/m/shoppingcart/*
+/services/shoppingcart/*
+/m/services/shoppingcart/*
+/customer-service/catalog-request/*
+/m/customer-service/catalog-request/*
+/customer-service/email-us/*
+/m/customer-service/email-us/*
+/customer-service/email-preferences/*
+/m/customer-service/email-preferences/*
+/customer-service/international-email-list/*
+/m/customer-service/international-email-list/*
+/customer-service/intl-order-tracking/*
+/m/customer-service/intl-order-tracking/*
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+/customer-service/mailing-options/*
+/m/customer-service/mailing-options/*
+/customer-service/address-change/*
+/m/customer-service/address-change/*
+/customer-service/*
+/m/customer-service/*
+/internationalcheckout/*
+/checkout/issue/*
+/m/checkout/issue/*
+/checkout/*
+/m/checkout/*
+/thekey/*
+/m/thekey/*
+/
+/m/
+/content/ecm/*
+/index.html
+/m/index.html
+/account/updatephonenumber.html
+/account/emailupdate/confirm-thanks.html
+/account/confirm-thanks.html
+/m/account/confirm-thanks.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+/aos/*
+/m/aos/*
+/aos/special-sale/*
+/m/aos/special-sale/*
+/trade-signin/*
+/m/trade-signin/*
+/about-us/*
+/m/about-us/*
+/resources/*
+/m/resources/*
+/cc/*
+/m/cc/*
+/recommendations/*
+/m/recommendations/*
+/room/*
+/m/room/*
+/room/shop-by-room/*
+/m/room/shop-by-room/*
+/sitemap.html
+/apple-pay/generate-session.json
+/shoppingcart/order/cart.json
+/shoppingcart/order/update-and-order.json
+/shoppingcart/order/update-service-level.json
+/shoppingcart/order/update-shipping-details.json
+/services/shoppingcart/v3/index.json
+/shopping-cart/apply-promotion+.json
+/shopping-cart/remove-promotion+.json
+/shopping-cart/index.json
+/shopping-cart/move-to-cart.json
+/shopping-cart/save-for-later.json
+/shopping-cart/remove-item.json
+/shopping-cart/update-postal-code.json
+/shopping-cart/update-quantity.json
+/cacheable/availability/getDeliveryInformationByPostalCode.json
+promotion/eligibility/group/*/eligiblePromotions.json
+search/stores.json
+products/getScene7Url.json
+/svc/recommendation/v2/*/pages
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+sudo rm -rf 318051124* 320062921* 320062925* 321073016* 321092804* 321101001* 321101423* 321122202* 321122337* 321122831* 322011022* 322012150* 322020423* 322020713* 322020716* 
+
+sudo rm -rf 322020802* 322022504* 322031505* 322031819* 322032116* 322032225* 322032302* 322040123* 322040629* 322040639* 322040723* 322040835* 322041225* 322041420* 322041836* 322041919* 322042036* 322042204* 322042234* 322042628* 322050927* 322050929*
+
+sudo rm -rf 322062929* 322063013* 322070117* 322071229* 421080434* 421121402* 422050203* 
+
+
+
+
+
+/account/*
+/m/account/*
+
+
+
+www.qa44.westelm.com
+www.qa36.westelm.com
+www.qa9.westelm.com
+www.qa35.westelm.com
+www.qa32.westelm.com
+www.qa31.westelm.com
+
+
+
+
+
+
+
+
+/m/registry/create.html
+/registry/registry-login.html
+/m/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/create-registry-sign-in.html
+/api/registry/v1/*
+/api/registry/v2/*
+
+MEAD-31522 QA19 PB/WE
+ /registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+
+
+
+
+
+MEAD-31518 WE
+ /registry/
+/registry/index.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/
+/m/registry/index.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+MEAD-31358   QA41 and QA56
+/api/.static/ecmcontent/*
+
+
+    LOYALTY.LOYALTY_REWARDS_RECOGNITION_COOKIE_NAME/s: LOY_RWRDS_RCGNITN
+    LOYALTY.LOYALTY_REWARDS_RECOGNITION_COOKIE_DAYS/i: 730
+
+
+
+Your transaction was saved, rerun it with:
+ yum load-transaction /tmp/yum_save_tx.2022-07-27.05-37.tIEhZK.yumtx
+Mokshi0587
+yum install httpd --nodeps
+(65, 'uat6', 'REGISTRY', 'SHARE_REGISTRY_C3_CONFIG_ID', 's', 'SHARE_REGISTRY')
+
+/customer-service/charge-details/*
+/m//customer-service/charge-details/*
+
+/products/*
+/m/products/*
+
+
+    SSLCertificateFile    /etc/pki/tls/certs/localhost.crt
+    SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+
+
+INSERT into ww_setting_values (site, setting_scope, setting_group, setting_name, setting_type, setting_value)  values (66, 'jukebox', 'BRAND_CREDIT_CARD', 'PERSONALIZATION_BANNER_ENABLED', 'b', 'TRUE');
+
+Network connectivity command
+nc -vz $HOSTNAME $PORT
+
+ 
+
+PB-CAQA31/CAUAT6
+#83-8199260
+
+
+PN-CAQA54
+#19-1971712
+testing 09212021
+
+
+PB-CAUAT1
+#17-4874836
+SKU: 6091856
+
+PB-CAQA11
+SKU: 2109619
+
+
+MEAD-30834 qa29 All nonprod
+/api/inventory/* 
+remove /api/inventory/v1/*
+
+
+MEAD-30915 qa59 PB PK WE WS
+/api/registry/*
+
+
+MEAD-30834,MEAD-30915
+
+rk.qa.kafka.int.wsgc.com:443
+ABANDONED_ORDER.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.qa10.s=rk.dev.kafka.int.wsgc.com:443
+CANCEL_RESERVATION.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.qa10.s=rk.dev.kafka.int.wsgc.com:443
+CHKT.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.qa10.s=rk.dev.kafka.int.wsgc.com:443
+CUSTOMER_SERVICE.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.qa10.s=rk.dev.kafka.int.wsgc.com:443
+7760609902 - Anand 
+
+
+/account/login.html
+/m/account/login.html
+
+
+/apple-pay/generate-session.json
+/cacheable/availability/getDeliveryInformationByPostalCode.json
+/promotion/eligibility/group/*
+/m/promotion/eligibility/group/*
+/search/stores.json
+/m/search/stores.json
+/products/getScene7Url.json
+/m/products/getScene7Url.json
+
+/aos/*
+/aos/special-sale/*
+/trade-signin/*
+/about-us/*
+/m/about-us/*
+/recommendations/*
+/design-studio/*
+/sitemap.html
+
+/pages/*
+/m/pages/*
+
+ 
+
+2. Shopping Cart:
+/shoppingcart/*
+/m/shoppingcart/*
+/services/shoppingcart/*
+/m/services/shoppingcart/*
+
+ 
+
+3. Customer Service 
+/customer-service/catalog-request/*
+/m/customer-service/catalog-request/*
+/customer-service/email-us/*
+/m/customer-service/email-us/*
+/customer-service/email-preferences/*
+/m/customer-service/email-preferences/*
+/customer-service/international-email-list/*
+/m/customer-service/international-email-list/*
+/customer-service/intl-order-tracking/*
+/m/customer-service/intl-order-tracking/*
+/m/customer-service/order-tracking/*
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+/customer-service/mailing-options/*
+/m/customer-service/mailing-options/*
+/customer-service/address-change/*
+/m/customer-service/address-change/*
+/customer-service/popup/*
+/customer-service/gift-services/*
+/customer-service/*
+/m/customer-service/*
+
+/customer-service/order-inquiries/*
+ 
+
+4. International Checkout 
+/internationalcheckout/* 
+
+ 
+
+5. Checkout Issue
+/checkout/issue/*
+/m/checkout/issue/*
+
+ 
+
+6. Checkout
+/checkout/*
+/m/checkout/*
+
+ 
+
+7.  The Key
+/thekey/*
+/m/thekey/*
+
+ 
+
+8. Home Page
+/
+/m 
+/content/ecm/*
+/index.html
+
+ 
+
+9. Account 
+/account/updatephonenumber.html
+/account/emailupdate/confirm-thanks.html
+/account/confirm-thanks.html
+/m/account/confirm-thanks.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+
+ 
+/account/login.html
+/account/updatephonenumber.html
+/account/create.html
+/m/account/create.html
+/m/account/landing.html
+/account/logout.html
+/m/account/logout.html
+
+10. Left Over Urls
+/aos/*
+/m/aos/*
+/aos/special-sale/*
+/m/aos/special-sale/*
+/trade-signin/*
+/m/trade-signin/*
+/about-us/*
+/m/about-us/*
+/resources/*
+/m/resources/*
+/cc/*
+/m/cc/*
+/recommendations/*
+/m/recommendations/*
+/room/*
+/m/room/*
+/room/shop-by-room/*
+/m/room/shop-by-room/*
+/sitemap.html
+
+
+
+1. Shopping Cart:
+/shoppingcart/index.html
+/shoppingcart/index.html
+/m/shoppingcart/index.html
+ 
+2. Customer Service 
+/customer-service/email-list/index.html
+/customer-service/email-list/*/index.html
+/customer-service/email-list/thanks-for-joining.html
+/customer-service/email-list/*/validate-age.html
+/customer-service/catalog-request/index.html
+/customer-service/catalog-request/mailing-info.html
+/customer-service/catalog-request/thanks-for-request.html
+/customer-service/email-us/index.html
+/customer-service/email-us/thanks-for-email.html
+/customer-service/order-inquiries/index.html
+/customer-service/order-inquiries/thank-you.html
+/customer-service/email-preferences/index.html
+/customer-service/email-preferences/responsys-down.html
+/customer-service/mailing-options/index.html
+/customer-service/mailing-options/thanks-for-preferences.html
+/customer-service/address-change/*
+/customer-service/popup/communication-preferences.html
+/customer-service/popup/communications-preferences-thank-you.html
+/about-us/*.html
+/resources/*.html
+/customer-service/gift-services/gift-card-landing.html
+/customer-service/product-safety-registration.html 
+/customer-service/join-sms.html
+/m/customer-service/email-us/index.html
+/m/customer-service/email-us/thanks-for-email.html
+/customer-service/email-list/*/validate-age.html
+/m/customer-service/email-list/index.html
+/m/customer-service/email-list/*/validate-age.html
+/m/customer-service/email-list/thanks-for-joining.html
+m/customer-service/*.html
+/m/customer-service/communication-preferences.html
+/m/about-us/*.html
+/m/customer-service/order-tracking/*.html
+/m/customer-service/communication-preference/learn-more.html
+/m/customer-service/signup-mobile/index.html
+/m/customer-service/signup-mobile/thanks-for-joining.html
+/m/customer-service/about-this-app.html
+ 
+4. Account  
+/account/updatephonenumber.html
+ 
+5. Left Over Urls
+/aos/landing.html
+/aos/welcome.html
+/aos/logout.html
+/aos/deconflict.html
+/aos/special-sale/index.html
+ 
+/trade-signin/login.html
+/trade-signin/shopnow.html
+/trade-signin/authenticateduser.html
+/recommendations/index.html
+/room/*/email-a-friend.html
+/room/*/*/email-a-friend.html
+/room/*/*/*/email-a-friend.html
+/room/*/email-a-friend-preview.html
+/room/*/*/*/email-a-friend-preview.html
+/room/*/*/*/email-a-friend-preview.html
+/room/*/email-a-friend-thanks.html
+/room/*/*/email-a-friend-thanks.html
+/room/*/*/*/email-a-friend-thanks.html
+/sitemap.html
+/thekey/resendEmail.json
+/m/thekey/resendEmail.json
+
+
+
+ECOMSERV.MASHERY_API_KEY.cargs1.s=
+ECOMSERV.MASHERY_SECURED_SERVICE_KEY.cargs1.s=
+
+ECOMSERV.ADD_TO_CART_MAX_REQ_PARM_LENGTH.cargs1.i=2000
+ECOMSERV.PASSWORD_REVOKE_ENABLED.cargs1.b=true
+ECOMSERV.PROXY_HOSTNAME.cargs1.s=services.potterybarnkids.com
+ECOMSERV.SECURE_SERVICE_ENABLED.cargs1.b=false
+ECOMSERV.SHOPPING_CART_PATH.cargs1.s=shoppingcart
+ECOMSERV.STANDALONE_SERVICE_ENABLED.cargs1.b=true
+ECOMSERV.STORE_ESTIMATE_REST_REDIRECT_URI.cargs1.r=https://ssprck-vdwn008.wsgcdev.local:9005/UIScom/Estimates/CSORedirect.aspx?estimateId=
+ECOMSERV.TRADE_MEMBER.cargs1.p=URL=trade-signin/shopnow.html, QUERY_PARAMS=flash|storeid|rcode|retailcat|otype|estid|tp|bnrid|cm_ven|cm_cat|cm_pla|cm_em|cm_ite
+
+
+
+
+
+
+
+
+
+MEAD-30632 - qa4 All brands
+/account/
+/account/index.html
+/account/updateaccount.html
+/account/updatename.html
+/account/updateemail.html
+/account/updatepassword.html
+/account/keyrewards.html
+/account/addressbook.html
+/account/creditcard.html
+/account/recipe-box/
+/account/creditcard/
+/account/creditcard/create.html
+/account/addressbook/
+/account/forgotpassword.html
+/account/forgotpassword/confirm.html
+/m//account/forgotpassword/passwordUpdatethanks.html
+/account/confirm.html
+/account/.info/summary.html
+/account/login-attempts.html
+/m/account/
+/m/account/index.html
+/m/account/updateaccount.html
+/m/account/updatename.html
+/m/account/updateemail.html
+/m/account/updatepassword.html
+/m/account/keyrewards.html
+/m/account/addressbook.html
+/m/account/creditcard.html
+/m/account/recipe-box/
+/m/account/creditcard/
+/m/account/creditcard/create.html
+/m/account/addressbook/
+/m/account/forgotpassword.html
+/m/account/forgotpassword/confirm.html
+/m/account/forgotpassword/passwordUpdatethanks.html
+/m/account/confirm.html
+/m/account/login-attempts.html
+/account/passwordRequirementsChange.html
+/m/account/passwordRequirementsChange.html
+/account/migrationStatus.html
+/m/account/migrationStatus.html
+/account/login.html
+/m/account/login.html
+/account/svc*
+/m/account/svc*
+
+
+
+/account/passwordRequirementsChange.html
+/m/account/passwordRequirementsChange.html
+/account/migrationStatus.html
+/m/account/migrationStatus.html
+/account/check-verification-link.html
+/account/verification.html
+
+MEAD-30659 - QA22 PK ---- done
+/
+/m/
+
+MEAD-30688  - Qa44 WE/MG
+www.qa44.markandgraham.com
+
+
+
+
+
+MEAD-30640
+/m/products/getScene7Url.json
+
+
+
+
+WISMO.DESKTOP_REQUEST_TIMEOUT
+<oauth.war.artifactVersion>ci_Platform-Rigel_java8_branch-SNAPSHOT</oauth.war.artifactVersion>
+
+
+
+
+[ ] 2022-06-29 04:10:39,901 [wsgc-pt RCK dparck-vicn191.wsgc.com pt1uat] ERROR [ajp-nio-127.0.0.1-38790-exec-22] com.wsgc.ecommerce.shoppingcart.displaycart.activity.TransitSkuAvailabilityUpdater [VCkbfuNuHVERK69lsynVBp-NozI=2180 - rocklin._DhYlgWJVZhxNNYMZwFRzHpQGsxu72LpEYStFzHzEapPhJTb7_T-E6k8p7YGNB3QlV9GXz1gYpoqAJVBOlissbIvlWN8gX7fICOX1QxMWXDmUhqISiiINkKLLD8GAe1N0vTyfgA=] -  * Unable to find postal code in cookie to update sku or postal code was invalid! null
+
+
+
+
+MEAD-30499
+/api/.static/ecmcontent/*
+
+MEAD-30536
+
+
+MEAD-30574
+/
+/m/
+
+
+eCommerce-Kalanka/registry-admin/develop
+eCommerce-Tahoe/registry-admin-pb-helm-config/TAH-3980
+
+
+
+
+USA- QA1 URL for all brands :
+https://ecommerce-registry-admin-pk-qa1.services.west.nonprod.wsgc.com
+https://ecommerce-registry-admin-ws-qa1.services.west.nonprod.wsgc.com
+https://ecommerce-registry-admin-we-qa1.services.west.nonprod.wsgc.com
+https://ecommerce-registry-admin-pb-qa1.services.west.nonprod.wsgc.com
+
+
+CAN-QA1 URL for all brands:
+ https://ecommerce-registry-admin-pb-caqa1.services.west.nonprod.wsgc.com
+ https://ecommerce-registry-admin-pk-caqa1.services.west.nonprod.wsgc.com
+ https://ecommerce-registry-admin-ws-caqa1.services.west.nonprod.wsgc.com
+ https://ecommerce-registry-admin-we-caqa1.services.west.nonprod.wsgc.com
+
+
+Pb-uat2
+CatImageBase		https://qark-images.pbimgs.com/pbimgs/qa/images/dp/
+SecureCatImageBase		https://qark-images.pbimgs.com/pbimgs/qa/images/dp/
+DocImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/cargs/
+SecureDocImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/cargs/
+ContentImageBase	Location for eCM images	https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/dp/
+SecureContentImageBase	Secure location for eCM images	https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/dp/
+RemoteProxyImageBase		https://img-qa-rk1v.wsgc.com/pbimgs/qark/images/uat1/
+SecureRemoteProxyImageBase		https://img-qa-rk1v.wsgc.com/pbimgs/qark/images/uat1/
+
+
+Pb-uat3
+CatImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/dp/
+SecureCatImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/dp/
+DocImageBase		https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/
+SecureDocImageBase		https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/
+ContentImageBase	Location for eCM images	https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/dp/
+SecureContentImageBase	Secure location for eCM images	https://qark-images.pbimgs.com/pbimgs/CAN/qark/images/dp/
+
+
+
+Pk-uat2
+CatImageBase		https://qark-images.pkimgs.com/pkimgs/qa/images/dp/
+SecureCatImageBase		https://qark-images.pkimgs.com/pkimgs/qa/images/dp/
+DocImageBase		https://qark-images.pkimgs.com/pkimgs/qark/images/cargs/
+SecureDocImageBase		https://qark-images.pkimgs.com/pkimgs/qark/images/cargs/
+ContentImageBase	Location for eCM images	https://qark-images.pkimgs.com/pkimgs/CAN/qark/images/dp/
+SecureContentImageBase	Secure location for eCM images	https://qark-images.pkimgs.com/pkimgs/CAN/qark/images/dp/
+RemoteProxyImageBase		https://img-qa-rk1v.wsgc.com/pkimgs/qark/images/uat1/
+SecureRemoteProxyImageBase		https://img-qa-rk1v.wsgc.com/pkimgs/qark/images/uat1/
+
+
+
+Adding new qa14 adg cert for all-nonprod rule group 
+
+
+
+
+
+
+
+
+/apps/java/bin/java -Xmx20000m -jar /wcm/cq-author/crx-quickstart/lib/oak-run-1.2.16.jar checkpoints /wcm/cq-author/crx-quickstart/repository/segmentstore
+/apps/java/bin/java -Dtar.memoryMapped=true -Xms12000m -Xmx20000m -jar /wcm/cq-author/crx-quickstart/lib/oak-run-1.2.16.jar  check -d1 -p /wcm/cq-author/crx-quickstart/repository/segmentstore
+
+1fe4d6e5-21a3-4482-ac39-f47a453b66c5:232452
+eCommerce-Kubernetes-Bedrock/ecom-app-global-helm-config/release-5.80.x
+
+    - match:
+        group: 'deploy/qa/wcm/multi/nightly-meta/rgs1'
+        name: '.*'
+      allow: [read,run,kill,update,write]
+    - match:
+        group: 'deploy/qa/wcm/multi/nightly-meta/rgs2'
+        name: '.*'
+      allow: [read,run,kill,update,write]
+    - match:
+        group: 'deploy/qa/wcm/multi/nightly-meta/rgs3'
+        name: '.*'
+      allow: [read,run,kill,update,write]
+
+rjosula: -, eComWhitney
+
+
+
+
+http://imgrck-vicn008:8058/
+http://imgrck-vicn009:8058/
+
+
+SINGLE_PAGE_CHECKOUT_PRESCREENING_ENABLED/b: true
+BRAND_CREDIT_CARD.KEY_CREDIT_CARD_PROMO_BANNER_ENABLED/b: false
+
+
+wsgc-jdk8-202-1.8.0-202_1.x86_64
+wsgc-httpd-config-2.1-20220407152617_1_95e3de7a0d.noarch
+wsgc-apmagents-22.2.0-20220511114908_1_.noarch
+wsgc-cq-6.1-20211130045519_1_328332.noarch
+wsgc-jdk8-172-1.8.0-172_1.x86_64
+wsgc-openjdk11-6-11.0-6_2.x86_64
+wsgc-devops-solrwcm-service-tomcat-8.0.26-20220516130800_1_.noarch
+wsgc-apmagents-jdk7-4.5.14.3-20220328091734_1_344103.noarch
+wsgc-solr-4.6.0-20211201065425_1_328362.noarch
+wsgc-wcm-tools-1.0-20220207010128_1_76869b800a.noarch
+wsgc-jdk11-1-6.x86_64
+wsgc-jdk-1.7.0-60_6.x86_64
+wsgc-devops-rerun-module-wcm-2.1-20220513104158_1_aad8022689.noarch
+wsgc-devops-wcm-aes-perf-config-cm-we-2.0
+
+
+/account/updatephonenumber.html*
+/account/oauth2/authorize/index.html*
+/account/emailupdate/confirm-thanks.html*
+/account/confirm-thanks.html*
+/m/account/confirm-thanks.html*
+/account/create.html*
+/m/account/create.html*
+/m/account/landing.html*
+/account/logout.html*
+/m/account/logout.html*
+
+
+MEAD-30166
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+
+
+MEAD-30249
+/api/user/v2/*
+
+
+
+MEAD-29673 - QA57
+
+
+
+
+MEAD-30031
+
+MEAD-30007
+/api/profile/v2/*
+
+
+ws-wcm-ca1-rk1v
+ws-wcm-rgs2-sac1v
+http://ws-wcm-ca1-rk1v:38600/crx/explorer/index.jsp
+http://ws-wcm-ca1-rk1v:38600/etc/solrIndexManager.html
+
+prd : admin/wsWAcq20
+
+non-prd : admin/wcm2016QA 
+
+http://ws-wcm-ca1-rk1v/solr/#/collection1
+
+http://ws-wcm-ca1-rk1v:38600/crx/de/index.jsp#/var/config/export/settings
+
+http://ws-wcm-ca1-rk1v:38600/system/console/configMgr
+
+
+
+https://github.wsgc.com/eCommerce-DevOps/wcm-ca1-config/blob/master/pom.xml
+
+
+
+> com.wsgc.ecommerce.wcm.app.commons.service.impl.StandardConfigurationService
+com.wsgc.ecommerce.wcm.export.assortment.service.impl.StandardAssortmentServiceResourceConfig.name
+https://ecommerce-assortment-export-pb-uat2.services.west.nonprod.wsgc.com  (it will change according to server name)
+com.wsgc.ecommerce.wcm.app.visual.ranking.dao.impl.StandardVisualRankingDao
+> com.wsgc.ecommerce.wcm.app.season.service.impl.StandardGenerationIdBuilder
+> com.wsgc.ecommerce.wcm.app.season.service.impl.StandardSeasonalExporter
+> com.wsgc.ecommerce.wcm.export.process.impl.StandardJsonExportManager
+> com.wsgc.ecommerce.wcm.rapid.build.generation.impl.StandardActiveGenerationFetcher
+> com.day.commons.datasource.jdbcpool.JdbcPoolService
+WCMQA_BUILD_USER
+spring2011
+datasource name: wcm-build-generation
+> com.day.commons.datasource.jdbcpool.JdbcPoolService
+ws_user
+simple8dev
+datasource name: ecom-database
+
+
+
+https://ecombuild.wsgc.com/jenkins/view/all/job/deploy-wcm-nonprd-any/
+
+
+
+
+
+
+
+
+
+eCommerce-Tahoe/hazelcast-enterprise-helm-config/tah-5085-511
+
+Thom Fitzpatrick  2:35 AM
+The easiest way to do this is to use the chkwcm script in mead-tools.
+That will configure it with the most recent prod artifact, and deploy the app
+Example: ./chkwcm rj qa5 - will deploy the most recent WCM artifact to the rj QA5 env.  Give it a Jira ticket as the 3rd argument and it will update the ticket as it goes along, eg ./chkwcm rj rgs1 mead-8888
+
+fatal: [slave1]: FAILED! => {"changed": false, "msg": "value of state must be one of: absent, build-dep, fixed, latest, present, got: installed"}
+
+Request Number:  REQ0184663 
+
+[ - ] - Invalid Boolean value 's+' for setting 'GEO_LOCATION.SANITIZE_POSTAL_CODE_REGEX': java.lang.IllegalArgumentException: Unrecognized boolean value 's+'
+"CHOOSE A DIFFERENT STORE" option is not moving forward for BOSTS items.
+
+MEAD-29933
+/authenticate.html*
+
+curl -LO https://storage.googleapis.com/kubernetes-release/release/`curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt`/bin/linux/amd64/kubectl
+chmod +x ./kubectl 
+sudo mv ./kubectl /usr/local/bin/kubectl
+
+root@ip-172-31-94-41:~/k8-demo# echo -n mongouser | base64
+bW9uZ291c2Vy
+root@ip-172-31-94-41:~/k8-demo# echo -n mongopassword | base64
+bW9uZ29wYXNzd29yZA==
+
+Karthik Somasundaram a
+
+    SSLCertificateFile    /etc/pki/tls/certs/localhost.crt
+    SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+
+
+
+
+cd /apps/dfeed-processor/datafeeds-processor/conf/
+
+[a_rkrishna2@dfdrck-vicn001 conf]$ sudo cat settings-override.properties
+CACHING.CATTREETTL/i : 28800
+CACHING.SKUTTL/i : 28800
+CACHING.BASESKUTTL/i : 28800
+CACHING.GROUPTTL/i : 28800
+CACHING.GROUPMEMBERTTL/i : 28800
+CACHING.DEFAULTMAXELEMENTS/i: 500000
+CACHING.SKUCATALOGELEMENTS/i: 500000
+CACHING.SKUINFOELEMENTS/i: 500000
+CACHING.AVAILTTL/i: 28800
+CACHING.NLACACHETTL/i: 28800
+CACHING.POSMAPTTL/i: 28800
+CACHING.PRICEAVAILTTL/i: 28800
+CACHING.PRICETTL/i: 28800
+CACHING.SKUCATALOGTTL/i: 28800
+CACHING.SKUINFOTTL/i: 28800
+PRICING.SERVICE_URI/r: https://promos-dfeed-rk.wsgc.com/
+PRICING.PROMOTION_SERVICE_URI/r: https://promos-dfeed-rk.wsgc.com/
+PRICING.TRANSPORT/s: REST
+PRICING.REST_RETRY_MAX/i: 20
+PRICING.REST_INITIAL_BACKOFF_INTERVAL/i: 20
+OMS.PROMOTION_CONSTRAINT_ENABLED/b: false
+PROMOTION_CLIENT.PRICING_SERVER_REQUEST_BATCH_SIZE/i: 25
+PROMOTION_CLIENT.MAX_THREADS_PROMO_ELIGIBILITY_FETCH/i: 20
+PRICING.SEND_MARKET_IN_REQUEST/b: true
+feed_generator.site_id/i: 5
+feed_generator.crypto_factory_key_file_path/s: dummy
+feed_generator.site_url_base/r: https://dummy/
+feed_generator.catalog_image_url_base/r: https://dummy/
+feed_generator.product_alt_image_suffix/s: dummy
+feed_generator.product_thumbnail_image_suffix/s: dummy
+feed_generator.product_image_override_suffix/s: dummy
+feed_generator.sku_image_suffix/s: dummy
+feed_generator.sku_swatch_image_suffix/s: dummy
+feed_generator.sku_attributes/a: dummy
+feed_generator.image_suffix_by_sku_attribute/p: dummy=dummy.jpg
+feed_generator.cdw_oss_source_data_location/s: dummy
+feed_generator.analytics_source_data_location/s: dummy
+feed_generator.sku_dept_ids/m: dummy,dummy
+MDM_CATALOG_DATA.PROCESS_PACK_COMPONENT_SKUS/b:true
+CONTENT.CONTEXT_IDENTIFIER/s: US
+
+
+
+
+73 - pb 
+75 - pk
+79 - we
+71 - ws
+
+REGISTRY.REGISTRY_ON.caregadminqa1.b=true
+svn commit -m "[MEAD-29996] added REGISTRY_ON setting for caregadminqa1"
+added REGISTRY_ON setting for caregadminqa1 env in DTC_APP_OWNER table 
+
+
+localhost.crt -> intl-dev1-rk1v_wsgc_com.crt
+localhost.pem -> intl-dev1-rk1v_wsgc_com.pem
+
+ ssh a_rkrishna2@imgproc-qa-sac1v - sudo grep -ri listen /etc/httpd/
+
+
+MEAD-29956
+/trade-signin/login.html*
+/m/trade-signin/login.html*
+
+www.qa4.markandgraham.com
+
+MEAD-29815
+/registry/account-linking-search.html*
+/registry/find.html*
+/registry/search-registry.html*
+
+19-1622004
+
+MEAD-29872
+/account/check-verification-link.html*
+/account/verification.html*
+
+
+
+MEAD-29583
+/registry/*/update.html*
+/m/registry/*/update.html*
+
+PTecom123
+
+
+MEAD-29662
+/products/*
+/m/products/*
+
+terraform destroy -target=opc_compute_instance.default
+
+Network guys: 
+@njuttuga
+@psingh12
+@uputhenveedu
+
+
+
+REQ0177356 - MEAD-25994
+
+
+
+SERREQ0551644 --- req for env login
+
+MEAD-29428
+/account/check-verification-link.html*
+/account/verification.html*
+
+
+REQTASK0346627
+REQTASK0346360
+REQTASK0346185
+REQTASK0346125
+
+
+REQITEM0284021
+REQITEM0284020
+REQITEM0284019
+REQITEM0284018
+REQITEM0284017
+
+
+
+QA41: 
+
+MG: 7386520
+PB: #84-8665283
+PK: #10-6592427
+PT: 2803063
+WE: Item: 4426901,9370937
+
+
+Network guys:
+@njuttuga
+@psingh12
+@uputhenveedu
+
+
+
+
+6888275
+84-8042087
+
+
+
+
+
+<triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>H 19 * * *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+
+  SSLCertificateFile /etc/pki/tls/certs/oss-feedgen-uat.wsgc.com.pem
+  SSLCertificateChainFile /etc/pki/tls/certs/oss-feedgen-uat.wsgc.com.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/oss-feedgen-uat.wsgc.com.key
+profile-uat1-rk1v.wsgc.com.pem
+
+aemrck-vicn005.wsgc.com.key
+aemrck-vicn005.wsgc.com.pem
+
+
+        SSLCertificateFile    /etc/pki/tls/certs/localhost.crt
+        SSLCertificateKeyFile /etc/pki/tls/private/localhost.key
+
+localhost.key
+aemrck-vicn001.wsgc.com.key
+
+localhost.crt
+aemrck-vicn001.wsgc.com.pems
+
+
+img-qa1-rk2v_wsgc_com.crt
+
+
+
+    SSLCertificateFile /etc/pki/tls/certs/webauth-uat-rk01v.wsgc.com.pem
+    SSLCertificateChainFile /etc/pki/tls/certs/webauth-uat-rk01v.wsgc.com.pem
+    SSLCertificateKeyFile /etc/pki/tls/private/webauth-uat-rk01v.wsgc.com.key
+
+
+
+
+
+eCommerce-Kubernetes-Bedrock/ecom-svc-catalog-helm-config/release
+
+ nc -vz -w3 ecommerce-avs-service-uat.services.west.nonprod.wsgc.com 443
+nc -vz <host> <port>
+
+REQITEM0284017
+
+Deployment Completed Successfully. Below are the details of the server(s) and IP Addresses. wcmrck-vicn006, wcmrck-vicn035, wcmrck-vicn045, wcmrck-vicn044, wcmrck-vicn043 10.7.8.106, 10.7.8.103, 10.7.8.104, 10.7.8.107, 10.7.8.105
+
+REQITEM0284021
+
+Deployment Completed Successfully. Below are the details of the server(s) and IP Addresses. imgrck-vicn008, imgrck-vicn009 10.7.8.113, 10.7.8.109
+
+
+www.uat.potterybarnkids.com
+www.uat2.potterybarnkids.com
+
+www.uat.pbteen.com
+www.uat2.pbteen.com
+
+  SSLCertificateFile /etc/pki/tls/certs/oss-feedgen-uat.wsgc.com.pem
+  SSLCertificateChainFile /etc/pki/tls/certs/oss-feedgen-uat.wsgc.com.pem
+  SSLCertificateKeyFile /etc/pki/tls/private/oss-feedgen-uat.wsgc.com.key
+
+
+aemrck-vdcn003.wsgc.com.pem
+aemrck-vdcn004.wsgc.com.pem
+aemrck-vicn006.wsgc.com.pem
+aemrck-vicn007.wsgc.com.pem
+
+aemrck-vdcn003.wsgc.com.key
+aemrck-vdcn004.wsgc.com.key
+aemrck-vicn006.wsgc.com.key
+aemrck-vicn007.wsgc.com.key
+
+
+
+
+www.qa41.markandgraham.com
+www.qa41.potterybarn.com
+www.qa41.potterybarnkids.com
+www.qa41.pbteen.com
+www.qa41.westelm.com
+www.qa41.williams-sonoma.com
+
+
+
+
+artrck-vdcn002
+
+NCCR:
+REQ0165193
+REQ0142190
+REQ0183836
+
+MEAD-28737
+/products/*/quicklook.html
+RGS1,UAT3, UAT6, QA51
+
+['release']
+
+
+MEAD-28947
+/account/login.html*
+/m/account/login.html*
+QA18	
+
+
+MEAD-28948
+/products/*/minipip.html
+ RGS1,UAT3, UAT6, QA51
+
+
+MEAD-28929
+/products/*
+/m/products/*
+PT,PK WS dne
+
+docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins/jenkins:lts-jdk11
+
+
+MEAD-28571
+These should go to MFE:
+/registry/find-registry.html
+/registry/find.html
+/registry/search-registry.html
+/registry/
+/registry/index.html
+/registry/*/registry-list.html
+/registry/*/gift-tracker.html
+/registry/*/update.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/m/registry/find-registry.html
+/m/registry/find.html
+/m/registry/search-registry.html
+/m/registry/
+/m/registry/index.html
+/m/registry/*/registry-list.html
+/m/registry/*/gift-tracker.html
+/m/registry/*/update.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+These page should go to DP:
+
+/registry/manage-registry.html 
+/registry/*/manage.html
+
+
+
+MEAD-28579
+/registry/**/create-registry-confirmation.html
+/registry/create-registry-sign-in.html?cm_type=gnav
+/registry/create.html
+/registry/registry-login.html?manageRegistry=true 
+/registry/manage-registry.html 
+/registry/**/manage.html
+/registry/wpcmh9ltlf/registry-list.html
+/registry/**/update.html?anchor=#event
+/registry/**/update-confirmation.html 
+/registry/email-registry.html
+
+
+
+nilgiri-registry-wrk-20220207
+
+
+MEAD-28570
+/products/getDeliveryInformation.json
+/products/*/quicklook.json
+/products/*/request-swatches.html
+/products/*/email-a-friend.html
+/products/*/email-a-friend-preview.html
+/favorites/items/index.json
+/customer-service/join-email.jsonp*
+/customer-service/confirm-marketing-email-signup.jsonp*
+/customer-service/confirm-marketing-sms-signup.jsonp*
+/customer-service/email-list/*
+/m/customer-service/email-list/*
+/customer-service/email-us/*
+/m/customer-service/email-us/*
+/customer-service/show-join-email.jsonp*
+/customer-service/join-email-confirm.jsonp*
+/customer-service/popup/communication-preferences.html*
+/m/customer-service/confirm-mobile-email-signup.html*
+
+
+     <verifications.aes.secret.key>verification-id-rtc-20220225</verifications.aes.secret.key>
+verifications.aes.salt=verificationId-salt
+     <verifications.aes.secret.key>ENC:DAwGTzL+kQdzALI/QnD7IGkxUFE0ghQo2JFqwaWualEDUnTrbZVmWLCkzA870Pun</verifications.aes.secret.key>
+
+
+
+MEAD-28294 -- All-nonprod GMTP  ------ www.qa54.pbteen.ca
+
+
+19-3779225
+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 
+log4j.category.com.wsgc.ecommerce.security.filters=DEBUG
+log4j.category.com.wsgc.ecommerce.ui.controllers=DEBUG
+
+EQAOffshore@wsgc.com, EQAOn-Site@wsgc.com
+
+Action Items for today : 
+Siva: 
+PT QA54 : Reconfigure ECM Image URL just like in summary page
+Fix the bgb caprod configuration
+Work in pending tickets
+
+
+Rama:
+Jenkin page to run jukebox end-to-end  test is not displayed and shows 404 error
+QA11-Unable to place orders with CreditCard, Affirm and Paypal payments in Ecom PB
+[PROFILE][CONFIGS] Env Specific configurations needed for profile C3 integration
+QA54 PT (Canada) - Akamai configuration for customer-service urls
+Akamai config updates for QA19 - WE manage registry pages point to DP.
+
+
+
+
+Bhagya: 
+Need WCM prod scrubbing on we-wcm-ca1-rk1v (we ca1)
+Need WCM prod scrubbing on ws-wcm-ca1-rk1v (ws ca1)
+update SSL certs
+
+
+MEAD-28504
+/registry/create.html
+www.qa52.markandgraham.com
+
+
+MEAD-29230
+
+These should go to MFE:
+
+/api/registry/v1/*
+/registry/*/registry-list.html*
+/registry/*/gift-tracker.html*
+/registry/find-registry.html*
+/registry/find.html*
+/registry/search-registry.html*
+/registry/
+/registry/index.html*
+/registry/*/update.html*
+/registry/create.html*
+/registry/registry-login.html*
+/registry/create-registry-sign-in.html*
+/m/registry/*/registry-list.html*
+/m/registry/*/gift-tracker.html*
+/m/registry/find-registry.html*
+/m/registry/find.html*
+/m/registry/search-registry.html*
+/m/registry/
+/m/registry/index.html*
+/m/registry/*/update.html*
+/m/registry/create.html*
+/m/registry/registry-login.html*
+/m/registry/create-registry-sign-in.html*
+
+All Others: should go to DP.
+
+/registry/manage-registry.html 
+/registry/*/manage.html
+
+
+
+MEAD-29229
+These should go to MFE:
+/registry/*/registry-list.html
+/registry/*/gift-tracker.html
+/m/registry/*/registry-list.html
+/m/registry/*/gift-tracker.html
+/api/registry/v1/* 
+
+All Others: should go to DP.
+
+/registry/find-registry.html
+/registry/find.html
+/registry/search-registry.html
+/registry/
+/registry/index.html
+/registry/*/update.html
+/registry/create.html
+/registry/registry-login.html
+/registry/create-registry-sign-in.html
+/registry/manage-registry.html 
+/registry/*/manage.html
+/m/registry/find-registry.html
+/m/registry/find.html
+/m/registry/search-registry.html
+/m/registry/
+/m/registry/index.html
+/m/registry/*/update.html
+/m/registry/create.html
+/m/registry/registry-login.html
+/m/registry/create-registry-sign-in.html
+
+MEAD-28227
+
+2.2.6.1
+
+<triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>H 20 23-31 12 *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+
+
+<spec>H 19 * * *</spec>
+    CHKT.DELIVER_TOGETHER_AS_FN_CONSOLIDATION_ENABLED/b: true
+
+/bgb/tomcat-bgb/apps/bgb/bin/launcher /bgb/tomcat-bgb/apps/bgb dirtreesync@imgproc-rgs2-sac1v --source=/apps/wsgc-contentprocessor-rgs2/data/published/ws/images/wcm/202210/0019/ --host=img-qa-rk1v --destination=/images/ecom-images/ws-images/wcm-non-prod-assets/images/dp/wcm/202210/0019 --credentials=imageuser deploy
+
+
+wsgc.oauth.ldap.url=ldaps://rkaddc1.wsgc.com:636/
+
+crerck-vccn006
+crerck-vccn007
+creash-vccn003
+creash-vccn004
+
+
+crerck-vccn001
+
+
+
+#CUSTOMER_SERVICE.IS_B2B_CONTENT_ENABLED.qa54.b=false
+#CUSTOMER_SERVICE.IS_EMAIL_OPT_IN_ENABLED.qa54.b=true
+CUSTOMER_SERVICE.IS_CATALOG_ADDRESS_CHANGE_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_CATALOG_MAILING_OPTIONS_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_CATALOG_REQUEST_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_E_CATALOG_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_HOME_E_CATALOG_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_HOME_PAGE_KEY_REWARDS_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_KAFKA_MESSAGE_PUBLISH_ENABLED.qa54.b=true
+CUSTOMER_SERVICE.IS_ONLINE_CATALOG_LINK_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_RETURNS_LINK_ENABLED.qa54.b=true
+CUSTOMER_SERVICE.IS_SAVE_EVENTS_INTO_EMC_OPTIONS_INFO_ENABLE.qa54.b=false
+CUSTOMER_SERVICE.IS_SAVE_EVENTS_INTO_EMC_OPTIONS_INFO_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.IS_TRADE_LOGIN_ENABLED.qa54.b=false
+CUSTOMER_SERVICE.KAFKA_ERROR_TOPIC_PREFIX.qa54.s=QA1.B.
+CUSTOMER_SERVICE.KAFKA_PRODUCER_BOOTSTRAP_SERVERS.qa54.s=rk.qa.kafka.int.wsgc.com:443
+CUSTOMER_SERVICE.KAFKA_PRODUCER_ID.qa54.s=ECOM_QA_CUSTOMER_SERVICE_PUBLISHER
+CUSTOMER_SERVICE.KAFKA_TOPIC_PREFIX.qa54.s=QA1.B.
+
+
+PAYMENT.TOKENIZATION_EPS_URLS/a: https://tibintdevsac5p.wsgc.com:19092/paymentservice/v1
+
+
+MEAD-28118
+/m/products/getPostalCodeCookie.json
+/m/products/getDeliveryInformation.json
+
+SERREQ0469829 
+
+
+EPS.CONNECTION_ACQUISITION_TIMEOUT.qa26.i=15000
+EPS.SOCKET_TIMEOUT.qa26.i=40000
+
+
+https://ecommerce-cart-checkout-qa2.services.west.nonprod.wsgc.com/cartservice/v1/domain	
+
+
+A records/VIPS,,,Node,Ports
+vip_qa54_pt_ca, IN A, origin-www.qa54.pbteen.ca,pt-intdev54-rk1v.wsgc.com, 80 49446
+vip_uat3_pt_ca, IN A, origin-www.uat3.pbteen.ca,pt-uat3-rk1v.wsgc.com, 80 49446
+
+
+www.qa54.pbteen.ca,IN CNAME,secure-qa2.wsgc.com.edgekey.net
+www.uat3.pbteen.ca,IN CNAME,secure-qa2.wsgc.com.edgekey.net
+
+
+
+
+
+log4j.category.com.wsgc.ecommerce.security.filters=DEBUG
+
+Enabled DUBEG logs for mentioned package for MG-QA61 env.
+
+https://jira.wsgc.com/browse/MEAD-28047
+https://jira.wsgc.com/browse/MEAD-28055
+https://jira.wsgc.com/browse/MEAD-28046 
+https://jira.wsgc.com/browse/MEAD-28072
+
+
+
+
+HELM_PACKAGING_BRANCH: eCommerce-Kubernetes-Bedrock/membership-service-helm-config/release
+APP_DEPLOY_BRANCH: Enterprise-Services/membership-service/release
+
+
+
+MEAD-27868
+/account/check-verification-link.html
+/account/verification.html
+
+
+MEAD-27888
+/m/products/getDeliveryInformation.json
+
+
+     <oauth.tomcat.pkgVersion>2.0.10</oauth.tomcat.pkgVersion>
+     <oauth.parentAssembly.version>2.0.68</oauth.parentAssembly.version>
+
+<oauth.parentAssembly.version>2.0.72</oauth.parentAssembly.version>
+<oauth.tomcat.pkgVersion>8.0.26.6</oauth.tomcat.pkgVersion>
+<cpcr.jdkLinkVersion>jdk1.8.0_202</cpcr.jdkLinkVersion>
+
+
+/m/products/getPostalCodeCookie.json
+
+-XX:+UseParallelGC
+
+>2.0-SNAPSHOT
+
+/api/phygital/v1/*
+
+/registry/find.html
+/m/registry/find.html
+/registry/find-registry.html
+/m/registry/find-registry.html
+/registry/search-registry.html
+/m/registry/search-registry.html
+/registry/account-linking-search.html
+/m/registry/account-linking-search.html
+/registry/.info/summary.html
+/api/registry/*
+
+sudo yum -y --disablerepo=\* --enablerepo=wsgc-\* remove wsgc-devops-favorites-service-tomcat
+
+/account/login.html
+/m/account/login.html
+
+
+/registry/index.html
+/m/registry/index.html
+/registry/
+/m/registry/
+
+MEAD-27525,MEAD-27491
+
+9686798291
+
+Join Zoom Meeting
+https://us04web.zoom.us/j/76716482398?pwd=Jbwp3jBOLl6vwlsR8VlPNCkr6k3g2p.1
+
+Meeting ID: 767 1648 2398
+Passcode: 7quJA0
+One tap mobile
++16699006833,,76716482398#,,,,*173600# US (San Jose)
++12532158782,,76716482398#,,,,*173600# US (Tacoma)
+
+Dial by your location
+        +1 669 900 6833 US (San Jose)
+        +1 253 215 8782 US (Tacoma)
+        +1 346 248 7799 US (Houston)
+        +1 929 205 6099 US (New York)
+        +1 301 715 8592 US (Washington DC)
+        +1 312 626 6799 US (Chicago)
+Meeting ID: 767 1648 2398
+Passcode: 173600
+Find your local number: https://us04web.zoom.us/u/flGvPLsXL
+
+
+
+
+
+
+
+
+
+
+
+can you please create a New Ecom Order and validate whether the order is reflected in sterling-EQA2
+
+CART_CHECKOUT.E_URI.qa10.r=https://ecommerceshasta-cart-checkout-cyoddstst.services.west.nonprod.wsgc.com/
+CART_CHECKOUT.SERVICE_URI.r=https://ecommerce-cart-checkout-qa1.services.west.nonprod.wsgc.com/cartservice/v1/domain/
+CART_SERVICE.BASE_URI.r=https://ecommercelhotse-cart-v1012.services.west.nonprod.wsgc.com/cartservice/v1/domain/us/carts
+
+setsAndEaches.cache.domain=${registry.setsAndEaches.cache.domain}
+setsAndEaches.datasource.username=0 0/30 * * * ?
+setsAndEaches.datasource.password=oracle.jdbc.OracleDriver
+
+
+#67-4309943
+
+OAUTH.ACCESS_TOKEN_URI.uat2.s=https://webauth-uat-rk01v.wsgc.com/oauth/token
+https://webauth-uat-rk03v.wsgc.com/oauth/token
+
+
+https://pricing-qa1.wsgc.com
+
+
+#97-595335
+
+
+MEAD-26964,MEAD-27055
+/api/profile/v2/*
+
+/registry/*/update.html
+/m/registry/*/update.html
+
+www.qa37.markandgraham.com
+www.qa37.potterybarn.com
+www.qa37.potterybarnkids.com
+www.qa37.pbteen.com
+www.qa37.westelm.com
+www.qa37.williams-sonoma.com
+
+skanagala: -, WebAdmins
+sgolagani: -, WebAdmins
+
+INVENTORY.INVENTORY_MICROSERVICE_URI.qa11.r=https://ecommerce-inventory-service-regression.services.west.nonprod.wsgc.com/inventory/v1
+INVENTORY.INVENTORY_MICROSERVICE_URI.qa31.r=https://ecommerce-inventory-service-uat.services.west.nonprod.wsgc.com/inventory/v1
+
+INVENTORY.IS_NON_FN_V2_1_TRANSIT_SCHEDULE_ENABLED.qa31.b=true
+
+
+https://repos.wsgc.com/svn/devops/application/invent-adjustment/uat/trunk/pom.xml
+<wsgc.invent.war.artifactVersion>ci_eCommerce-Wolff_develop-SNAPSHOT</wsgc.invent.war.artifactVersion>
+
+
+WAR Version	2.2.1
+
+MEAD-26411
+/customer-service/popup/communication-preferences.html*
+/m/customer-service/confirm-mobile-email-signup.html* 
+
+
+     <profile.war.artifactVersion>2.2.6.1</profile.war.artifactVersion>
+
+
+
+6.1G	application.log.2021-10-04
+7.5G	application.log.2021-10-05
+Sudo mv application.log.2021-10-04 application.log.2021-10-05 /apps/
+
+ sudo tar -zcvf application.log.2021-10-05.tar.gz application.log.2021-10-05
+
+
+CHG137823 : 
+https://rundeck.wsgc.com/rundeck/project/wsgc/job/edit/63e2c163-4bac-4f32-bcfa-f94d8e9f00ab
+https://ecom-webhooks.wsgc.com/hooks/get-recent-pkg-vers?package=inventory-capacity&packageType=helmProject&versionsCount=10
+1.2.5,1.2.6,10.7.2,2.0.0,2.0.1,2.0.2,2.0.3,2.1.0,2.2.0,2.2.1,3.0.0
+
+
+
+Please Create Mead ticket for this issue with steps to reproduce the scenario. 
+
+Thanks and Regards,
+Rama Krishna Yalla
+
+
+
+
+
+
+SERREQ0534796
+
+QA3.B.ECO.OMSORDCREATE.INSERT
+
+CART_CHECKOUT.SERVICE_URI.qa11.r=https://ecommerce-cart-checkout-qa.services.west.nonprod.wsgc.com/cartservice/v1/domain  -  PB
+CART_CHECKOUT.SERVICE_URI.qa11.r=https://ecommerce-cart-checkout-qa1.services.west.nonprod.wsgc.com/cartservice/v1/domain/ - WS
+
+
+
+
+https://ecommerce-cart-checkout-qa.services.west.nonprod.wsgc.com/cartservice/v1/domain/us/carts
+
+/registry/?cm_type=gnav*
+/account/?cm_type=gnav*         
+/registry/?reglanding=true*
+
+
+MEAD-26234/MEAD-26411/MEAD-26223
+
+&cm_re=HeaderLinks-_-MyAccount-_-MainSite*
+
+
+
+
+
+
+
+Shreekar Basrur  4:29 AM
+@bnitinmore do you want to take this ticket and help me add/update all the folder for each env (https://jira.wsgc.com/browse/MEAD-26890) ..We are planning to put a jenkins job in front of this and run the job once sequentially everyday ..your task will be to raise a PR in kubernetes-Bedrock and i can merge it for you
+2 ways you can find out which is Domestic vs can _ https://confluence.wsgc.com/display/ES/QA+Deployment+Matrix or
+https://github.wsgc.com/eCommerce-Tahoe/delivery-gateway-helm-config/blob/qa14/config/qa14/values.yaml#L150.
+2 > update the property for CAN vs US in each env folder correctly and also make sure the prefix is correct
+The idea of this exercise is to use Bedrock  not to have tahoe as the place for staging this ..Thanks (edited) 
+
+
+
+/products
+/m/products
+MEAD-26984
+
+
+<!-- <node name="ws-prd-rk1v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk1v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk2v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk2v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk3v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk3v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk4v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk4v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk5v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk5v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk6v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk6v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk7v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk7v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk8v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk8v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="2.6.18-274.7.1.el5"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+<node name="ws-prd-rk9v" description="williams sonoma frontend production rocklin node" tags="frontend,ws,prdrk" hostname="ws-prd-rk9v" osArch="amd64" osFamily="unix" osName="Linux" osVersion="3.10.0-957.27.2.el7"  username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/> -->	 	 
+ 	 
+	 	 	 	 
+pk-ecmauth-ca1-rk1v - ecmrck-vicn018	DD
+pk-ecmpub-ca1-rk1v - ecmrck-vicn012 	DD 
+pk-ecmauth-qa-sac1v - ecmsac-vicn005	DD
+pk-ecmpub-qa-sac1v - ecmsac-vicn006	DD 	 
+pt-ecmauth-qa-sac1v - ecmsac-vicn007	DD
+pt-ecmpub-qa-sac1v - ecmsac-vicn008	DD 	 
+pk-ecmauth-uat-rk1 - ecmrck-vicn025	DD
+pk-ecmpub-uat-rk1 - ecmrck-vicn026 	DD 
+pt-ecmauth-uat-rk1 - ecmrck-vicn027	DD
+pt-ecmpub-uat-rk1 - ecmrck-vicn028	DD 	 
+pk-ecmauth-rgs-rk1v - ecmrck-vicn038	DD
+pk-ecmpub-rgs-rk1v - ecmrck-vicn044 	DD 
+pt-ecmauth-rgs-rk1v - ecmrck-vicn039	DD
+pt-ecmpub-rgs-rk1v - ecmrck-vicn045	DD
+pk-ecmauth-perf-rk1v - ecmrck-vicn050	DD
+pk-ecmpub-perf-rk1v - ping: cannot resolve pk-ecmpub-perf-rk1v: Unknown host 	 
+pt-ecmauth-perf-rk1v - ecmrck-vicn051	DD
+pt-ecmpub-perf-rk1v - ecmrck-vicn057 	DD
+
+
+
+bgbrck-vicn008.wsgc.com - 10.7.7.20
+
+ecmrck-vicn034.wsgc.com - 10.7.6.233
+
+ecmrck-vicn035.wsgc.com - 10.7.6.232
+
+ecmrck-vicn061.wsgc.com - 10.7.7.47
+
+bgbrck-vicn006.wsgc.com - 10.7.7.21
+
+ecmrck-vicn063.wsgc.com - 10.7.7.49
+
+bgbsac-vicn002.wsgc.com - 10.13.1.251
+
+ecmagentintrk1v.wsgc.com - 192.168.74.169
+
+bgbrck-vicn007.wsgc.com - 10.7.7.18
+
+ecmrck-vicn017.wsgc.com - 10.7.0.253
+
+ecmrck-vicn033.wsgc.com - 10.7.0.49
+
+ecmrck-vicn060.wsgc.com - 10.7.7.48
+
+bgbrck-vicn005.wsgc.com - 10.7.7.19
+
+ecmrck-vicn062.wsgc.com - 10.7.7.50
+
+ecmrck-vicn001.wsgc.com - 10.7.1.75
+
+
+
+bgbrck-vicn001.wsgc.com - 10.7.4.148
+bgbrck-vicn003.wsgc.com - 10.7.7.16
+bgbsac-vicn001.wsgc.com - 10.13.1.250
+bgbrck-vicn004.wsgc.com - 10.7.7.17
+ecmrck-vicn035.wsgc.com - 10.7.6.232
+
+
+imgrck-vicn005.wsgc.com - 10.7.5.189
+imgrck-vicn004.wsgc.com - 10.7.4.33
+imgrck-vicn006.wsgc.com - 10.7.4.90
+imgrck-vicn007.wsgc.com - 10.7.4.81
+imgsac-vicn003.wsgc.com - 10.13.0.246
+imgsac-vicn004.wsgc.com - 10.168.34.110
+imgsac-vicn004.wsgc.com - 10.168.34.110
+imgsac-vicn002.wsgc.com - 10.168.34.104
+imgrck-vicn003.wsgc.com - 192.168.75.228
+webrck-vicn001.wsgc.com - 10.7.5.76
+
+
+ecmrck-vicn048.wsgc.com - 10.7.7.32
+ecmrck-vicn036.wsgc.com - 10.7.7.24
+ecmrck-vicn016.wsgc.com - 10.7.5.204
+ecmrck-vicn049.wsgc.com - 10.7.7.41
+ecmrck-vicn037.wsgc.com - 10.7.7.23
+ecmrck-vicn018.wsgc.com - 10.7.5.201
+ecmrck-vicn050.wsgc.com - 10.7.7.33
+ecmrck-vicn038.wsgc.com - 10.7.7.27
+ecmrck-vicn051.wsgc.com - 10.7.7.35
+ecmrck-vicn039.wsgc.com - 10.7.7.25
+ecmrck-vicn020.wsgc.com - 10.7.5.203
+ecmrck-vicn052.wsgc.com - 10.7.7.37
+ecmrck-vicn040.wsgc.com - 10.7.7.30
+ecmrck-vicn019.wsgc.com - 10.7.5.202
+ecmrck-vicn053.wsgc.com - 10.7.7.40
+ecmrck-vicn041.wsgc.com - 10.7.7.22
+
+
+
+ecmrck-vicn054.wsgc.com - 10.7.7.34
+ecmrck-vicn042.wsgc.com - 10.7.7.31
+ecmrck-vicn011.wsgc.com - 10.7.5.197
+ecmrck-vicn055.wsgc.com - 10.7.7.39
+ecmrck-vicn043.wsgc.com - 10.7.7.28
+ecmrck-vicn012.wsgc.com - 10.7.5.199
+ecmrck-vicn044.wsgc.com - 10.7.7.26
+ecmrck-vicn057.wsgc.com - 10.7.7.45
+ecmrck-vicn045.wsgc.com - 10.7.7.29
+ecmrck-vicn015.wsgc.com - 10.7.5.198
+ecmrck-vicn058.wsgc.com - 10.7.7.42
+ecmrck-vicn046.wsgc.com - 10.7.7.38
+ecmrck-vicn014.wsgc.com - 10.7.5.200
+ecmrck-vicn059.wsgc.com - 10.7.7.44
+ecmrck-vicn047.wsgc.com - 10.7.7.36
+///pk-ecmpub-perf-rk1v (ecmrck-vicn056) 
+
+
+
+
+dparck-vicn019.wsgc.com - 10.7.1.252
+eferck-vicn085.wsgc.com - 10.7.7.60
+dparck-vicn075.wsgc.com - 10.7.7.229
+dparck-vicn081.wsgc.com - 10.7.5.73
+eferck-vicn091.wsgc.com - 10.7.7.52
+eferck-vicn073.wsgc.com - 10.7.7.0
+dparck-vicn034.wsgc.com - 10.7.5.161
+
+
+
+
+dparck-vicn035.wsgc.com - 10.7.7.104
+dparck-vicn101.wsgc.com - 10.7.5.213
+dparck-vicn104.wsgc.com - 10.7.5.216
+dparck-vicn037.wsgc.com - 10.7.5.163
+pb-int1-rk1v.wsgc.com - 10.130.200.90
+eferck-vicn086.wsgc.com - 10.7.7.56
+dparck-vicn076.wsgc.com - 10.7.7.233
+dparck-vicn082.wsgc.com - 10.7.5.70
+eferck-vicn092.wsgc.com - 10.7.7.51
+eferck-vicn074.wsgc.com - 10.7.7.4
+
+
+
+dparck-vicn036.wsgc.com - 10.7.7.96
+dparck-vicn088.wsgc.com - 10.7.5.164
+dparck-vicn034.wsgc.com - 10.7.5.161
+dparck-vicn106.wsgc.com - 10.7.5.141
+dparck-vicn060.wsgc.com - 10.7.7.177
+dparck-vicn042.wsgc.com - 10.7.7.172
+eferck-vicn087.wsgc.com - 10.7.7.57
+dparck-vicn077.wsgc.com - 10.7.7.232
+dparck-vicn083.wsgc.com - 10.7.5.75
+eferck-vicn093.wsgc.com - 10.7.7.59
+eferck-vicn075.wsgc.com - 10.7.7.5
+
+
+
+dparck-vicn037.wsgc.com - 10.7.5.163
+pt-int1-rk1v.wsgc.com - 10.130.200.92
+eferck-vicn088.wsgc.com - 10.7.7.58
+dparck-vicn078.wsgc.com - 10.7.7.230
+dparck-vicn084.wsgc.com - 10.7.5.71
+eferck-vicn094.wsgc.com - 10.7.7.53
+eferck-vicn076.wsgc.com - 10.7.7.6
+
+
+
+dparck-vicn038.wsgc.com - 10.7.7.98
+dparck-vicn102.wsgc.com - 10.7.5.214
+dparck-vicn041.wsgc.com - 10.7.5.181
+dparck-vicn107.wsgc.com - 10.7.5.222
+we-int1-rk1v.wsgc.com - 10.130.200.94
+eferck-vicn089.wsgc.com - 10.7.7.54
+dparck-vicn079.wsgc.com - 10.7.7.231
+dparck-vicn085.wsgc.com - 10.7.5.74
+eferck-vicn095.wsgc.com - 10.7.7.62
+eferck-vicn077.wsgc.com - 10.7.7.3
+
+
+
+dparck-vicn039.wsgc.com - 10.7.7.99
+dparck-vicn103.wsgc.com - 10.7.5.215
+dparck-vicn048.wsgc.com - 10.7.5.182
+dparck-vicn089.wsgc.com - 10.7.5.165
+ws-int1-rk1v.wsgc.com - 10.130.200.93
+eferck-vicn090.wsgc.com - 10.7.7.55
+dparck-vicn080.wsgc.com - 10.7.7.234
+dparck-vicn086.wsgc.com - 10.7.5.72
+eferck-vicn096.wsgc.com - 10.7.7.61
+eferck-vicn084.wsgc.com - 10.7.6.255
+
+xcarck-vicn001.wsgc.com - 10.7.1.202
+efesac-vicn071.wsgc.com - 10.13.1.189
+
+
+
+
+
+
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/delete-namespace/
+
+helm delete <namespace_name> --purge --tiller-namespace=kube-tiller
+In case you need… here’s the “easy way”…
+helm --tiller-namespace kube-tiller ls | grep FAILED | awk '{print $1}' | xargs helm --tiller-namespace kube-tiller delete --purge 
+
+Andrew Lillie 10:44 PM
+kubectl get pods -n <namespace>
+kubectl delete pod <pod name> -n <namespace>  where <pod name> is one of the pods from step 1.
+kubectl get pods -n <namespace>  to watch for replacement to start
+Repeat 2 and 3 for remaning “old” pods
+
+
+SINGLE_PAGE_CHECKOUT.CARE_CENTER_REDIRECT_BASE_URL.r=https://eqa1-ccui.wsgc.com/oms/#/detail/order/default/
+CHKT.MINIMUM_CARE_CENTER_B2B_CONSOLIDATION_THRESHOLD.d=10000
+CHKT.MINIMUM_CARE_CENTER_B2C_CONSOLIDATION_THRESHOLD.d=15000
+
+
+This error occurs when the repo does not have a git or svn ignore for /target
+135077 clan report
+ 
+    <xcadm.war.artifactVersion>2.4.58-SNAPSHOT</xcadm.war.artifactVersion> - ca-qa1
+   <xcadm.war.artifactVersion>2.4.60-SNAPSHOT</xcadm.war.artifactVersion> - cauat1
+
+
+DELIVERY_ESTIMATE.SPO_AODD_OVERRIDE_RETURN_MESSAGE.qa44.b=true
+INVENTORY.IS_TRANSIT_FEED_ENABLED_TO_CALC_AODD.qa44.b=true
+
+
+ORDER_HISTORY_SERVICE.URL.qa25.s=https://apises-perf.wsgc.com:8482/orderservice/v1/history/
+https://eqa1-order-service-supplychain.services.west.nonprod.wsgc.com/orderservice/v1/history/
+https://eqa1-apises.wsgc.com:8489/gateway/process/orderservice/v1/history/
+https://eqa2-apises.wsgc.com:8482/orderservice/v1/history/
+https://eqa2-order-service-supplychain.services.west.nonprod.wsgc.com/orderservice/v1/history/
+https://eqa3-apises.wsgc.com:8482/orderservice/v1/history/
+https://stlrck-virh007.wsgc.com:8482/orderservice/v1/history/
+https://ecinvent-qa-rk1v.wsgc.com:49182/gizmotron/service/order-service/order/v1/history/
+
+Resolution: update the following app configuration setting:
+
+PAYPAL.EPS_TOKEN_SCHEME/s
+
+to the following value:
+
+BTPP_PMNT_QA2
+
+
+log4j.category.com.wsgc.ecommerce.eventnotification.impl=DEBUG
+log4j.category.com.wsgc.inventory.reservation.service=DEBUG
+log4j.category.com.wsgc.inventory.service.consumer=DEBUG
+log4j.category.com.wsgc.ecommerce.ordermanagement.service.impl=DEBUG
+
+
+
+<!--# moving tag to point to rk1 as part of MEAD-25302/MEAD-252303 -->
+
+  <node name="loysac-vpcn001" description="loyalty prod sac node" tags="loyalty,prd,prdrk,sac1,rk1" hostname="loysac-vpcn001" osFamily="unix" osName="Linux" osVersion="3.10.0-1160.42.2.el7" username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+  <node name="loysac-vpcn002" description="loyalty prod sac node" tags="loyalty,prd,prdrk,sac2" hostname="loysac-vpcn002" osFamily="unix" osName="Linux" osVersion="3.10.0-1160.42.2.el7" username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+  <node name="loysac-vpcn003" description="loyalty prod sac node" tags="loyalty,prd,prdrk,sac3" hostname="loysac-vpcn003" osFamily="unix" osName="Linux" osVersion="3.10.0-1160.42.2.el7" username="imageuser" sudo-command-enabled="true" sudo-fail-on-prompt-timeout="false"/>
+
+
+
+
+/registry/*/registry-list.html*
+/registry/create.html*
+/m/registry/create.html*
+/registry/registry-login.html*
+/m/registry/registry-login.html*
+/registry/create-registry-sign-in.html*
+/m/registry/create-registry-sign-in.html*
+
+
+DELIVERY_ESTIMATE.SPO_AODD_OVERRIDE_RETURN_MESSAGE.qa10.b=true
+
+
+<frontend.SessionProvider>STANDARD</frontend.SessionProvider>
+
+
+
+
+
+MG : Host QA17 ( Rgs1 Clone)
+
+profile-prd-ab5v
+
+
+artrck-vdcn002
+
+sudo service wsgc-dfeed-processor stop
+sudo rm -rf /apps/dfeed-processor/data/*
+sudo rm -rf /var/log/weblogs/datafeeds/processor/*
+sudo rm -rf /apps/dfeed-processor/productarchive
+sudo service wsgc-dfeed-processor start
+sudo ps -ef | grep tomcat
+
+
+
+
+
+
+Cleared processes
+
 
 100787
 REQ0173997
-https://wsgc.zoom.us/my/sivaganesh
 
-https://wsgc.zoom.us/j/2010434447
 
 Visa: 
 4111111111111111
 EXP:12/22 CVV:111
+
+
+								pb-wcm-perf-rk1v        we-wcm-perf-rk1v
+
+Number of WCM instances.                                        1(wcmrck-vicn022)	1
+Disk space per instance					        					   
+How much disk space can be added
+Total allocated heap memory
+How much heap memory can be increased
+Cores/CPUs for per instance,
+Allocated RAM per instance					
+SSD or HDD storage or any other type of storage per instance
+
+
+
+
+
+
+
+
+ci_eCommerce-Wolff_develop-SNAPSHOT
+
+eCommerce-Kubernetes-Bedrock/c3-helm-config/release
+eCommerce-Bedrock/c3-service/release
+
+    INVENTORY.MONO_PZ_ADDITIONAL_BUSINESS_DAYS/i: 1
+
+
+ORDER_HISTORY_SERVICE.URL.qa11.s=https://eqa1-apises.wsgc.com:8489/gateway/process/orderservice/v1/history/
+ORDER_HISTORY_SERVICE.URL.qa11.s=https://stlrck-virh007.wsgc.com:8482/orderservice/v1/history
+
+https://eqa1-apises.wsgc.com:8489/gateway/process/orderservice/v1/history/
+
+ORDER_SERVICE.URL.qa11.s=https://eqa1-order-service-supplychain.services.west.nonprod.wsgc.com/orderservice/v1/orders/
+
+https://stlrck-virh007.wsgc.com:8482/orderservice/v1/history
+
+
+GEO_LOCATION.POSTAL_CODE_DISPLAY_FORMAT_FIND_REPLACE.qa54.s=...(?!$)=$0 
+GEO_LOCATION.POSTAL_CODE_DISPLAY_VALIDATION_REGEX.qa54.s=/^(?!.*[dfioquDFIOQU])[aA-vxyzwVXY][0-9][a-zA-Z] [0-9][a-zA-Z][0-9]$/
+GEO_LOCATION.POSTAL_CODE_MIN_LENGTH.qa54.i=6
+GEO_LOCATION.POSTAL_CODE_VALIDATION_REGEX.qa54.s=^(?!.*[dfioquDFIOQU])[aA-vxyzwVXY][0-9][a-zA-Z][0-9][a-zA-Z][0-9]$
+GEO_LOCATION.REDACTED_POSTAL_CODE_VALIDATION_REGEX.qa54.s=^(?!.*[dfioquDFIOQU])[aA-vxyzwVXY][0-9][a-zA-Z]$
+GEO_LOCATION.SANITIZE_POSTAL_CODE_REGEX.qa54.s=\\\s+
+
+
+
+http://ws-intdev62-rk1v/heartbeat.html
+
+
+
+
+INTL.SHIPPING_ZIPCODE.s=60131/60007
+
+mid-2462@ftp.sbx.borderfree.com
+s8b4dYTNqv7U
+sandbox env
+Path : Outbox/Orders/Archive/
+
+After a meeting with the stakeholders late on Friday, we concluded that the request we had been given on our end was actually very different than our original interpretation.  To that end, we need to cancel the original DNL2 requests and submit new ones.
+ 
+SERREQ0516903-SERREQ0516902 can be cancelled; the VIPs and CNAMEs created therein need to be deleted – SERREQ0518265 and SERREQ0518264 created for this
+ 
+SERREQ0518263 and SERREQ0518261 are the replacement VIP requests.
+
+
+https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/
+
+https://confluence.wsgc.com/display/ES/Kubernetes+Troubleshooting
+
+
+KIBANA : https://ecom-qa-kibana.wsgc.com/
+
+
+MFE : 
+https://ecombuild.wsgc.com/jenkins/view/devops-mfe/
+https://github.wsgc.com/eCommerce-Tahoe/etcd-syncappconfig-k8s-package/tree/all-nonprod-session/src/main/helm/config
+https://github.wsgc.com/eCommerce-Tahoe/delivery-gateway-k8s-package/blob/qa14/src/main/helm/config/qa14/values.yaml
+these are basic configuration for mfe
+
+
+
+
+#19-3568185 - PB-CAQA31
+
+ACCOUNT_SERVICES.OAUTH_AUTHORIZATION_TOKEN_URL/s: https://webauth-qa-rk01v.wsgc.com/oauth/authorize
+
+
+
+FAVORITES.CURRENT_LIST_COOKIE_NAME.cabpv.s=currentFavoriteList
+FAVORITES.ENABLED.cabpv.b=true
+FAVORITES.FAVORITES_ADVANCED_FEATURES.cabpv.b=true
+FAVORITES.FAVORITES_FLYOUT_DURATION.cabpv.i=4
+FAVORITES.FAVORITES_MULTIBUY_SUBSETS.cabpv.b=true
+FAVORITES.FAVORITES_POPUP_POSITION.cabpv.s=topRight
+FAVORITES.PIP_FAVORITE_BUTTON_IN_BUYBOX_ENABLED.cabpv.b=true
+FAVORITES.SERVICE_URL.cabpv.s=http://favorites-qa1-rk1v.wsgc.com/favorites/v3
+FAVORITES.SHARE_FEATURES.cabpv.b=true
+
+
+
+
+BRAND_CREDIT_CARD.CREDITCARD_TERMS_AND_CONDITIONS_URL.qa46.r=https://retailuat1.alldata.net/williamssonoma/common/Legal/disclosures.xhtml
+BRAND_CREDIT_CARD.INSTANT_CREDIT_ENABLED.qa46.b=true
+BRAND_CREDIT_CARD.INSTANT_CREDIT_REQUEST_URL.qa46.s=https://cuat.comenity.net/{0}/public/apply/Apply.xhtml
+BRAND_CREDIT_CARD.MADE_OFFER_URL.qa46.r=https://retailuat.alldata.net:443/axes103/web-services/madeOffer4x
+BRAND_CREDIT_CARD.PARTNER_CARD_SERVICING_URL.qa46.s=https://verified-it.capitalone.com/auth/signin
+BRAND_CREDIT_CARD.PARTNER_TERMS_AND_CONDITIONS_URL.qa46.s=https://d1iguz85um9umz.cloudfront.net/disclosure.9146.en-US.pdf
+BRAND_CREDIT_CARD.PLCC_CLIENT_NAME.qa46.s=williamssonoma
+BRAND_CREDIT_CARD.PLCC_CREDITCARD_TERMS_AND_CONDITIONS_URL.qa46.r=https://comenity.net/potterybarn/public/agreements/tac.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_COOKIE_TTL.qa46.t=1,0,0,0
+BRAND_CREDIT_CARD.PRESCREEN_CREDIT_REQUEST_URL.qa46.s=https://cuat.comenity.net/{0}/public/apply/Prescreen.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_ENABLED.qa46.b=true
+BRAND_CREDIT_CARD.REWARDS_TERMS_AND_CONDITIONS_URL.qa46.r=https://retailuat1.alldata.net/williamssonomavisa/common/legal/RewardsTermsAndConditionsDisclosure.xhtml
+BRAND_CREDIT_CARD.SPECIAL_FINANCING_ENABLED.qa46.b=true
+BRAND_CREDIT_CARD.PRESCREEN_URL.caqa11.r=https://retailuat.alldata.net:443/axes103/web-services/olps4x
+
+
+
+FAVORITES.CURRENT_LIST_COOKIE_NAME.caqa31.s=currentFavoriteList
+FAVORITES.ENABLED.caqa31.b=true
+FAVORITES.FAVORITES_ADVANCED_FEATURES.caqa31.b=true
+FAVORITES.FAVORITES_FLYOUT_DURATION.caqa31.i=4
+FAVORITES.FAVORITES_MULTIBUY_SUBSETS.caqa31.b=true
+FAVORITES.FAVORITES_POPUP_POSITION.caqa31.s=topRight
+FAVORITES.PIP_FAVORITE_BUTTON_IN_BUYBOX_ENABLED.caqa31.b=true
+FAVORITES.SERVICE_URL.caqa31.s=http://favorites-qa1-rk1v.wsgc.com/favorites/v3
+FAVORITES.SHARE_FEATURES.caqa31.b=true
+ORDERNUMBERSERVICE.FETCH_SIZE.qa46.I=1000
+ORDERNUMBERSERVICE.PREFIX.qa46.s=9
+ORDERNUMBERSERVICE.SYSTEM_ID.qa46.s=2
+OMS.INVENTORY_RESERVATION_RECEIVE_TIMEOUT.qa46.i=7000
+OMS.ORDER_PRICING_RECEIVE_TIMEOUT.qa46.i=5000
+OMS.PROMOTION_ELIGIBILITY_RECEIVE_TIMEOUT.qa46.i=5000
+BRAND_CREDIT_CARD.CREDITCARD_TERMS_AND_CONDITIONS_URL.qa46.r=https://retailuat1.alldata.net/potterybarn/common/Legal/disclosures.xhtml
+BRAND_CREDIT_CARD.INSTANT_CREDIT_ENABLED.qa46.b=true
+BRAND_CREDIT_CARD.INSTANT_CREDIT_REQUEST_URL.qa46.s=https://cuat.comenity.net/{0}/public/apply/Apply.xhtml
+BRAND_CREDIT_CARD.MADE_OFFER_URL.qa46.r=https://retailuat.alldata.net:443/axes103/web-services/madeOffer4x
+BRAND_CREDIT_CARD.PARTNER_CARD_SERVICING_URL.qa46.s=https://verified-it.capitalone.com/auth/signin
+BRAND_CREDIT_CARD.PARTNER_TERMS_AND_CONDITIONS_URL.qa46.s=https://d1iguz85um9umz.cloudfront.net/disclosure.9146.en-US.pdf
+BRAND_CREDIT_CARD.PLCC_CLIENT_NAME.qa46.s=potterybarnkids
+BRAND_CREDIT_CARD.PLCC_CREDITCARD_TERMS_AND_CONDITIONS_URL.qa46.r=https://comenity.net/potterybarn/public/agreements/tac.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_COOKIE_TTL.qa46.t=1,0,0,0
+BRAND_CREDIT_CARD.PRESCREEN_CREDIT_REQUEST_URL.qa46.s=https://cuat.comenity.net/{0}/public/apply/Prescreen.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_ENABLED.qa46.b=true
+BRAND_CREDIT_CARD.PRESCREEN_URL.qa46.r=https://retailuat.alldata.net:443/axes103/web-services/olps4x
+BRAND_CREDIT_CARD.REWARDS_TERMS_AND_CONDITIONS_URL.qa46.r=https://retailuat1.alldata.net/williamssonomavisa/common/legal/RewardsTermsAndConditionsDisclosure.xhtml
+BRAND_CREDIT_CARD.SPECIAL_FINANCING_ENABLED.qa46.b=true
+
+
+
+GEO_PROVINCES_API.STATES_PROVINCES_URL.qa44.s=https://ecommerce-ecom-svc-customer-qa26.services.west.nonprod.wsgc.com/api/geo/v1/provinces.json
+comses.scantime 	Time span	{TimeSetting(0d,0h,5m,0s, 0ms:300000)}
+COMSES.SCANTIME.qa54.t=0,0,0,30
+ORDERNUMBERSERVICE.FETCH_SIZE.qa44.i=1000
+ORDERNUMBERSERVICE.PREFIX.qa44.s=9
+ORDERNUMBERSERVICE.SYSTEM_ID.qa44.s=2
+OMS.INVENTORY_RESERVATION_RECEIVE_TIMEOUT.qa54.i=7000
+OMS.INVENTORY_RESERVATION_RECEIVE_TIMEOUT.qa54.i=75000
+OMS.ORDER_PRICING_RECEIVE_TIMEOUT.qa54.i=5000
+OMS.PROMOTION_ELIGIBILITY_RECEIVE_TIMEOUT.qa54.i=5000
+BRAND_CREDIT_CARD.PRESCREEN_URL.qa54.r=https://retailuat.alldata.net:443/axes103/web-services/olps4x
+
+BRAND_CREDIT_CARD.CREDITCARD_TERMS_AND_CONDITIONS_URL.qa44.r=https://retailuat1.alldata.net/potterybarn/common/Legal/disclosures.xhtml
+BRAND_CREDIT_CARD.INSTANT_CREDIT_ENABLED.qa44.b=true
+BRAND_CREDIT_CARD.INSTANT_CREDIT_REQUEST_URL.qa44.s=https://cuat.comenity.net/{0}/public/apply/Apply.xhtml
+BRAND_CREDIT_CARD.MADE_OFFER_URL.qa44.r=https://retailuat.alldata.net:443/axes103/web-services/madeOffer4x
+BRAND_CREDIT_CARD.PARTNER_CARD_SERVICING_URL.qa44.s=https://verified-it.capitalone.com/auth/signin
+BRAND_CREDIT_CARD.PARTNER_TERMS_AND_CONDITIONS_URL.qa44.s=https://d1iguz85um9umz.cloudfront.net/disclosure.9146.en-US.pdf
+BRAND_CREDIT_CARD.PLCC_CLIENT_NAME.qa44.s=potterybarnkids
+BRAND_CREDIT_CARD.PLCC_CREDITCARD_TERMS_AND_CONDITIONS_URL.qa44.r=https://comenity.net/potterybarn/public/agreements/tac.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_COOKIE_TTL.qa44.t=1,0,0,0
+BRAND_CREDIT_CARD.PRESCREEN_CREDIT_REQUEST_URL.qa44.s=https://cuat.comenity.net/{0}/public/apply/Prescreen.xhtml
+BRAND_CREDIT_CARD.PRESCREEN_ENABLED.qa44.b=true
+BRAND_CREDIT_CARD.PRESCREEN_URL.qa44.r=https://retailuat.alldata.net:443/axes103/web-services/olps4x
+BRAND_CREDIT_CARD.REWARDS_TERMS_AND_CONDITIONS_URL.qa44.r=https://retailuat1.alldata.net/williamssonomavisa/common/legal/RewardsTermsAndConditionsDisclosure.xhtml
+BRAND_CREDIT_CARD.SPECIAL_FINANCING_ENABLED.qa44.b=true
+
+
+MEMBERSHIP_SERVICE.SERVICE_URI.<ENV>.r=https://enterprise-membership-service-qa.services.west.nonprod.wsgc.com/membership/v1/members
+MEMBERSHIP_SERVICE.URL.qa38.r=https://enterprise-membership-service-qa.services.west.nonprod.wsgc.com/membership/v1/members
+
+AFFINITY.BLACKLISTED_GROUPS_AND_SKUS.qa11.a=3246170,3514051
+CACHING.SKUCATALOGELEMENTS.qa11.i=450000
+CACHING.SKUINFOELEMENTS.qa11.i=450000
+CACHING.SKUTTL.qa11.i=30
+DELIVERY_ESTIMATE.SESSION_SKU_AVAILABILITY_TTL.qa11.i=16
+DONATION.STJUDE_SKU_LIST.qa11.m=7124178, 9439775, 5722479, 2910369
+riaCatalog.imageTypes.qa11.a=hero,sku,thumbnail,swatch
+
+
+
+INVENTORY.IS_LOCATION_CAPACITY_ENABLED_FOR_BACKORDERED_SKUS.qa11.b=false
+
+MDM_CATALOG_DATA.PROCESS_PACK_COMPONENT_SKUS.qa11.b=true
+MERCH_BUNDLE_DATA.PROCESS_MERCHANDISED_BUNDLE_SKUS.qa11.b=true
+ZIP_CODE_CAPTURE.SKU_AVAILABILITY_TTL.qa11.i=16
+
+
+
+JOBS.SKUTRACKINGSCHEDULE.qa11.s=0
+COMPRF.ACCT_EMAIL_LOGO_LARGE.qa11.s=http://www.potterybarn.com/netstorage/images/pb_logo_lg.gif
+COMPRF.ACCT_EMAIL_LOGO_SMALL.qa11.s=http://www.potterybarn.com/netstorage/images/pb_logo_sm.jpg
+CONTPERS.EMAIL_ADDTL_OPTIONS_ENABLED.qa11.b=true
+CONTPERS.EMAIL_CAPTURE_EXPERIENCE.qa11.s=stickyOverlay
+CONTPERS.EMAIL_SIGNUP_TO_THANKYOU_ENABLED.qa11.b=true
+
+
+
+
+
+
+CACHING.SKUCATALOGELEMENTS.qa11.i=15000
+CACHING.SKUINFOELEMENTS.qa11.i=50000
+CACHING.SKUTTL.qa11.i=10800
+DONATION.STJUDE_SKU_LIST.qa11.m=5968883, 5968974, 5968933, 5969001
+JOBS.SKUTRACKINGSCHEDULE.qa11.s=0 0 2 * * ?
+MDM_CATALOG_DATA.PROCESS_PACK_COMPONENT_SKUS.qa11.b=true
+MERCH_BUNDLE_DATA.PROCESS_MERCHANDISED_BUNDLE_SKUS.qa11.b=true
+
+ENDECA.SKU_ACTIVE_TAB.qa11.s=38
+CACHING.SKUCATALOGTTL.qa11.i=1800
+CACHING.SKUINFOTTL.qa11.i=10800
+CACHING.BASESKUTTL.qa11.i=10800
+CACHING.ASSORTMENTSKUINFOTHRESHOLD.qa11.i=50
+APPCONF.KEEPUNAVAILABLESKUS.qa11.i=1
+RIACATALOG.SKU.qa11.a=m
+SKU_TRACKING.CATEGORY_TREE_ID.qa11.s=shop
+SKU_TRACKING.EMAIL_FROM.qa11.s=WebOps-eCommerce@WSGC.com
+SKU_TRACKING.EMAIL_SUBJECT.qa11.s=NEW NLA SKU REPORT (PB)
+SKU_TRACKING.FILE_PATH.qa11.s=/apps/tomcat/apps/pb/pb-sku-tracker.txt
+SKU_TRACKING.OUTPUT_DIR.qa11.s=/apps/tomcat/apps/pb/
+SKU_TRACKING.OUTPUT_FILENAME.qa11.s=pb-sku-tracker.csv
+SKU_TRACKING.TRACK_NLA_THRESHOLD_TIME.qa11.l=86340000
+
+---SKU_TRACKING.EMAIL_TO.qa11.s=clim@wsgc.com,dkang@wsgc.com
+
+
+Soulmate@Ayesha123 MEAD-24643
+OLD_DB=webqa2/eqa3_app_owner
+NEW_DB=webqa2/dtcmou_app_owner
+
+
+
+KUbectl : 
+
+export CONTROL_PLANE_ENDPOINT_IP="container-api02.nonprod.wsgc.com"
+export CLUSTER_NAME="ts-sharedplatform-rck-nonprod"
+kubectl config set-credentials RKrishna2@wsgc.com \
+    --auth-provider=azure \
+    --auth-provider-arg=environment=AzurePublicCloud \
+    --auth-provider-arg=client-id=d1b7c854-5bb7-41db-b276-47caeacc961d \
+    --auth-provider-arg=tenant-id=a1bc65b9-d590-4816-bc3f-257fce558750 \
+    --auth-provider-arg=apiserver-id=a796ae56-3118-48d8-8e19-17ace0d14f29
+kubectl config set-cluster $CLUSTER_NAME \
+    --server=https://$CONTROL_PLANE_ENDPOINT_IP:6443 \
+    --insecure-skip-tls-verify=true
+kubectl config set-context ts-sharedplatform-rck-nonprod_RKrishna2@wsgc.com \
+    --cluster=$CLUSTER_NAME \
+    --user=$USER@wsgc.com
+kubectl config use-context ts-sharedplatform-rck-nonprod_RKrishna2@wsgc.com@wsgc.com
+
+
+
+
+kubectl get namespace = List Namespaces
+kubectl get pods -n namespace = List Pods Deployed to a Namespace
+kubectl get events -n namespace = List Events for a Namespace
+kubectl describe ns namespace -n namespace = Check Quotas For a Namespace
+kubectl logs -f podname -n namespace = Retrieving Logs for a Pod
+kubectl describe po podname -n namespace
+kubectl get ingress --namespace namespace (kubectl get ingress --namespace ecommerce-jukebox-release) = List URL Entry Points for a Namespace
+
+Scaling a Namespace Up or Down
+kubectl get deploy -n namespace (kubectl get deploy -n ecommerce-assortment-export-regression) 
+kubectl scale deploy assortment-export --replicas=0 -n namespace (kubectl scale deploy assortment-export --replicas=0 -n ecommerce-assortment-export-regression)
+
+
+ecommerce-profile-qa   
+
+BRAND	 RGS	UAT3
+PT   -   6/4	6/4
+PB - 	10/4 	19/4
+WE - 	6/4 	31/4
+WS - 	10/4 	15/4
+
+PB - 15/9
+8/9
+
+
+SERVER NAME    BRAND    RAM/SWAP(GB)   Req. RAM/SWAP
+
+eferck-vdcn005 - WE       3.7/4		8/4 - 5
+
+eferck-vdcn006 - WS	  3.7/4		8/4 - 5	 
+
+eferck-vdcn017 - WE 	  3.7/4		8/4 - 5
+
+eferck-vdcn018 - WS	  3.7/4		8/4 - 5
+
+eferck-vdcn024 - WS	  3.7/4		8/4 - 5
+
+eferck-vdcn029 - WE       9.6/4		12/4 - 3
+
+eferck-vdcn030 - WS 	  3.7/4		8/4 - 5
+
+eferck-vdcn042 - WS	  3.7/4		8/4 - 5
+
+eferck-vdcn047 - WE	  15/4		18/4 - 3
+
+eferck-vdcn048 - WS	  3.7/4		8/4 - 5
+
+eferck-vdcn053 - WE	  3.7/4		8/4 - 5
+
+eferck-vdcn054 - WS	  3.7/4		8/4 - 5
+
+eferck-vdcn059 - WE	  14/4		18/4 - 4
+
+eferck-vdcn060 - WS 	  14/4		18/4 - 4
+
+eferck-vicn014 - pb	  15/4		18/4 - 3
+
+eferck-vicn024 - WS 	  7.8/4		10/4 - 3
+
+eferck-vicn064 - WE	  7.8/4		10/4 - 3
+
+eferck-vicn070 - WS	  7.8/4		10/4 - 3
+
+dparck-vicn014 - PT 	  39/4		42/4 - 3
+
+we-qa16-rk1v - WE	  3.9/4		8/4 - 5
+
+ws-qa16-rk1v - WS	  3.9/4		8/4 - 5
+
+ws-qa15-rk1v - WS	  3.9/4		8/4 - 5
+
+we-qa15-rk1v - WE	  3.9/4		8/4 - 5
+
+we-intdev1-rk1 - WE	  5.8/4		8/4 - 3
+
+we-intdev8-rk1 - WE	  5.8/4		8/4 - 3
+
+
+
+
+
+ 
+
+
+
+eferck-vdcn005
+eferck-vdcn006
+eferck-vdcn017
+eferck-vdcn018
+eferck-vdcn024
+eferck-vdcn029
+eferck-vdcn030
+eferck-vdcn042
+eferck-vdcn047
+eferck-vdcn048
+eferck-vdcn053
+eferck-vdcn054
+eferck-vdcn059
+eferck-vdcn060
+eferck-vicn014
+eferck-vicn024
+eferck-vicn064
+eferck-vicn070
+dparck-vicn014
+we-qa16-rk1v
+ws-qa16-rk1v
+ws-qa15-rk1v
+we-qa15-rk1v 
+we-intdev1-rk1
+we-intdev8-rk1
+
+
+
+
+
+
+
+
 
 * * * * * chmod 777 /apps/dfeed-processor/xslt
 
@@ -308,7 +6699,7 @@ do
 	free -h 
 done
 
-for NODE in $NODES; do echo $NODE ; ssh imageuser@$NODE ; free -h ; done
+for NODE in $NODES; do echo $NODE ; ssh imageuser@$NODE ; done
 
 
 NODES="eferck-vdcn029 eferck-vdcn042 eferck-vdcn047 eferck-vdcn017 eferck-vdcn053  eferck-vicn064 eferck-vicn070 dparck-vicn014 we-qa16-rk1v ws-qa16-rk1v ws-qa15-rk1v we-qa15-rk1v eferck-vdcn048 eferck-vdcn018 eferck-vdcn054 eferck-vdcn005  eferck-vdcn030 we-intdev8-rk1"
@@ -582,4 +6973,84 @@ Swap:          4.0G        3.0G        1.0G
 Mem:          5.8G       5.7G       156M        20K       1.7M        55M
 -/+ buffers/cache:       5.6G       212M
 Swap:         4.0G       2.0G       2.0G
+
+
+
+
+ECOM-MEAD: 
+Creates and Manages Git repos for WSI ecom applications. Grants/restricts user access to git repos based on the applications.
+Manages and maintain application configs in SVN repos and git repos. 
+Creates/maintain/manage Jenkins jobs and user accesses. Creates Jenkins jobs for individual teams based on the applications for CI and CD. 
+Creates/maintain/manage Rundeck jobs. Provides/restricts rundeck accesses to users. Supports ESRE team during any issues with PROD deployemts.
+Manage and maintain 1200+ ecom NonProd servers. 
+Helps troubleshoot environment/configs/applications relates issues for 60+ development teams in WSI.
+Helps troubleshoot docker/Kubernetes related MFE application issues.
+Helps troubleshoot terraform manifest related errors to deploy MFE applications on MFE environments.
+Training New Mead hire's and making them to work swiftly to troubleshoot any ecom related issues.
+Working on Service-now to validate and close change requests(CHGREQ) after the work on Change requests is completed by respective teams.
+Responsible for checking on Incidents(INC) created in SNOW to troubleshoot and close them for all ecom non-prod environments.
+
+
+https://github.wsgc.com/eCommerce-Mead/scan-tools/blob/master/Ecom_Server_Inventory.csv
+https://ecombuild.wsgc.com/jenkins/view/all/
+https://jira.wsgc.com/secure/Dashboard.jspa?selectPageId=26972
+https://jira.wsgc.com/secure/ConfigureReport.jspa?projectOrFilterId=project-15876&statistictype=customfield_11470&selectedProjectId=15876&reportKey=com.atlassian.jira.jira-core-reports-plugin%3Apie-report&Next=Next
+https://jira.wsgc.com/secure/RapidBoard.jspa?rapidView=3301&quickFilter=13365&quickFilter=6871
+https://go.wsgc.com/
+https://confluence.wsgc.com/pages/viewpage.action?pageId=10263772
+https://accessvault.wsgc.com/PasswordVault/v10/Accounts
+https://wsi.service-now.com/
+https://confluence.wsgc.com/pages/viewpage.action?pageId=422336611
+
+
+
+
+
+
+Support RJ brand launch
+Support MG CANADA launch
+Support GR brand launch
+Support Williams-sonoma home brand launch
+
+
+
+
+
+Will be supporting Green Row brand launch. 
+Creating and maintaining configs, environments required for New product  
+
+..........
+Measured by:  Zero Post Delivery Defects Zero Defect leaked to QA Zero Escalations Less than 5% Schedule Variance
+
+Support Williams-sonoma home brand launch
+Will be supporting Williams-sonoma home brand launch. Creating and maintaining configs, environments required for New product
+
+Support MG CANADA brand launch
+Will be supporting Mark and Graham brand launch for Canada. Creating and maintaining configs, environments required for New product
+
+Managing and maintaining WSI tools
+Will maintain and manage below WSI tools: GIT SVN RUNDECK JENKINS SNOW KUBERNETES
+
+
+
+
+
+
+     
+
+Shop,global, config-all, 
+Product, app-order-servicing, svc-order-servicing, phygital, customer,
+
+
+https://github.wsgc.com/RKrishna2/env-manifest
+
+
+auth, publisher, etc cant be used on qa likewise
+
+
+
+
+
+
+
 

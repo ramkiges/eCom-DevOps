@@ -2,14 +2,15 @@
 
 # copy app settings from one env to another
 BRAND=mg
-ENV=qa19
-ENV_NEW=qa59
-OLD_DB=webqa2/ws_app_owner
-NEW_DB=webqa2/ws_app_owner
-MEAD="MEAD-21323"
+ENV=qa47
+ENV_NEW=qa21
+OLD_DB=webqa2/dtc_app_owner
+NEW_DB=webqa2/dtc_app_owner
+MEAD="MEAD-42731"
 TMP=/Users/818381/Desktop/workdir/$MEAD/tmp/settingcopy/mead-$MEAD.save
 
-cd /Users/818381/Desktop/SVN/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site
+#cd /Users/818381/Desktop/WSI/svn/devops/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site/
+cd /Users/818381/Desktop/WSI/svn/schema-site/
 svn up
 if [ -z "$OLD_DB" ]
 then
