@@ -1,0 +1,18 @@
+puppet
+master
+34.227.78.77 -public-ip
+ssh -i "key-nvir.pem" ubuntu@ec2-34-227-78-77.compute-1.amazonaws.com
+
+puppet-slave
+54.84.215.19
+ssh -i "key-nvir.pem" ubuntu@ec2-54-84-215-19.compute-1.amazonaws.com
+
+
+ansible:
+3.80.154.115-public-ip
+ssh -i "key-nvir.pem" ubuntu@ec2-3-80-154-115.compute-1.amazonaws.com
+
+node:
+54.92.223.22-public-ip
+ssh -i "key-nvir.pem" ubuntu@ec2-54-92-223-22.compute-1.amazonaws.com
+
