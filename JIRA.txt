@@ -1,0 +1,1280 @@
+https://jira.wsgc.com/browse/MEAD-15378
+
+Config repo here
+https://repos.wsgc.com/svn/devops/application/invent/qaU1/trunk/
+
+<wsgc.invent.war.artifactVersion>1.9.1</wsgc.invent.war.artifactVersion> needed to be updated with <wsgc.invent.war.artifactVersion>ci_eCommerce-Kangto_develop-SNAPSHOT</wsgc.invent.war.artifactVersion>
+
+Steps -- update the poms war then run config job and then deploy job
+
+https://ecombuild.wsgc.com/jenkins/view/devops-invent/
+
+https://ecombuild.wsgc.com/jenkins/view/devops-invent/job/wsgc-devops-invent-config-qaU1/
+
+https://ecombuild.wsgc.com/jenkins/view/devops-invent/job/deploy-invent-qaU1/
+
+jobs here!
+
+-------------------------------------------------------------------------------------------------
+
+
+https://jira.wsgc.com/browse/MEAD-15387
+
+AppScan: we-intdev1-rk1 - wsgc-tomcat-frontend not available	
+
+checked logs at  /var/log/weblogs/wsgc-tomcat-frontend (host-manager.2020-09-03.log and application.log.2020-09-02) and 
+
+sudo service wsgc-tomcat-frontend restart (restating tomcat) ..tomcat is up but summary is not up so need to redeploy content and war again.
+(content - content/svn/trunk ; war - war/git/release)
+
+Jenkins job : https://ecombuild.wsgc.com/jenkins/view/deploy-qa1-Mana/job/deploy-qa1-we-CONTENT_mana-wrk-190716/
+the above job will run jobs for content then then runs war job : https://ecombuild.wsgc.com/jenkins/view/deploy-qa1-Mana/job/deploy-qa1-we-WAR_develop/
+
+https://mg-xcprf-rk1v/admin/summary.html
+https://ws-intdev45-sac1/admin/summary.html 
+
+verify:
+https://we-intdev1-rk1/admin/summary.html 
+https://www.qa.westelm.com   (username and psw for this website : https://confluence.wsgc.com/pages/viewpage.action?pageId=10263772)
+
+--------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15410
+
+Rename the files in Dev environment
+Request to rename ".ctl_processed" files to ".ctl" under the below path in the dev environment:
+http://feedgen-dev-rk1v:38667/Feeds/ECOMFEED/
+
+cd /CDW/ECOMFEED
+rename all the files and then need to resart tomcat server
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+
+------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15411
+Add property in the storeService.property file
+Add below property in the storeService.property file in store locator service 
+QA server : http://storelocator-qa1-rk1v:38667/wsgc-tomcat-storelocator/application.log
+bing.geocoder.cron.expression=0 12 21 * * ? *
+Need to make this a permanent fix
+
+https://repos.wsgc.com/svn/devops/application/storelocator/qa/config/trunk/src/main/resources/tomcat/apps/storelocator/storeService.properties
+Updated the file here,then run jenkins jobs :
+https://ecombuild.wsgc.com/jenkins/view/devops-storelocator/ (wsgc-devops-storelocator-qa-config, deploy-storelocator-qa1)
+
+logged in to  server :
+cd /apps/tomcat-storelocator/apps/storelocator
+cat storeService.properties | grep bing.geocoder.cron.expression
+
+----------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15420
+
+Rename the files in Dev environment
+Request to rename ".ctl_processed" files to ".ctl" under the below path in the dev environment:
+http://feedgen-dev-rk1v:38667/Feeds/ECOMFEED/
+
+cd /CDW/ECOMFEED
+rename all the files and then need to resart tomcat server
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+
+-----------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15419
+[QA10 Environment] Request to update configuration setting for WE brand
+
+Request to update configuration setting for WE brand in QA10 environment.
+CHKT.SINGLE_PAGE_CHECKOUT_ENABLED/b:false
+
+https://ecombuild.wsgc.com/jenkins/job/adhoc-appsetting
+run the job for WE QA10
+with parameters and values given by user : HKT.SINGLE_PAGE_CHECKOUT_ENABLED.qa10.b=false
+
+------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15459
+Getting 403 Error When publishing to NPM snapshot repo.
+
+Hi Mead team,
+I am getting 403 Forbidden Error(Please see screenshots attached) When publishing to NPM snapshot repo https://npmrepo-dev.wsgc.com
+Please grant access to push from terminal for the following users: 
+dthorat@wsgc.com
+ 
+Note: Please refer to https://jira.wsgc.com/browse/MEAD-14075 for similar previous issue.
+
+log in to https://npmrepo-dev.wsgc.com/ - settins - users(double click) - ladap(shift to ldap from default) - 
+search for req user(click on him) - go to roles and select - WSGC NPM role  - save
+
+
+------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15428
+Need to update the Key details in the storeService.property file
+Need to update the Key details in the storeService.property file in Store locator QA server 
+I have given the Property name and value to be updated
+bing.mapsAPIForBusiness.key
+New Value: : Ap_RJrScdnv4oBcXy7relfBlAzrLjMrLwINnNm64ZA7UQMT9_TA8yDs10J23yZzr
+bing.mapsAPIForBusiness.wskey
+New Value : AsyMg-fxT-JbhEgtHmOxhE3PW2DajpjzxJvUYoZ6mU6PEB_WtCmLsRntOEJWcSz5
+bing.datasource.request.ws.datasourcename
+New value : BingMapWSIWSStoreInfo
+bing.mapsAPIForBusiness.pbkey
+New Value : AhNl-6fbu4gIAsvdmpNinrQaqjhkaaNDvvuKagqvG5D0fkymrd4gRKXLAwXOEneX
+bing.datasource.request.pb.datasourcename
+New Value : BingMapWSIPBKStoreInfo. 
+bing.mapsAPIForBusiness.wekey
+New Value : AiSEFuSG8uefrh2ByUkAWK6jhh8gEEjTxaMVYujrLOgxg8Q1hLKFp0-QO-lliRyu
+bing.datasource.request.we.datasourcename
+New Value : BingMapWSIWEStoreInfo
+
+
+https://repos.wsgc.com/svn/devops/application/storelocator/qa/config/trunk/src/main/resources/tomcat/apps/storelocator/storeService.properties
+Updated the file here,then run jenkins jobs :
+https://ecombuild.wsgc.com/jenkins/view/devops-storelocator/ (wsgc-devops-storelocator-qa-config, deploy-storelocator-qa1)
+
+logged in to  server :
+cd /apps/tomcat-storelocator/apps/storelocator
+cat storeService.properties
+
+------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15482
+Request to rename "PB_20200828170000.ctl" to "PB_20200828170000.ctl_failed" under the below path in the dev environment:
+http://feedgen-dev-rk1v:38667/Feeds/ECOMFEED/
+
+
+cd /CDW/ECOMFEED
+rename all the files and then need to resart tomcat server
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+
+--------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15502
+Deploy job is failing for WS RGS environment
+Deploy job is failed 2 times for WS RGS environment.
+https://ecombuild.wsgc.com/jenkins/view/wcm/job/deploy-wcm-nonprd-any/2488/console
+https://ecombuild.wsgc.com/jenkins/view/wcm/job/deploy-wcm-nonprd-any/2492/console
+
+server - ws-wcm-rgs-rk1v  
+
+redeployed using jenkins job and now working fine.
+
+---------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15508
+
+Deploy OAuth Server (1.7.3) on QA Environment
+Hi Team,
+Could you please redeploy OAuth Server 1.7.3 version on the QA environment after removing the below property in application.properties.
+logging.level.com.wsgc.oauth.provider.token.PersistentTokenServices=DEBUG
+
+edited the file here : https://repos.wsgc.com/svn/devops/application/oauth/qa/config/trunk/src/main/resources/tomcat/apps/application.properties
+
+Then ran jenkins jobs: 
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15507
+
+Create JeanGray settings script
+https://confluence.wsgc.com/pages/viewpage.action?pageId=205914922
+created :
+https://github.wsgc.com/eCommerce-Mead/mead-tickets/blob/master/release-settings/jeangrey-settings
+
+-----------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15535
+Rename the file in UAT environment
+
+Request to rename "PK_20200825123255.ctl_processed" to "PK_20200825123255.ctl_failed" under the below path in the dev environment:
+http://feedgen-uat-rk1v:38667/Feeds/ECOMFEED/
+
+cd /CDW/ECOMFEED
+rename all the files and then need to resart tomcat server
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+
+--------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15534
+update property file at QA Processor Datafeed
+Main Processor:
+Stop Processor: sudo service wsgc-dfeed-processor stop
+Clean /data, /log. and product archive folders
+Update datafeed_qa.properties:
+installation=uat3
+And then start the processor - sudo service wsgc-dfeed-processor start
+
+svn change at : https://repos.wsgc.com/svn/devops/application/datafeed-processor/qa/config/trunk/src/main/resources/apps/dfeed-processor/datafeeds-processor/conf/datafeed_qa.properties
+
+Then run jenkins jobs: 
+congif job - https://ecombuild.wsgc.com/jenkins/view/devops-datafeed/job/wsgc-devops-dfprocessor-qa-config/
+deploy job - https://ecombuild.wsgc.com/jenkins/view/devops-datafeed/job/deploy-datafeed-processor-qa1/
+
+---------------------------------------------------------------------------------------------------------  
+
+https://jira.wsgc.com/browse/MEAD-15530
+AppScan: we-intdev31-rk1 - wsgc-tomcat-frontend not available
+Checked logs and restated tomcat. Summary is not coming up and Jenkins job is failing for deployment. 
+
+CHecked logs at : cd /var/log/weblogs/wsgc-tomcat-frontend
+cat application.log.2020-09-13
+
+summary page : https://we-intdev31-rk1/admin/summary.html
+sudo service wsgc-dfeed-processor
+
+jenkins jobs : 
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-we-CONTENT_shasta-cyodd-wrk-200825/
+
+-------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15548
+Please create WCM 20.08 release artifact - 5.18.5 from release branch
+
+release info: 
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/wcm.git 
+
+Release Branch:
+release 
+
+JVM Version:
+1.7 
+
+Release Description:
+Fix : RM-21447
+
+job output : https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2476/console
+artifactory verification :https://artifactory.wsgc.com/artifactory/wsgc-releases/com/wsgc/ecommerce/wcm/wcm/
+
+----------------------------------------------------------------------------------------------------------- 
+
+https://jira.wsgc.com/browse/MEAD-15510
+
+AppScan: we-intdev1-rk1 - wsgc-tomcat-frontend not available	
+
+checked logs at  /var/log/weblogs/wsgc-tomcat-frontend 
+
+sudo service wsgc-tomcat-frontend restart (restating tomcat) ..tomcat is up but summary is not up so need to redeploy content and war again.
+(content - content/svn/trunk ; war - war/git/release)
+
+Jenkins job : https://ecombuild.wsgc.com/jenkins/view/deploy-qa1-Mana/job/deploy-qa1-we-CONTENT_mana-wrk-190716/
+the above job will run jobs for content then then runs war job : https://ecombuild.wsgc.com/jenkins/view/deploy-qa1-Mana/job/deploy-qa1-we-WAR_develop/
+
+Jenkins deploy job is failing with bcoz of wcm build.
+so there is a generation job in jenkins which will try updating it with the latest available generation
+https://ecombuild.wsgc.com/jenkins/job/wcm-update-generation/6326/console     -----  jenkins job
+latest-qa --- I ran with this option so it picks the latest available wcm generation
+
+we shouldn't use the above job for EQA env's like QA10, QA11, QA31 and regression
+
+verify:
+https://we-intdev1-rk1/admin/summary.html 
+https://www.qa.westelm.com   (username and psw for this website : https://confluence.wsgc.com/pages/viewpage.action?pageId=10263772)
+-----------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15570
+Make all ACCOUNT_SERVICES app settings consistent with UAT3 for QA19
+
+we want to make qa19 app settings for account_services to match regression
+https://www.qa19.williams-sonoma.com/admin/configuration/#ACCOUNT_SERVICES
+for all brands. 
+reference: https://regression.williams-sonoma.com/admin/configuration/#ACCOUNT_SERVICES
+Since this is bulk settings change and so I created mead ticket. 
+
+
+qa19 server - ws-intdev19-rk1  (https://ws-intdev19-rk1/admin/summary.html to get the app owner name - ws_app_owner)
+regression - ws-rgs1-rk1v  (https://ws-rgs1-rk1v/admin/summary.html to get the app owner name - dtc_app_owner)
+
+
+svn:
+regression settings data path: https://repos.wsgc.com/svn/devops/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site/webqa2/dtc_app_owner 
+QA19 settings data path : https://repos.wsgc.com/svn/devops/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site/webqa2/ws_app_owner
+
+After making changes need to run jenkins jobs(jobs with app owner name) : (as out out of 6 brands changes are done only in 4 brands, so we are running only 4 jobs)
+https://ecombuild.wsgc.com/jenkins/view/appsettings/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-mg/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-pb/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-pk/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-ws/
+
+then log in to:  ws-intdev19-rk1
+restart the tomcat : sudo service wsgc-tomcat-frontend restart && sudo service wsgc-tomcat-frontend status
+----------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15575
+Rename the files in UAT environment
+
+Request to rename ".ctl_processed" files to ".ctl" under the below path in the dev environment:
+http://feedgen-uat-rk1v:38667/Feeds/ECOMFEED/
+
+login to: feedgen-uat-rk1v server
+cd /CDW/ECOMFEED
+rename all the files and then need to resart tomcat server
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+-------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15576
+Update settings-override.properties Property on QA Processor.
+
+Stop Main Processor : sudo service wsgc-dfeed-processor stop
+ 
+Perform Cleanup of /data /log directory : /apps/dfeed-processor/productarchive
+df -f 
+ 
+Update below property [Property File: settings-override.properties]on Datafeed QA main processor:
+vi /apps/dfeed-processor/datafeeds-processor/conf/settings-override.properties 
+PROMOTION_CLIENT.PRICING_SERVER_REQUEST_BATCH_SIZE/i: 25
+
+start main processor : sudo service wsgc-dfeed-processor start
+
+verify: http://dfeed-qa-rk1v:38667/datafeeds/processor_start.200916.log
+-----------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15595
+AppScan: pt-intdev27-rk1 - wsgc-tomcat-frontend not available
+Logs: http://pt-intdev27-rk1.wsgc.com:38666
+
+jenkins Job : https://ecombuild.wsgc.com/jenkins/view/deploy-qa27-Hallasan/job/deploy-qa27-pt-WAR_develop/4/console
+
+restarted tomcat : sudo service wsgc-tomcat-frontend restart
+summary : http://pt-intdev27-rk1/admin/summary.html
+
+looks like error is still cmg up and its an appsetting error for CHKT group  : https://www.qa27.pbteen.com/admin/configuration/#CHKT
+Jenkins job :https://ecombuild.wsgc.com/jenkins/view/appsettings/
+
+	 adhoc-appsetting: 
+Brands: pt 
+Environments: qa27 
+Setting: CHKT.SUBORDER_COUNT_THRESHOLD 
+DataType: i 
+Action: update 
+Source:
+https://ecombuild.wsgc.com/jenkins/job/adhoc-appsetting/12045/console
+
+ adhoc-appsetting: 
+Brands: pt 
+Environments: qa27 
+Setting: CHKT.INAUTH_SCANNER_COLLECTOR_FLAGS 
+DataType: s 
+Action: update 
+Source:
+https://ecombuild.wsgc.com/jenkins/job/adhoc-appsetting/12047/console
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15606
+Unable to clean up logs on PB QA7
+
+https://ecombuild.wsgc.com/jenkins/view/wcm/job/wcm-clear-logs/164/console
+
+logged in to:  pb-wcm-qa7-sac1v
+df -h  ...    /dev/mapper/vg_root-lv_tmp      7.8G  7.4G     0  100% /tmp
+cd /tmp 
+ls -l poi-sxssf-sheet* | wc -l
+
+and compared with pb-wcm-qa5-rk1v:38600/ and deleted the files in /tmp
+
+sudo service wsgc-tomcat-solrwcm status
+sudo service wsgc-tomcat-solrwcm restart
+
+now jenkins job also succeeded
+
+
+----------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15603
+Deployment Job Failing in MG RGS
+
+
+
+1)Run Deploy job for MG
+https://ecombuild.wsgc.com/jenkins/view/wcm/job/deploy-wcm-nonprd-any/2592/console
+https://ecombuild.wsgc.com/jenkins/view/wcm/job/deploy-wcm-nonprd-any/2599/console
+
+clean up is done and Jenkins Job is running fine
+
+------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15601
+Please create AES 20.08 release artifact -1.1.2 from Bedrock
+
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/assortment-export-service
+
+cancelled 
+------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15632
+Create WCM 20.08 new release artifact from Bedrock release branch
+
+release info: 
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/wcm.git 
+
+Release Branch:
+release 
+
+JVM Version:
+1.7 
+
+Please create WCM 20.08 new release artifact 5.18.x from Bedrock release branch 
+
+job output : https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2500/console
+artifactory verification :https://artifactory.wsgc.com/artifactory/wsgc-releases/com/wsgc/ecommerce/wcm/wcm/
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15634
+Create New ECM 20.04 Release Artifact
+
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/ecom-content-management 
+
+Release Branch:
+release 
+
+JVM Version:
+1.7 
+
+job output : https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2501/console
+artifactory verification :https://artifactory.wsgc.com/artifactory/wsgc-releases/com/wsgc/ecommerce/wcm/wcm/
+
+New artifact version: 1.12.5 created
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15635
+AppScan: ws-intdev31-rk1 - wsgc-tomcat-frontend not available
+
+http://ws-intdev31-rk1.wsgc.com:38666
+application is redeployed and summary is up now : https://ws-intdev31-rk1/admin/summary.html
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-ws-WAR_feature-cyodd/19/console
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15637
+AppScan: mg-intdev31-rk1 - wsgc-tomcat-frontend not available
+
+Logs: http://mg-intdev31-rk1.wsgc.com:38666
+
+redeployed jenkins job :  https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-mg-WAR_feature-cyodd/8/console 
+
+--------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15648
+AppScan: we-intdev31-rk1 - wsgc-tomcat-frontend not available
+
+https://we-intdev31-rk1/admin/summary.html
+
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-we-CONTENT_shasta-cyodd-wrk-200825/
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-we-WAR_feature-cyodd/
+-----------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15643
+AppScan: pk-intdev31-rk1 - wsgc-tomcat-frontend not available
+http://pk-intdev31-rk1.wsgc.com:38666
+
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-pk-CONTENT_shasta-cyodd-wrk-200825/
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-pk-WAR_feature-cyodd/9/
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-pk-CONTENT_shasta-cyodd-wrk-200825/
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa31-EnterpriseQA/job/deploy-qa31-pk-WAR_feature-cyodd/9/
+---------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15686
+Create WCM 20.08 new release artifact from Bedrock release branch
+
+
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/wcm 
+
+Release Branch:
+release 
+
+JVM Version:
+1.7 
+
+job output : https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2505/console
+artifactory verification :https://artifactory.wsgc.com/artifactory/wsgc-releases/com/wsgc/ecommerce/wcm/wcm/
+
+New artifact version: 5.18.9 created
+-----------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15681
+Remove the below PK Nodes from The Rundeck Job
+https://github.wsgc.com/eCommerce-DevOps/toolchain-resource-model/blob/master/src/main/resources/wsgc/prd/resources.xml
+
+need to fork the above repo to ecommerce-mead.
+create a branch with the JIRA ticket name. 
+make the changes, commit the changes, push the changes and rebase the branch with master and then create a pull request.
+-------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15701
+Update gizmotron version as release-1.0.360 in ecinvent-qa-rk1v environment
+svn :  https://repos.wsgc.com/svn/devops/application/gizmotron/app/common/config/trunk/pom.xml
+
+version change needs to be done from 1.0.359 to 1.0.360
+<gizmotron.war.version>1.0.359</gizmotron.war.version>
+commit
+
+Jenkins jobs:
+https://ecombuild.wsgc.com/jenkins/view/devops-gizmotron/
+https://ecombuild.wsgc.com/jenkins/view/devops-gizmotron/job/wsgc-devops-gizmotron-common/  --- build job
+https://ecombuild.wsgc.com/jenkins/view/devops-gizmotron/job/deploy-gizmotron-qa1/ -- deploy job 
+verify : https://ecinvent-qa-rk1v.wsgc.com:49182/admin/summary.html 
+-------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15704
+Update QA20 app settings to QA
+
+update the Oauth related App Settings on QA20 to use QA (Settings Group: ACCOUNT_SERVICES). Should update OAUTH_ACCESS_TOKEN_URI, DP_CLIENT_ID, DP_CLIENT_PASSWORD, LINK_CLIENT_ID, LINK_CLIENT_PASSWORD, PROFILE_SERVICE_URL, USER_SERVICE_URI settings
+favorite service url is updated to QA already
+SERVICE_URL
+String
+http://favorites-qa1-rk1v.wsgc.com/favorites/v2
+Specifies favorites service url.
+database
+
+*****https://confluence.wsgc.com/pages/viewpage.action?pageId=72326303
+for ref : https://jira.wsgc.com/browse/MEAD-12436
+
+https://www.qa20.williams-sonoma.com/admin/configuration/#ACCOUNT_SERVICES
+for all brands. 
+
+qa20 server - ws-intdev20-rk1  (https://ws-intdev20-rk1/admin/summary.html to get the app owner name - ws_app_owner)
+copying values from qa10:
+qa10 server - ws-intdev10-rk1  (https://ws-intdev10-rk1/admin/summary.html to get the app owner name - DTCMOU_APP_OWNER)
+
+
+svn:
+QA10 settings data path : https://repos.wsgc.com/svn/devops/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site/webqa2/dtcmou_app_owner 
+QA20 settings data path : https://repos.wsgc.com/svn/devops/packaging/wsgc-appsettings-configuration/trunk/appsetting-properties/schema-site/webqa2/ws_app_owner
+
+cat override.properties | grep '.qa10' | grep -i ACCOUNT_SERVICES
+
+After making changes need to run jenkins jobs(jobs with app owner name) : (as out out of 6 brands changes are done only in 5 brands, so we are running only 5 jobs(mg,pb,pk,we,ws))
+https://ecombuild.wsgc.com/jenkins/view/appsettings/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-mg/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-pb/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-pk/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-ws/
+https://ecombuild.wsgc.com/jenkins/view/appsettings/job/appsettings-webprf-WS_APP_OWNER-we/
+
+
+[MEAD-15704] Updated QA20 app settings in sync to QA10 for all brands
+
+--------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15702
+Update cert for mg-uat4-rk1
+
+------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15710
+AppScan: regadm-dev-rk1v - SSL Certificate Expiration
+---------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15712
+AppScan: regadm-dev-rk2v - SSL Certificate Expiration
+
+----------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15714
+AppScan: regadm-qa2-pb-rk1v - wsgc-tomcat-registry-adm-pb not available
+
+https://jira.wsgc.com/browse/MEAD-15717
+AppScan: regadm-qa1-pk-rk1v - wsgc-tomcat-registry-adm-pk not available
+
+https://jira.wsgc.com/browse/MEAD-15718
+AppScan: regadm-qa1-we-rk1v - wsgc-tomcat-registry-adm-we not available
+
+https://jira.wsgc.com/browse/MEAD-15719
+AppScan: regadm-qa1-ws-rk1v - wsgc-tomcat-registry-adm-ws not available
+
+https://jira.wsgc.com/browse/MEAD-15720
+AppScan: regadm-qa2-pk-rk1v - wsgc-tomcat-registry-adm-pk not available
+
+https://jira.wsgc.com/browse/MEAD-15721
+AppScan: regadm-qa2-we-rk1v - wsgc-tomcat-registry-adm-we not available
+
+https://jira.wsgc.com/browse/MEAD-15722
+AppScan: regadm-qa2-ws-rk1v - wsgc-tomcat-registry-adm-ws not available
+
+
+Jenkins job : 
+https://ecombuild.wsgc.com/jenkins/view/devops-registry-admin/job/wsgc-devops-registry-admin-common-config-app/
+https://ecombuild.wsgc.com/jenkins/view/devops-registry-admin/job/deploy-registry-admin-qa/
+----------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15734
+Create WCM 20.08 new release artifact from Bedrock release branch
+
+Repository:
+https://github.wsgc.com/eCommerce-Bedrock/wcm 
+
+Release Branch:
+release 
+
+JVM Version:
+1.7 
+
+Additional Information:
+Please create WCM 20.08 new release artifact 5.18.x from Bedrock release branch 
+
+--------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15739
+Need Rundeck access for my ID
+Please help with Rundeck access for my ID. We have to run cutover jobs as part of regression Testing.
+My ID: MRajyalakshmi
+
+Is it for WCM?
+Can you please share details about your team, jobs you intend to use etc? 
+
+Hi Siva Ganesh - I think team forgot to mention rundeck job links pls provide access for below jobs:
+https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-wcm-season-sync-aes-nonprd
+https://rundeck.wsgc.com/rundeck/project/wsgc/job/show/wsgc-wcm-season-refresh-json-nonprd
+for ids : MRajyalakshmi and kshaik1
+Yes, they are from new WCM teams - Queva & Tunchu
+
+https://confluence.wsgc.com/pages/viewpage.action?spaceKey=ES&title=Grant+Access+to+Rundeck
+
+
+you should added users to this group
+Ex:
+#eComWhitney
+adavis4: -, eComWhitney
+Update in the server and raise a PR
+
+PR raised
+
+rundeck server : rndrck-vdcn001
+-----------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15741
+Need Rundeck access for my ID
+Please help with Rundeck access for my ID. We have to run cutover jobs as part of regression Testing.
+My ID: kshaik1
+ same as above ticket
+--------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15758
+Request to add files in DEV environment
+
+Request to add attached files in DEV environment under below path:
+http://feedgen-dev-rk1v:38667/Feeds/ARCHIVE/
+
+cd /CDW/ARCHIVE
+added mentioned file and then,
+
+sudo service wsgc-tomcat-oss-feedgen restart
+sudo service wsgc-tomcat-oss-feedgen status
+---------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15771
+Need to create release version for edam-uat-config
+
+Please create a new release version for edam-uat-config as we have latest changes committed to the below repo.
+https://github.wsgc.com/eCommerce-DevOps/edam-uat-config
+
+branch : release
+JDK : 8 
+
+jenkins Job: https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2522/console
+artifactory verification :https://artifactory.wsgc.com/artifactory/wsgc-releases/com/wsgc/ecommerce/wcm/wcm/
+
+created New artifact version: 1.0.6
+---------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15705
+eCom - QA10 - WS - BOPIS - Cart is getting Empty - After Express CheckOut
+
+
+
+Steps-to-Reproduce:
+1. Search an Item
+2. Click Choose a Different store
+3. Select the Store
+4. Click on Add Item
+5. Click on Express Check Out
+6. Verify the Items in the Cart
+Tried with the below Items, Brand: WS, QA10 URL 
+2488724
+4450326
+6999788
+4709213
+3519472
+
+https://ws-intdev10-rk1.wsgc.com:38666/wsgc-tomcat-frontend/application.log
+jenkins job for env check : https://ecombuild.wsgc.com/jenkins/job/CheckEnv/10502/console
+
+https://ws-intdev10-rk1/admin/summary.html
+
+https://www.qa10.williams-sonoma.com/shoppingcart/
+
+jenkins jobs:
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa10-EnterpriseQA/job/deploy-qa10-ws-CONTENT_release-jeangrey/7/
+https://ecombuild.wsgc.com/jenkins/view/deploy-qa10-EnterpriseQA/job/deploy-qa10-ws-WAR_release-2.4.48.x/
+
+---------------------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15767
+AppScan: pb-ecmauth-qa-sac1v - wsgc-aem-author not available
+
+------------------------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15774
+Enable debug in QA feed generator logs
+
+git location : https://github.wsgc.com/eCommerce-DevOps/oss-feedgen-service-qa1-config/blob/master/pom.xml#L44
+forked location : https://github.wsgc.com/eCommerce-mead/oss-feedgen-service-qa1-config/
+
+created new branch , git pull 
+edited pom.xml : (can compare it with application.properties)
+<feedgen.logging.level.com.wsgc.ecommerce.feedgenerator>INFO</feedgen.logging.level.com.wsgc.ecommerce.feedgenerator> to <feedgen.logging.level.com.wsgc.ecommerce.feedgenerator>DEBUG</feedgen.logging.level.com.wsgc.ecommerce.feedgenerator>
+
+git commit, git push, rebased the branch
+and raisd a PR
+jenkins Jobs :  
+https://ecombuild.wsgc.com/jenkins/view/devops-oss/
+https://ecombuild.wsgc.com/jenkins/view/devops-oss/job/deploy-oss-feedgen-qa1/
+------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15783
+Deploy OAuth Server on QA Environment
+
+Artifact: ci_Platform-Rigel_develop-SNAPSHOT
+
+svn path: https://repos.wsgc.com/svn/devops/application/oauth/qa/config/trunk.pom.xml
+change :  <oauth.war.artifactVersion>1.7.3</oauth.war.artifactVersion>    to    <oauth.war.artifactVersion>ci_Platform-Rigel_develop-SNAPSHOT</oauth.war.artifactVersion>
+and do commit
+
+jenkins job: 
+https://ecombuild.wsgc.com/jenkins/view/devops-oauth/job/wsgc-devops-oauth-qa-config/
+https://ecombuild.wsgc.com/jenkins/view/devops-oauth/job/deploy-oauth-qa/
+
+------------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15785
+BOSTS - Shipping page is displayed Blank
+
+
+---------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-15787
+eCom - QA10 - Not Able to PlaceOrder with PayPalPayment
+
+---------------------------------------------------------------------------
+
+eCom Business Form - Not Displaying for PT Brand - QA11
+
+
+---------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-15877
+Create new release artifact of the same files i.e. 1.13.5 version
+
+Jenkins Job : https://ecombuild.wsgc.com/jenkins/job/create-release-artifact/2550/console
+
+
+New artifact version: 1.13.6 created 
+
+https://confluence.wsgc.com/display/ES/Service+Matrix
+-------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-14730
+Add deploy SFTP keys functionality to OSS Search Publisher
+-----------------------------
+
+INC002032585 - eferck-vdcn038.wsgc.com:CPU Usage ...usage reduced to 8%
+INC002228462 - jnkrck-vdcn003.wsgc.com
+INC002241495 - dfdrck-vicn001 - dfdrck-vicn001.wsgc.com:Disk Usage on /apps CRITICAL: Used_percent was 90.10 %. clean up is done and removed unwanted files ..reduced to 15%
+INC002242091 - imgrck-vicn002
+
+
+--------------------------
+
+reduced the size to 325MB from the path: /wsgc-contentprocessor-qa5/ from 3.5GB
+
+
+-----------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-14710
+https://jira.wsgc.com/browse/MEAD-15079
+https://jira.wsgc.com/browse/MEAD-15301
+https://jira.wsgc.com/browse/MEAD-15324
+https://jira.wsgc.com/browse/MEAD-12635
+https://jira.wsgc.com/browse/MEAD-12711
+https://jira.wsgc.com/browse/MEAD-14201
+https://jira.wsgc.com/browse/MEAD-14315
+https://jira.wsgc.com/browse/MEAD-14678
+https://jira.wsgc.com/browse/MEAD-14861
+https://jira.wsgc.com/browse/MEAD-14881
+https://jira.wsgc.com/browse/MEAD-15062
+https://jira.wsgc.com/browse/MEAD-12060
+https://jira.wsgc.com/browse/MEAD-13174
+https://jira.wsgc.com/browse/MEAD-11448
+https://jira.wsgc.com/browse/MEAD-12827
+https://jira.wsgc.com/browse/MEAD-13792
+https://jira.wsgc.com/browse/MEAD-14771
+https://jira.wsgc.com/browse/MEAD-15080
+https://jira.wsgc.com/browse/MEAD-15399
+https://jira.wsgc.com/browse/MEAD-15559
+https://jira.wsgc.com/browse/MEAD-14899 
+https://jira.wsgc.com/browse/MEAD-14848
+https://jira.wsgc.com/browse/MEAD-15564
+https://jira.wsgc.com/browse/MEAD-15593
+
+
+
+
+
+
+https://jira.wsgc.com/browse/MEAD-16016
+https://jira.wsgc.com/browse/MEAD-14896 -- assigned to siva
+https://jira.wsgc.com/browse/MEAD-15996 -- assigned o thom
+https://jira.wsgc.com/browse/MEAD-15955 -- still no clue 
+https://jira.wsgc.com/browse/MEAD-15841 -- siva will answer
+
+
+---------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-16177
+Generate Deployment package for OAUth Server (v1.7.5)
+
+
+Description
+Hi Team,
+
+Could you please generate a Production deployment package of 1.7.5 OAuth Server so that this artifact can be deployed in Production from Rundeck.
+
+SVN PAThs to be updated :
+
+https://repos.wsgc.com/svn/devops/application/oauth/prdrk/config/trunk/pom.xml
+https://repos.wsgc.com/svn/devops/application/oauth/prdab/config/trunk/pom.xml
+
+Then Run config Job: 
+https://ecombuild.wsgc.com/jenkins/job/create-release-artifact-configs/2378/
+
+And do not select Release_Artifact in the parameters section in the job unless you want to create a new artifact with this job
+
+Verification : https://artifactory.wsgc.com/artifactory/wsgc-devops-releases/com/wsgc/devops/oauth/wsgc-devops-oauth-prdrk-config/
+--------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-16227
+QA30 shop path throwing 500 error on all brands.
+visit shop page on the brands and youll see the 500 error.
+
+
+Jenkins view: https://ecombuild.wsgc.com/jenkins/view/deploy-qa30-Ampato/
+
+
+https://www.qa30.williams-sonoma.com/
+https://www.qa30.markandgraham.com/
+https://www.qa30.pbteen.com/
+https://www.qa30.westelm.com/
+https://www.qa30.potterybarn.com/
+https://www.qa30.potterybarnkids.com/
+All brands are up
+
+------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-16271
+Latest artifact is not updating in UAT orchestrator
+(Deployment in oss-orchestrator-uat)
+
+Description
+Latest artifact is not updating in UAT orchestrator
+
+Steps followed while deploying latest artifact:
+
+Run a self-service job to generate a new artifact version (https://ecombuild.wsgc.com/jenkins/view/release-tools/job/self-service-release-artifact/916/console ).
+Latest artifact version generated is 1.0.12                     #######(1.0.12 is wrongly given that why deployment failing new artefact was 2.0.2)
+Updated config package (https://ecombuild.wsgc.com/jenkins/view/release-tools/job/update-config-package/1400/)
+Cross checked latest artifact in pom.xml (https://github.wsgc.com/eCommerce-DevOps/oss-search-orchestrator-uat-config/blob/master/pom.xml)
+Run deploy jod (https://ecombuild.wsgc.com/jenkins/view/devops-oss/job/deploy-oss-orchestrator-uat/61/)
+Navigated to summary page (https://search-orchestrator-uat-rk1v.wsgc.com/summary)
+Old artifact version(1.011) is shown instead of latest (1.0.12)
+
+
+--------------------------------------------------------------------------------------------------
+
+
+https://jira.wsgc.com/browse/MEAD-16503
+
+Update the pom file in the below path for this : 
+https://repos.wsgc.com/svn/devops/application/ecm/common/config/trunk/pom.xml
+
+--------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-16770
+Please schedule the rgs1 deployers for 08:00 AM IST
+Please schedule the rgs1 deployers for 08:00 AM IST From 23/12/2020 to 11/01/2021
+Pull request opened by rama krishna yalla: https://github.wsgc.com/eCommerce-DevOps/jenkins-jobs/pull/74 : "MEAD-16770 setting cronjob"
+
+https://github.wsgc.com/eCommerce-Mead/jenkins-jobs/tree/master/deploy-rgs1-Release-Env
+All the content jobs in the above git link needs to set with cron job :
+<triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec>H 18 * * *</spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+
+The cronjob has to be removed again on 11th jan,2021, 
+
+To remove, replace above code with below
+
+<triggers>
+    <hudson.triggers.TimerTrigger>
+      <spec></spec>
+    </hudson.triggers.TimerTrigger>
+  </triggers>
+
+
+----------------------------------------------------------------------------------------------------
+
+
+
+MEAD-16971
+https://jira.wsgc.com/browse/MEAD-16971
+Permission denied during rm -rf dist step
+
+Description
+https://ecombuild.wsgc.com/jenkins/blue/organizations/jenkins/eCommerce-Foraker%2Fecom-app-order-servicing/detail/get-data-from-config-repo/8/pipeline/146
+
+During builds today for ECCUST-613, we started seeing failures in step 6/9 under Build Docker Images. The specific error is being unable to delete files in the ./dist folder using rm -rf.
+
+We do not believe we have direct control over this folder's permissions since it is created during the build process and not committed to our repo, and weren't seeing this problem previously.
+
+Solutn:
+redelmanRoss Edelman added a comment - 9 hours ago
+It turns out the problem was not exactly a permission issue per say, but more an issue of excessive granularity in the CI build process. Most of the files within the dist directory needed to be ignored by Docker in the first place. This type of solution was observed in other front end/node.js MFE’s such as ecom-app-shop or ecom-app-checkout. This was resolved by putting the dist directory in a .docker-ignore file. You are more than welcome to close this issue if you wish. But I believe it may need to be documented somewhere later.
+------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-17218
+Turn on auto-merge of trunk into arvon-wrk-210125-shortcut
+
+Description
+Please turn on auto-merge of trunk into this shortcut :
+{{ fuya-wrk-210125-shortcut}}
+
+Full shortcut URL:
+
+https://repos.wsgc.com/svn/shortcuts/evolution/branches/fuya-wrk-210125-shortcut/
+
+Also, please disable/remove auto-merge for this shortcut:
+
+fuya-wrk-201130-shortcut
+
+
+
+Jenkins Job : https://ecombuild.wsgc.com/jenkins/job/manage-automerge     ------   to add/remove auto-merge of branches from trunk in svn
+
+Console outputs: 
+https://ecombuild.wsgc.com/jenkins/job/manage-automerge/202/console -- add
+https://ecombuild.wsgc.com/jenkins/job/manage-automerge/203/console -- remove
+
+--------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-17271
+Kindly remove below servers from rundeck jobs
+
+Description
+Remove below servers from Rundeck job
+PB
+pb-prd-rk38v
+pb-prd-rk39v
+pb-prd-rk40v
+pb-prd-rk41v
+
+WE
+we-prd-rk29v
+we-prd-rk30v
+we-prd-rk31v
+we-prd-rk32v
+we-prd-rk33v
+
+MG
+mg-prd-rk11v
+
+PT
+pt-prd-rk20v
+pt-prd-rk21v
+
+WS
+ws-prd-rk25v
+ws-prd-rk26v
+ws-prd-rk27v
+
+PK
+pk-prd-rk20v
+pk-prd-rk21v
+pk-prd-rk22v
+
+https://confluence.wsgc.com/display/ES/Deployment+setup+for+new+frontend+production+servers -------steps to add/remove servers on rundeck (confluence page)
+To remove servers from rundeck we must remove servers from 1t 4 steps (links) mentioned in confluence page
+
+1. https://github.wsgc.com/eCommerce-DevOps/toolchain-resource-model/blob/master/src/main/resources/wsgc/prd/resources.xml
+2. https://repos.wsgc.com/svn/devops/toolchain/node/prd/trunk/
+3. https://repos.wsgc.com/svn/devops/toolchain/node/prd/trunk/pom.xml
+4. https://repos.wsgc.com/svn/devops/application/frontend-2.1/common/config/trunk/pom.xml  -- here we have to remove both server name and alias name 
+For example: 
+
+   efeash-vpcn008)
+        hostnameShort=pt-prd-ab14v ;;
+
+We need to remove these two lines .. 
+
+That's it we are done.
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-17242
+QA4: Set table owner to DTC_APP_OWNER (schema change)
+
+Description
+Currently QA4 is using the eqa3_app_owner schema for the database connection to webqark2p. This schema was set for early development on CYODD.
+
+CYODD data has since been migrated to DTC_APP_OWNER. We would like to revert the table owner for all brands on QA4.
+
+Please set the table owner/schema for all brands on QA4 to DTC_APP_OWNER.
+
+
+This is a schema switch request - here is a confluence page - https://confluence.wsgc.com/pages/viewpage.action?spaceKey=ES&title=Switch+Frontend+Schema
+repo and scripts for reference - https://github.wsgc.com/eCommerce-Mead/mead-tickets/tree/master/schema-switch
+
+We have to compare configurations and settings with any server which is have the same schema name which we intent to change.
+
+We have two scripts to run as step 1 and step2 
+Scripts are on desktop 
+1.pomcopy.sh 
+2. Setting copy.sh
+
+We need to edit the paths and also has to give server name for which schema name has to be changed and also should give the server name with which we are comparing
+
+Ecm generation Job : https://ecombuild.wsgc.com/jenkins/view/toolchain/job/copy-ecm-generations/
+
+3. Update the properties here by comparing with the properties of server which we have taken for ref (qa11 as ref have taken and qa4 is the server which we have to update .... Compare the server properties according to their brands)
+
+https://repos.wsgc.com/svn/deployments/content/trunk/deploy/properties/qa11/mg.properties
+https://repos.wsgc.com/svn/deployments/content/trunk/deploy/properties/qa4/mg.properties
+
+4. Update ECM DB entries ecmagent-int-rk1v /apps/ecmagent/apps/ecmagent/etc/ecm-pubagent-config.json
+4a. Re-baseline ECM
+
+5. Update BGB deployment configuration /bgb/tomcat-bgb/apps/bgb/etc/dp<env> to point to the new DB
+
+5.Update (or at least verify) CAT and ECM generations https://ecombuild.wsgc.com/jenkins/view/toolchain/job/copy-ecm-generations/
+https://ecombuild.wsgc.com/jenkins/view/toolchain/job/copy-ecm-generations/3973/parameters (For cat check app settings job)
+
+6. Build and deploy new CONTENT and WAR
+
+
+---------------------------------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-16246
+SSD Migration - Update Rundeck resource list
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-17768
+EDAM-Wipe off QA01(aemrck-vicn001.wsgc.com) server and install AEM 
+
+Hi Team,
+Please wipe off QA01(aemrck-vicn001.wsgc.com) server and install AEM and start the server with edam-west, prod runmode.
+
+Install filevault as well, following are the steps:
+
+*install vault latest version 3.4.6
+*
+
+Steps for installing Vault:
+Please install vault latest version 3.4.6 to accessible to all ids for following Instances.
+UAT WEST EDAM systems
+
+The installer can be found at following location.
+
+https://repo1.maven.org/maven2/org/apache/jackrabbit/vault/vault-cli/
+
+This is required for a project to migrate digital assets from WS&H DAM to EDAM platform.
+
+Steps for installation are -
+
+Copy the FileVault archive file to the cq-quickstart/opt/filevault directory of your installation. Copy either filevalut.tgz or filevault.zip, depending on your operating system.
+
+Extract the archive.
+
+Add <archive-dir>/vault-cli-<version>/bin to your environment PATH so that the command files vlt or vlt.bat are accessed as appropriate.
+
+For example, <aem-installation-dir>/crx-quickstart/opt/helpers/vault-cli-3.1.16/bin>
+
+pen a command line shell and execute vlt --help. The command should work.
+
+Link reference for other packages installation steps:
+https://docs.adobe.com/content/help/en/experience-manager-64/developing/devtools/ht-vlttool.html ,
+
+
+
+
+Steps : 
+
+Delete /apps/edam/aem-primary
+
+Run this script in [root@aemrck-vicn001 apps]# ./aem-install.sh prod primary 4501 10.7.3.67 edam-west  (script is in /apps)
+
+it will reinstall the aem tool
+
+and then you can start the service
+
+service wsgc-cq-primary
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+https://jira.wsgc.com/browse/MEAD-17810    (ref ticket number https://jira.wsgc.com/browse/MEAD-17381)
+Request to deploy Kangto Version on intl-qa1 server
+
+Request to deploy Kangto snapshot Version on intl-qa1 server.
+
+ci_eCommerce-Kangto_KANGTO-764-SNAPSHOT
+
+Summary Page:
+
+http://intl-qa1-rk1v.wsgc.com/service/v1/summary.html
+
+Into-qa1-rk1v has no working config repo so need to do manual deployment...
+
+
+
+These are the manual steps:-
+Login to intl-qa1-rk1v
+1.Stop Tomcat
+2.Take backup of the existing war [/apps/tomcat-intl/apps/ (current war location)]
+3.Take backup of the webapps/ROOT.xml
+4 placed the new war file in /apps/tomcat-intl/apps ()sudo wget https://snapshotrepo.wsgc.com/artifactory/snapshotrepo/com/wsgc/services/internationalshipping/wsgc-internationalshipping-catalog-services-war/ci_eCommerce-Kangto_KANGTO-764-SNAPSHOT/wsgc-internationalshipping-catalog-services-war-ci_eCommerce-Kangto_KANGTO-764-20210219.081210-2.war
+6.F wsgc-internationalshipping-catalog-services-war-ci_eCommerce-Kangto_KANGTO-764-20210219.081210-2.war wsgc-internationalshipping-catalog-services-war.war (symlink it to new  downloaded war file)
+5.Start Tomcat
+
+Verification : http://intl-qa1-rk1v.wsgc.com/service/v1/summary.html
+
+
+-----------------------------------------------------------------------------------------------------------------------------
+
+
+https://jira.wsgc.com/browse/MEAD-18409
+
+Add ACL package files for publisher deployer job in perf environment
+
+
+On this path https://repos.wsgc.com/svn/devops/application/ecm/qa/config/trunk/perf/pk/publish/src/main/resources/content/ create a folder "pk-publisher-config/" (according to brand files provided / brand specific) and extract the files(brand specific compressed files) in this newly created folder.
+
+-----------------------------------------------------------------------------------------------------------------------------
+https://jira.wsgc.com/browse/MEAD-18369
+Update Vault Config Author Replication package files for author deployer job for RGS Environment (check the comments in the ticket)
+
+https://confluence.wsgc.com/pages/viewpage.action?spaceKey=ES&title=WCM+and+ECM+Acl+Package+Deployment
+
+At this path https://repos.wsgc.com/svn/devops/application/ecm/qa/config/trunk/perf/mg/author/src/main/resources/content/ create a folder  "author-replication/" and extract files given in ticket here... path and files are brand specific.
+
+--------------------------------------------------------------------------------------------------------------------------------
+
+
+https://jira.wsgc.com/browse/MEAD-18902
+
+Configure QA25 to point to ampato-wrk-200710 (similar to QA30)
+
+Description
+Please change the QA25 environment svn shortcut to point to ampato-wrk-200710-shortcut
+
+Also, change the QA25 Version Info similar to QA30:
+
+https://www.qa30.williams-sonoma.com/admin/summary.html
+
+Note: Please don't modify any configurations and settings which are set to UAT2 as per our requirement(MEAD-18680)
+
+
+
+Steps : 
+
+Need to point ampato-wrk-200710 svn shortcut to qa25 env using https://ecombuild.wsgc.com/jenkins/job/jenkins-update-frontend-deploy/ Job (https://ecombuild.wsgc.com/jenkins/job/jenkins-update-frontend-deploy/76/console)
+
+Then it will create new qa25 content and deploy Jobs (new qa25 view) .... Here it has created Jenkins view https://ecombuild.wsgc.com/jenkins/view/deploy-qa25-Ampato/ 
+
+Then need to trigger all the jobs for the deployment to complete. After successful deployment check summary.
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+For rundeck to increase the dropdown options in rudenck job 
+
+https://scm-toolsprd-rk1.wsgc.com/hooks/get-recent-pkg-vers?package=assortment-export-pk-k8s-package&versionsCount=20  --- add the versionscount=20(this will increase the drop down count to 20 generally it will be 3-5) .. hit this urlS
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+https://jira.wsgc.com/browse/MEAD-19061
+Request to clean up mentioned files
+
+Description
+Please clean up following files in ""imgproc-rgs2-sac1v" from directory "/apps/wsgc-contentprocessor-rgs2/data/state/ws/202113/"
+
+> cd /apps/wsgc-contentprocessor-rgs2/data/state/ws/202113/
+
+> rm -rf 0001-index.xml 0003-instructions.xml 0006-index.xml 0009-instructions.xml 0012-index.xml 0014-instructions.xml 0017
+
+restart the service.
+
+
+http://imgproc-rgs2-sac1v:8058/ to validate 
+
+-----------------------------------------------------------------------------------------------------------------------------------------
+
+MEAD-20195
+https://jira.wsgc.com/browse/MEAD-20195
+Please provide access to https://npmrepo-dev.wsgc.com/repository/wsgc-npm-snapshot-local/
+Description
+When I run `ecom-scripts publish-snapshot`, I get this error:
+
+lerna ERR! E401 Unable to authenticate, need: BASIC realm="Sonatype Nexus Repository Manager"
+
+Please give my permission to publish to this repo for the following users:
+https://npmrepo-dev.wsgc.com/repository/wsgc-npm-snapshot-local/ * 
+
+Andrew Chan AChan10@wsgc.com
+Adam Cohen: ACohen5@wsgc.com
+David Cruz Cardenas Clavel: DClavel@wsgc.com
+Venkata Sajja: VSAJJA@WSGC.com
+
+
+Provided access and to access https://npmrepo-dev.wsgc.com/repository/wsgc-npm-snapshot-local/ : 
+
+We figured out how to do this. We need to login to npm the npm registry:
+
+Steps:
+change registry to the one you need to login to: 
+npm config set registry https://npmrepo-dev.wsgc.com/repository/wsgc-npm-snapshot-local/
+
+login: 
+npm login
+# then follow the prompts
+
+set registry back: 
+npm config set registry https://npmrepo-dev.wsgc.com/repository/wsgc-npm/
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
+
+

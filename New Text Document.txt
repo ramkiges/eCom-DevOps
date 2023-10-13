@@ -1,0 +1,585 @@
+Z?y(mGVNgj04uXN
+09SpgTp6EPD2PpmBvzsG
+logview/Sysytem@111
+
+100787
+REQ0173997
+https://wsgc.zoom.us/my/sivaganesh
+
+https://wsgc.zoom.us/j/2010434447
+
+Visa: 
+4111111111111111
+EXP:12/22 CVV:111
+
+* * * * * chmod 777 /apps/dfeed-processor/xslt
+
+DESIGN_CHAT.URL_PREFIX_LIST.qa26.m=/.*,/m/.*
+
+confluence pages: 
+https://confluence.wsgc.com/display/WSI/Debugging+ECM+content+in+MFE+environments#DebuggingECMcontentinMFEenvironments-Comparethegenerationnumberinyourenvironment'sEdgeschedulepage - Debugging ECM content in MFE environments
+https://confluence.wsgc.com/pages/viewpage.action?pageId=90135380 - How To: Collect Data for WCM Stuck/Performance Issues
+https://confluence.wsgc.com/pages/viewpage.action?pageId=372102192 - eCom CAN Workflow/SDLC Environments
+https://confluence.wsgc.com/display/KAM/Test+Payment+Data --- CC payment details
+
+
+Shreekar Basrur  6:07 AM
+@rkrishna2 added you to the email for vertex .. if they fix it during off-shore hours please run this job - https://rundeck.wsgc.com/rundeck/project/wsgc/execution/show/4136914
+once its successful you can run vertext lite deployer and respond to that email  - https://ecombuild.wsgc.com/jenkins/job/k8s-deployers/job/ecom/job/vertex-lite/job/qa1/
+
+
+
+
+
+6:07
+reach out to me for  any questions
+6:10
+ticket reference - https://jira.wsgc.com/browse/MEAD-24399
+
+
+
+
+[a_rkrishna2@bgb-uat1-rk1v etc]$ sudo cat dpqa25
+owner=ws_app_owner
+connection=dbi:Oracle:host=webqark2p;sid=webqa2;port=3800
+credentialfile=/usr/local/bgbprod/apps/biggreenbutton/credentials/db_webqa2
+
+
+
+REGISTRY.COREGISTRANT_ACCESS_C3_CONFIG_ID.qa12.s=COREGISTRANT_ACCESS
+REGISTRY.FOUNDATION_LAUNCH_DATE.qa22.s=February 8, 2017
+
+
+
+
+
+
+
+
+
+
+
+ACCOUNT_SERVICES.DP_CLIENT_ID.qa11.s=ecom_PK/QA
+ACCOUNT_SERVICES.DP_CLIENT_PASSWORD.qa11.s=PKecom123
+ACCOUNT_SERVICES.CONNECT_TIMEOUT.qa11.i=10000
+ACCOUNT_SERVICES.LINK_CLIENT_ID.qa11.s=mashery_PK/QA
+ACCOUNT_SERVICES.LINK_CLIENT_PASSWORD.qa11.s=PKmash123
+ACCOUNT_SERVICES.OAUTH_ACCESS_TOKEN_URI.qa11.s=https://webauth-qa-rk01v.wsgc.com/oauth/token
+ACCOUNT_SERVICES.PL_SECURITY_ACTIVE_BUNDLE_ID.qa11.s=1
+ACCOUNT_SERVICES.PROFILE_SERVICE_URL.qa11.r=https://profile-qa1-rk1v.wsgc.com/v1/profiles
+ACCOUNT_SERVICES.READ_TIMEOUT.qa11.i=10000
+ACCOUNT_SERVICES.USER_SERVICE_URI.qa11.s=https://webauth-qa-rk01v.wsgc.com/v1/users
+
+
+ORDERNUMBERSERVICE.FETCH_SIZE.qa58.i=1000
+ORDERNUMBERSERVICE.PREFIX.qa58.s=9
+ORDERNUMBERSERVICE.SYSTEM_ID.qa58.s=2
+
+CART_SERVICE.BASE_URI.qa58.r=https://ecommerce-cart-checkout-qa2.services.west.nonprod.wsgc.com/v1/domain/us/carts
+
+INTL.SHIPPING_ADDRESSLINE2.qa58.s.=E4X000000000001
+INTL.SHIPPING_CITY.qa58.s.=Elk Grove Village
+INTL.SHIPPING_REGION.qa58.s.=IL
+
+
+
+FAVORITES.PIP_FAVORITE_BUTTON_IN_BUYBOX_ENABLED.qa31.b=true
+FAVORITES.SERVICE_URL.qa31.s=http://favorites-qa1-rk1v.wsgc.com/favorites/v3
+
+MEMBERSHIP_SERVICE.SERVICE_URI.r=https://enterprise-membership-service-qa.services.west.nonprod.wsgc.com/membership/v1/members
+
+
+
+file:/apps/rundeck-json/wcm/wcm-environmentlist-prd.json
+webauth-qa-rk01v,webauth-rk,webauth-uat-rk01v
+
+BGB - https://bgb-uat1-rk1v.wsgc.com:49443/
+
+The PRD URL for Nexus is https://npmrepo.wsgc.com/
+
+https://bgb-uat1-rk1v.wsgc.com:49443/
+
+    <Resource name="jdbc/EcomDB" auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="com.wsgc.tomcat.CryptoFactory"
+        url="jdbc:oracle:thin:@webqark2p:3800/webqa2"
+        username="eqa3_app_owner"
+        password="ENC:auCCM2J3t9vGDKhUYR4GnN3PZ6uq3xid9e/Ir7rsJSo="
+        maxTotal="10"
+        maxIdle="1"
+        maxConnLifetimeMillis="1800000"
+        maxWaitMillis="-1"
+        logAbandoned="true"
+        removeAbandonedOnBorrow="true"
+        removeAbandonedTimeout="180"
+        testWhileIdle="true"
+        testOnBorrow="true"
+        testOnReturn="true"
+        validationQuery="select 1 from dual"
+        validationQueryTimeout="30"
+        poolPreparedStatements="false"
+        maxOpenPreparedStatements="50"
+    />
+
+    <Resource name="jdbc/sessionDataSource" auth="Container" type="javax.sql.DataSource" driverClassName="oracle.jdbc.OracleDriver" factory="com.wsgc.tomcat.CryptoFactory"
+        url="jdbc:oracle:thin:@webqark2p:3800/webqa2"
+        username="eqa3_app_owner"
+        password="ENC:auCCM2J3t9vGDKhUYR4GnN3PZ6uq3xid9e/Ir7rsJSo="
+        maxTotal="10"
+        maxIdle="10"
+        maxConnLifetimeMillis="1800000"
+        maxWaitMillis="-1"
+        logAbandoned="true"
+        removeAbandonedOnBorrow="true"
+        removeAbandonedTimeout="180"
+        testWhileIdle="true"
+        testOnBorrow="true"
+        testOnReturn="true"
+        validationQuery="select 1 from dual"
+        validationQueryTimeout="30"
+        poolPreparedStatements="false"
+        maxOpenPreparedStatements="50"
+        connectionProperties="oracle.jdbc.ReadTimeout=60000"
+    />
+
+
+0 10/30 2-21 ? * * *
+https://wsgc.zoom.us/j/94519566424?pwd=UzFoTGxldHhYWFFrR3drU3pWVDVQZz09&from=addon
+Password: 242125
+Meeting ID: 945 1956 6424
+Password: 242125
+
+
+https://confluence.wsgc.com/display/WSI/Debugging+ECM+content+in+MFE+environments#DebuggingECMcontentinMFEenvironments-Comparethegenerationnumberinyourenvironment'sEdgeschedulepage
+
+no-reply@pagerduty.com
+"Entity cache out of Sync
+
+/apps/aes/prdrk-we/aes-data/src/main/resources/scripts/maintenance-apis/notify-cache-out-of-sync-all-seasons-multi.sh
+
+WS-QA23:
+
+CatImageBase		https://img-qa-rk1v.wsgc.com/ws-images/wcm-non-prod-assets/images/dp/
+SecureCatImageBase		https://img-qa-rk1v.wsgc.com/ws-images/wcm-non-prod-assets/images/dp/
+DocImageBase		https://qark-images.wsimgs.com/wsimgs/qark/images/qa54/
+SecureDocImageBase		https://qark-images.wsimgs.com/wsimgs/qark/images/qa54/
+ContentImageBase		https://qark-images.wsimgs.com/wsimgs/qark/images/dp/
+SecureContentImageBase		https://qark-images.wsimgs.com/wsimgs/qark/images/dp/
+
+PB-QA23:
+
+CatImageBase		https://qark-images.pbimgs.com/pubimagesuat/pb/images/
+https://qark-images.wsimgs.com/pubimagesuat/ws/images/
+
+SecureCatImageBase		https://qark-images.pbimgs.com/pubimagesuat/pb/images/
+https://qark-images.wsimgs.com/pubimagesuat/ws/images/
+
+DocImageBase		        https://qark-images.pbimgs.com/pbimgs/qark/images/uat1/
+SecureDocImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/uat1/
+ContentImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/dp/
+SecureContentImageBase		https://qark-images.pbimgs.com/pbimgs/qark/images/dp/
+
+
+regression : 
+
+Version Info
+WAR	2.4.60-SNAPSHOT-20211116160614_6b764361f8
+Baselogic	2.6.27-SNAPSHOT-${buildNumber}
+Foundation	3.1.5-${buildNumber}
+Components	2.6.27-SNAPSHOT-${buildNumber}
+Generation Info
+ECMMSG	885002282.0
+MSG	270231025.0
+ENDECA	270079948.0
+ODIS_SERVICE	191261756.0
+ECMPAGES	885002324.0
+MISC	270231025.0
+PROMOS	0.0
+PROMO_VIZ	1419341406915456664.0
+TMPL	270231025.0
+ECMCS	885002283.0
+ECMHOMEPAGE	885002320.0
+CAT	321100408.0
+HOMEPAGE	20121109.0
+ODIS	163456713.0
+ECMPROMOS	885002322.0
+FEED_ID	321111609-202111171210-202111171210
+DOMAIN_KEY	westelm_ca
+ECM Content Selection Info
+Selector	Selection	Page Name
+HOMEPAGE	NO_SELECTION	can/homepage-desktop-default
+Market Code Info
+Market Code	CAN
+
+
+https://rundeck.wsgc.com/rundeck/project/wsgc/execution/show/3940414
+
+
+https://wsgc.zoom.us/my/sivaganesh
+
+owner=DTC_APP_OWNER
+connection=dbi:Oracle:host=webqark2p;sid=webqa2;port=3800
+credentialfile=/bgb/tomcat-bgb/apps/bgb/credentials/db_webqa2
+
+  <Environment id="dpqa18">
+    <Label>DP-QA18</Label>
+    <Classification>qa</Classification>
+    <Platform>DP</Platform>
+    <Service id="test/db" />
+    <Service id="etqa/img" />
+  </Environment>
+
+  <Environment id="dpregression-d1">
+    <Label>DP-Regression-D1</Label>
+    <Classification>qa</Classification>
+    <Platform>DP</Platform>
+    <Service id="dpd1/db" />
+    <Service id="etqa/img" />
+  </Environment>
+
+
+    <Environment name="PersistentLoginSecurityConfig" value="file:/apps/tomcat-xcadm/conf/persistent-login-security-config.properties" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreLocation" value="/apps/tomcat-xcadm/conf/applepay_keystore.jks" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreType" value="JKS" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStorePassword" value="applepay" type="java.lang.String" override="false"/>
+
+    <Environment name="PersistentLoginSecurityConfig" value="file:/apps/tomcat-xcadm/conf/persistent-login-security-config.properties" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreLocation" value="/apps/tomcat-xcadm/conf/applepay_keystore.jks" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreType" value="JKS" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStorePassword" value="applepay" type="java.lang.String" override="false"/>
+    
+    <Environment name="PersistentLoginSecurityConfig" value="file:/apps/tomcat-xcadm/conf/persistent-login-security-config.properties" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreLocation" value="/apps/tomcat-xcadm/conf/applepay_keystore.jks" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStoreType" value="JKS" type="java.lang.String" override="false"/>
+    <Environment name="ApplePayKeyStorePassword" value="applepay" type="java.lang.String" override="false"/>
+
+sudo tar -zcvf application.log.2021-01-28.tar.gz application.log.2021-01-28
+sudo tar -zcvf application.log.2021-01-29.tar.gz application.log.2021-01-29
+sudo tar -zcvf application.log.2021-01-29_1745.tar.gz application.log.2021-01-29_1745
+sudo tar -zcvf application.log.2021-01-30.tar.gz application.log.2021-01-30
+sudo tar -zcvf application.log.2021-01-31.tar.gz application.log.2021-01-31
+sudo tar -zcvf application.log.2021-02-01.tar.gz application.log.2021-02-01
+sudo tar -zcvf application.log.2021-02-02.tar.gz application.log.2021-02-02
+sudo tar -zcvf application.log.2021-02-03.tar.gz application.log.2021-02-03
+sudo tar -zcvf application.log.2021-02-04.tar.gz application.log.2021-02-04
+sudo tar -zcvf application.log.2021-02-05.tar.gz application.log.2021-02-05
+sudo tar -zcvf application.log.2021-02-06.tar.gz application.log.2021-02-06
+
+
+sudo rm -rf application.log.2021-01-28 application.log.2021-01-29 application.log.2021-01-29_1745 application.log.2021-01-30 application.log.2021-01-31 application.log.2021-02-01 application.log.2021-02-02 application.log.2021-02-03 application.log.2021-02-04 application.log.2021-02-05 application.log.2021-02-06
+
+
+
+
+
+
+servicehealth.avail_notification_wait_time.qa26.i=900000
+ACCOUNT_SERVICES.AUTHENTICATION_CACHE_TTL.qa26.i=300000		
+ACCOUNT_SERVICES.AUTHENTICATION_TTL_CACHE_SIZE.qa26.i=1000
+ACCOUNT_SERVICES.DEFAULT_MAX_PER_ROUTE.qa26.i=20
+ACCOUNT_SERVICES.IS_PERSISTENT_LOGIN_ENABLED.qa26.b=true
+ACCOUNT_SERVICES.LINK_CLIENT_ID.qa26.s=mashery_WS/QA
+ACCOUNT_SERVICES.LINK_CLIENT_PASSWORD.qa26.s=WSmash123
+ACCOUNT_SERVICES.MAX_TOTAL_CONNECTIONS.qa26.i=100
+ACCOUNT_SERVICES.OAUTH_AUTHORIZATION_TOKEN_URL.qa26.s=https://webauth-qa-rk01v.wsgc.com/oauth/authorize
+ACCOUNT_SERVICES.OAUTH_CHECK_TOKEN_URI.qa26.s=https://webauth-qa-rk01v.wsgc.com/oauth/check_token
+ACCOUNT_SERVICES.PERSISTENT_LOGIN_EXCLUDED_URLS_REGEX.qa26.s=/(search/stores.json|services/(?!shoppingcart)|storepickup|eligiblePromotions.json).*
+ACCOUNT_SERVICES.PL_SECURITY_ACTIVE_BUNDLE_ID.qa26.s=1
+ACCOUNT_SERVICES.STANDARD_LOGIN_COOKIE_NAME.qa26.s=WS_SLID
+
+MEMBERSHIP_SERVICE.SERVICE_URI.r=https://enterprise-membership-service-qa.services.west.nonprod.wsgc.com/membership/v1/members
+
+
+
+[a_rkrishna2@eferck-vdcn029 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        8.3G        811M        7.8M        566M        1.0G
+Swap:          4.0G        1.4G        2.6G
+
+
+[a_rkrishna2@eferck-vdcn042 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        2.8G        151M        2.8M        754M        652M
+Swap:          4.0G        3.4G        598M
+
+
+for NODE in NODES
+do
+	echo $NODE 
+	ssh imageuser@$NODE
+	free -h 
+done
+
+for NODE in $NODES; do echo $NODE ; ssh imageuser@$NODE ; free -h ; done
+
+
+NODES="eferck-vdcn029 eferck-vdcn042 eferck-vdcn047 eferck-vdcn017 eferck-vdcn053  eferck-vicn064 eferck-vicn070 dparck-vicn014 we-qa16-rk1v ws-qa16-rk1v ws-qa15-rk1v we-qa15-rk1v eferck-vdcn048 eferck-vdcn018 eferck-vdcn054 eferck-vdcn005  eferck-vdcn030 we-intdev8-rk1"
+-------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------
+[a_rkrishna2@eferck-vdcn029 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        9.0G        188M        6.3M        406M        328M
+Swap:          4.0G        1.4G        2.6G
+
+
+[a_rkrishna2@eferck-vdcn042 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.3G        115M        2.5M        263M        150M
+Swap:          4.0G        1.7G        2.3G
+
+
+[a_rkrishna2@eferck-vdcn047 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:            15G         10G        339M         54M        4.6G        4.8G
+Swap:          4.0G        467M        3.5G
+
+
+[a_rkrishna2@eferck-vdcn017 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        436M        2.5G        2.6M        736M        3.0G
+Swap:          4.0G        560M        3.5G
+
+
+[a_rkrishna2@eferck-vdcn053 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        424M        2.9G        2.2M        370M        3.1G
+Swap:          4.0G        633M        3.4G
+
+
+[a_rkrishna2@eferck-vicn064 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        6.2G        185M         43M        1.4G        1.2G
+Swap:          4.0G        1.1G        2.9G
+
+
+[a_rkrishna2@eferck-vicn070 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        6.9G        176M        6.4M        693M        582M
+Swap:          4.0G        907M        3.1G
+
+
+[a_rkrishna2@dparck-vicn014 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:            39G         34G        408M         94M        4.8G        4.7G
+Swap:          4.0G        237M        3.8G
+
+
+[a_rkrishna2@we-qa16-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       939M       2.9G       348K        31M       420M
+-/+ buffers/cache:       486M       3.4G
+Swap:         4.0G       349M       3.7G
+
+
+[a_rkrishna2@ws-qa16-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       3.7G       170M       376K        40M       280M
+-/+ buffers/cache:       3.4G       491M
+Swap:         4.0G       2.7G       1.3G
+
+
+[a_rkrishna2@ws-qa15-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       2.9G       1.0G       812K       480M       1.4G
+-/+ buffers/cache:       1.0G       2.8G
+Swap:         4.0G       244M       3.8G
+
+
+
+[a_rkrishna2@we-qa15-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       3.0G       923M       396K        33M       433M
+-/+ buffers/cache:       2.5G       1.4G
+Swap:         4.0G       2.9G       1.1G
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+NEED TO CHECK : 
+[a_rkrishna2@eferck-vdcn048 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.2G        116M        2.7M        435M        305M
+Swap:          4.0G        4.0G        9.7M
+
+
+[a_rkrishna2@eferck-vdcn018 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.4G        112M        1.9M        139M         63M
+Swap:          4.0G        3.4G        655M
+
+
+[a_rkrishna2@eferck-vdcn054 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.4G        110M        7.3M        146M         62M
+Swap:          4.0G        3.8G        182M
+
+
+[a_rkrishna2@eferck-vdcn005 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        2.8G        223M        3.8M        693M        647M
+Swap:          4.0G        3.5G        507M
+
+
+[a_rkrishna2@eferck-vdcn030 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.0G        112M        5.6M        583M        450M
+Swap:          4.0G        3.4G        578M
+
+
+
+[a_rkrishna2@we-intdev8-rk1 ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          5.8G       5.6G       208M       772K        41M       619M
+-/+ buffers/cache:       5.0G       869M
+Swap:         4.0G       3.5G       517M
+
+--------------------------------------------------------------------------------------------
+8th NOV
+--------------------------------------------------------------------------------------------
+
+[imageuser@eferck-vdcn029 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           9.6G        8.7G        179M        8.5M        692M        590M
+Swap:          4.0G        1.4G        2.6G
+
+
+
+[imageuser@eferck-vdcn042 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        2.7G        288M        3.2M        713M        740M
+Swap:          4.0G        3.6G        370M
+
+
+
+[imageuser@eferck-vdcn047 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:            15G         10G        979M         77M        3.9G        4.7G
+Swap:          4.0G        447M        3.6G
+
+
+
+[imageuser@eferck-vdcn017 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.5G        103M        1.5M        124M         47M
+Swap:          4.0G        2.8G        1.2G
+
+
+
+[imageuser@eferck-vdcn053 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.2G        124M        2.0M        331M        228M
+Swap:          4.0G        3.4G        610M
+
+
+
+[imageuser@eferck-vicn064 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        6.3G        231M         49M        1.3G        1.1G
+Swap:          4.0G        1.0G        3.0G
+
+
+
+[imageuser@eferck-vicn070 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           7.8G        6.5G        610M        8.9M        656M        980M
+Swap:          4.0G        1.7G        2.3G
+
+
+
+[imageuser@dparck-vicn014 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:            39G         34G        830M         73M        4.4G        4.7G
+Swap:          4.0G        278M        3.7G
+
+
+
+[imageuser@we-qa16-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       1.8G       2.1G        20K        19M       366M
+-/+ buffers/cache:       1.4G       2.4G
+Swap:         4.0G       383M       3.6G
+
+
+
+[imageuser@ws-qa16-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       3.8G       115M       396K       2.8M        78M
+-/+ buffers/cache:       3.7G       197M
+Swap:         4.0G       3.6G       415M
+
+
+
+[imageuser@ws-qa15-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       2.7G       1.1G       488K       441M       1.3G
+-/+ buffers/cache:       989M       2.9G
+Swap:         4.0G       248M       3.8G
+
+
+
+[imageuser@we-qa15-rk1v ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          3.9G       3.6G       241M        84K        76M       1.2G
+-/+ buffers/cache:       2.4G       1.5G
+Swap:         4.0G       3.1G       938M
+
+
+
+[imageuser@eferck-vdcn048 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        440M        2.7G        2.2M        576M        3.0G
+Swap:          4.0G        607M        3.4G
+
+
+
+[imageuser@eferck-vdcn018 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.0G        142M        2.7M        548M        430M
+Swap:          4.0G        2.7G        1.3G
+
+
+
+[imageuser@eferck-vdcn054 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        2.9G        135M        1.8M        724M        627M
+Swap:          4.0G        4.0G         14M
+
+
+
+[imageuser@eferck-vdcn005 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        2.7G        209M        6.7M        775M        695M
+Swap:          4.0G        3.8G        249M
+
+
+
+[imageuser@eferck-vdcn030 ~]$ free -h
+              total        used        free      shared  buff/cache   available
+Mem:           3.7G        3.2G        113M        3.1M        353M        233M
+Swap:          4.0G        3.0G        1.0G
+
+
+[imageuser@we-intdev8-rk1 ~]$ free -h
+             total       used       free     shared    buffers     cached
+Mem:          5.8G       5.7G       156M        20K       1.7M        55M
+-/+ buffers/cache:       5.6G       212M
+Swap:         4.0G       2.0G       2.0G
+

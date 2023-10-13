@@ -1,0 +1,311 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2513
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red27\green31\blue34;\red255\green255\blue255;}
+{\*\expandedcolortbl;;\cssrgb\c14118\c16078\c18039;\cssrgb\c100000\c100000\c100000;}
+\paperw11900\paperh16840\margl1440\margr1440\vieww35640\viewh19640\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 http://ws-wcm-perf-rk1v:38600/crx/explorer/index.jsp   ------ we/pk/pt/mg/pb/ws just change the url with these brands to see their login pages\
+http://ws-wcm-perf-rk1v:38600/etc/solrIndexManager.html\
+http://ws-wcm-perf-rk1v:38600/crx/de/index.jsp#/var/config/export/settings\
+http://ws-wcm-perf-rk1v:38600/system/console/configMgr\
+https://confluence.wsgc.com/pages/viewpage.action?pageId=13083724   ----   steps/producedure\
+\
+\
+scrubbing configuration can be obtained from below git repos :\
+------------------------------------------------------------------\
+\
+https://github.wsgc.com/eCommerce-DevOps/wcm-perf-config/blob/master/pom.xml     (for wcm-perf for all brands)  --- updated psws and details of wcm\
+https://github.wsgc.com/eCommerce-DevOps/wcm-qa5-config/blob/master/pom.xml      (for wcm-qa5 for all brands)\
+https://github.wsgc.com/eCommerce-DevOps/wcm-qa3-config/blob/master/pom.xml      (for wcm-qa3 for all brands)\
+\
+\
+http://pt-wcm-perf-rk1v:38600/etc/solrIndexManager.html   user: admin psw : wsWAcq20\
+\
+\
+mg,we,pt,pk,pb,ws\
+\
+\
+bgbprivatekey\
+String\
+/home/tomcat/.ssh/lockerdev_rsa\
+\
+ws_user : simple8dev\
+jdbc:oracle:thin:@webqa2:3800:webqa2\
+\
+\
+Steps: \
+\
+1. https://ecombuild.wsgc.com/jenkins/view/wcm/job/deploy-wcm-nonprd-any/\
+    select brand name and env (perf) and run the job .. need to run this Job for all the brands one by one.\
+\
+2. http://pt-wcm-perf-rk1v:38600/crx/explorer/index.jsp\
+   Select "User Administration, Group Administration" \
+   login : user : admin pswd: wsWAcq20 (this is the prod pswd so we need to change it)   \
+   (need to take this pswd from : https://github.wsgc.com/eCommerce-DevOps/wcm-perf-config/blob/master/pom.xml\
+   Get the pswd from the below line : <wcm.standardSeasonalExporter.password>wsWAcq20</wcm.standardSeasonalExporter.password>)\
+\
+3. search for user admin in 'a' folder and slect it and change the pswd to wcm2016QA and close it. Then go to 'C' folder and search for 'contentprocessor' - click on it, and remove user(find it on the top).  	contentprocessor\
+   then click 'create user'. New user is also 'contentprocessor' and pswd is 'contentprocessor' click (green right mark) to save and close the window.\
+\
+\
+4. Then go to http://pk-wcm-perf-rk1v:38600/etc/solrIndexManager.html and click on 'trigger full index'.\
+\
+5.go to http://pk-wcm-perf-rk1v:38600/crx/de/index.jsp#/var/config/validation/settings , login as admin and go to var/config/export/settings and validate details there. and also do the same with  var/config/validation/settings.\
+  to know what values to check, please refer confuence page(https://confluence.wsgc.com/pages/viewpage.action?pageId=13083724)\
+\
+6. go to http://ws-wcm-perf-rk1v:38600/system/console/configMgr and search for below settings and update them with given values:\
+\
+\
+\
+\
+\
+\
+> com.wsgc.ecommerce.wcm.app.commons.service.impl.StandardConfigurationService\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+imgproc-qa-sac1v \
+imgproc-rgs-sac1v
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 5553\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+imgproc-uat2-rk1v\
+5557
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+imgproc-qa5-rk1v\
+5553\
+imgproc-uat1-rk1v\
+5557\
+\pard\pardeftab720\partightenfactor0
+\cf2 imgproc-perf-rk1v
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+5556\
+imgproc-rgs2-sac1v\
+5558\
+imgproc-rgs3-sac1v\
+8058
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+com.wsgc.ecommerce.wcm.export.assortment.service.impl.StandardAssortmentServiceResourceConfig.name\
+https://ecommerce-assortment-export-pb-uat2.services.west.nonprod.wsgc.com    (it will change according to server name)\
+\
+\
+\
+\
+com.wsgc.ecommerce.wcm.app.visual.ranking.dao.impl.StandardVisualRankingDao\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+http://imgproc-qa-sac1v:8053/preview/\
+http://imgproc-uat1-rk1v:8057/preview/\
+http://imgproc-uat2-rk1v:8057/preview/\
+http://imgproc-qa5-rk1v:8053/preview/\
+http://imgproc-perf-rk1v:8056/preview/\
+http://imgproc-rgs2-sac1v:8058/preview/\
+http://imgproc-qa-sac1v:8053/preview/
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+> com.wsgc.ecommerce.wcm.app.season.service.impl.StandardGenerationIdBuilder\
+4 (QA)\
+cmxqa_build_owner\
+\
+\
+> com.wsgc.ecommerce.wcm.app.season.service.impl.StandardSeasonalExporter\
+exportadmin\
+wsWAcq20\
+\
+\
+\
+> com.wsgc.ecommerce.wcm.export.process.impl.StandardJsonExportManager\
+qa\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+uat2\
+uat
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\
+> com.wsgc.ecommerce.wcm.rapid.build.generation.impl.StandardActiveGenerationFetcher\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+rgs,qa38,qa39
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 (if not mentioned in git repo then prefer qa8)\
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+QA_APP_OWNER\
+qa3\
+\
+QA_APP_OWNER\
+qa5
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+QA_APP_OWNER\
+qa38\
+\
+DTC_APP_OWNER\
+qa5
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 \
+> com.day.commons.datasource.jdbcpool.JdbcPoolService\
+oracle.jdbc.OracleDriver\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+jdbc:oracle:thin:@webqa2.wsgc.com:3800/webqa2\
+jdbc:oracle:thin:@webqa2:3800/webqa2
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 WCMQA_BUILD_USER\
+spring2011\
+datasource name: wcm-build-generation\
+\
+> com.day.commons.datasource.jdbcpool.JdbcPoolService\
+oracle.jdbc.OracleDriver\
+\pard\pardeftab720\partightenfactor0
+
+\f1 \cf2 \cb3 \expnd0\expndtw0\kerning0
+jdbc:oracle:thin:@webqark2p.wsgc.com:3800/webqa2\
+jdbc:oracle:thin:@webqa2:3800/webqa2
+\f0 \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural\partightenfactor0
+\cf0 ws_user\
+simple8dev\
+datasource name: ecom-database\
+\
+\
+---- go to http://mg-wcm-perf-rk1v:38600/etc/solrIndexManager.html and hit 'trigger full index' and wait for 5-10mins.then,\
+login to the server and restart wsgc-cq and wsgc-tomcat-solrwcm services.\
+http://mg-wcm-perf-rk1v:38600/ -- for verification  ----(change brand name accordingly)\
+\
+http://pb-wcm-qa3-rk1v/solr/#/collection1  -- final verification\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+\
+Properties\
+Access Control\
+Replication\
+Console\
+Build Info\
+Name\
+Type	\
+Value	\
+Protected	\
+Mandatory	\
+Multiple	\
+Auto Created\
+1\
+authorUrl\
+String\
+http://we-wcm-rgs2-sac1v:38600\
+false\
+false\
+false\
+false\
+2\
+bgbbasedirectory\
+String\
+/wcm/publish/exports\
+false\
+false\
+false\
+false\
+3\
+bgbhost\
+String\
+thevault\
+false\
+false\
+false\
+false\
+4\
+bgbimagespec\
+String\
+imgproc-prd-rk1v/prd/\
+false\
+false\
+false\
+false\
+5\
+bgbimportscript\
+String\
+/apps/buildsystem/bin/util/wcmimport\
+false\
+false\
+false\
+false\
+6\
+bgbpreparescript\
+String\
+/apps/buildsystem/bin/util/wcmprepare\
+false\
+false\
+false\
+false\
+7\
+bgbprivatekey\
+String\
+/home/tomcat/.ssh/vaultprd_rsa\
+false\
+false\
+false\
+false\
+8\
+bgbuser\
+String\
+builder\
+false\
+false\
+false\
+false\
+9\
+environment\
+String\
+prod\
+false\
+false\
+false\
+false\
+10\
+exportSheetLimit\
+Long\
+100000\
+false\
+false\
+false\
+false\
+11\
+isProduction\
+String\
+true\
+false\
+false\
+false\
+false\
+\
+}

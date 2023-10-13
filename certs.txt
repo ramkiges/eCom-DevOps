@@ -1,0 +1,98 @@
+https://confluence.wsgc.com/display/ES/HTTPS+SSL+Certificates
+
+Here can you follow the first point of access
+
+you have to raise a sailpoint request for access
+https://identitymanager.wsgc.com/identityiq/
+
+git repo :
+https://github.wsgc.com/eCommerce-Mead/certs
+https://github.wsgc.com/eCommerce-Mead/certs/blob/master/createCSR.sh --- script       /getcert
+
+mg-uat4-rk1
+MEAD-15702
+
+https://keyfactor.wsgc.com/KeyfactorPortal
+WSGC\a_rkrishna2 
+
+https://github.wsgc.com/eCommerce-Mead/scan-tools/blob/master/app-scan-certs.csv
+
+in the server: 
+cd /etc/pki/tls/certs/ && cat localhost.crt      --- need to be generated and changed (need to take backup when replacing with new generated key)
+cd /etc/pki/tls/private && cat localhost.key     --- need to be generated and changed (need to take backup when replacing with new generated key)
+
+cd /etc/httpd/conf.d && cat frontend.conf
+sudo service httpd status
+
+
+git repo needed to be updated with newly generated keys here as well.
+https://github.wsgc.com/eCommerce-Mead/certs/tree/master/dp
+-----------------------------------------------------------------------------------------------------------
+IH(*hIUge43[NaN
+
+procedure: sndrck-vdcn002
+
+logged on to : 
+to git clone : env GIT_SSL_NO_VERIFY=true git clone https://github.wsgc.com/eCommerce-Mead/certs
+
+
+sh getcert mg-uat4-rk1
+cat mg-uat4-rk1_wsgc_com.csr
+cat mg-uat4-rk1_wsgc_com.key
+
+
+
+for Cert-Owner-Email, Cert-Owner-Team-Email and Cert-Owner-Manager-Email
+RKrishna2@wsgc.com,ecommead@wsgc.com, TFitzpatrick@wsgc.com
+
+openssl x509 -inform PEM -in <filepath>/certificate.cert -out certificate.crt
+
+to check certificate  : https://mg-uat4-rk1/ and view certificate
+
+
+comment  :   W/R/T tickets like https://jira.wsgc.com/browse/MEAD-15702 - 
+             you might as well do all brands at the same time, unless you have a very compelling reason otherwise.  
+             In the dp directory of the certs repo there’s a script dp-csr-group which will do this for you - give it the name of the env (ev uat4) 
+             and it will generate a CSR that covers all brands.  
+             Run it a second time after generating the cert and it grab the cert out of your ~/downloads directory,
+             add it to git, and if you add the install argument, it will also install them for you.
+
+
+[MEAD-15681] removing the unused PK nodes
+
+<!-- 
+-->
+
+sudo service httpd stop
+sudo service httpd status
+sudo service httpd start
+
+
+
+sudo mv *.key localhost.key
+openssl x509 -inform PEM -in *.cer -out localhost.crt
+
+sudo mv *.key ecmqa_wsgc_com.key 
+openssl x509 -inform PEM -in *.cer -out ecmqa_wsgc_com.crt
+
+sudo mv *.key ecmuat_wsgc_com.key 
+openssl x509 -inform PEM -in *.cer -out ecmuat_wsgc_com.crt
+
+sudo mv *.key wcmqa_wsgc_com.key
+openssl x509 -inform PEM -in *.cer -out wcmqa_wsgc_com.crt
+
+openssl x509 -in localhost.crt -out profile-dev1-rk1v.wsgc.com.pem
+
+openssl x509 -inform PEM -in *.cer -out favorites-qa1-rk1v_wsgc_com.crt
+aemrck-vdcn002.wsgc.com.pem
+
+sudo mv *.key localhost.key
+cd /etc/pki/tls/private/
+sudo mv /home/a_rkrishna2/localhost.key .
+
+cd /etc/pki/tls/certs
+sudo mv /home/a_rkrishna2/localhost.crt .
+
+
+
+
