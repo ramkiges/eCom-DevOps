@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.wsgc.devops.dfprocessor</groupId>
+  <artifactId>wsgc-devops-dfprocessor-common-config</artifactId>
+  <version>2.0-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220215.234824</timestamp>
+      <buildNumber>19</buildNumber>
+    </snapshot>
+    <lastUpdated>20220215234824</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <classifier>resources</classifier>
+        <extension>zip</extension>
+        <value>2.0-20220215.234824-19</value>
+        <updated>20220215234824</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>2.0-20220215.234824-19</value>
+        <updated>20220215234824</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
